@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<html>
+<problem>
+<parameter default="2" description="Maximum Number of Tries" type="int_pos" name="maxtries" loncapaid="11"/>
+
+<p>Note: To answer the following questions use "+" to indicate the direction of the 
+    vector pointing along the +x-axis, use "-" to indicate the direction of the vector 
+    pointing along the -x - axis, and zero if the vector is zero..</p>
+    
+    <hr/>
+
+<p>A particle is moving along the x-axis. Its position as a function of time is shown in the figure.</p>
+
+<p><img src="/static/problems/MIT/analiab/Figures/average_velocity_figure3.png" align="center" texwrap="none" width="300" encrypturl="no" alt="p1a"/></p>
+
+<part loncapaid="12">
+<p><b><u>Part a)</u></b>For times \(0 &lt; t &lt;  t_1\) the instantaneous acceleration is </p>
+
+<multiplechoiceresponse max="10" randomize="no" loncapaid="13" type="MultipleChoice">
+	<choicegroup type="MultipleChoice">
+		<choice location="random" name="foil1" correct="false">+</choice>
+		<choice location="random" name="foil2" correct="false">-</choice>
+		<choice location="random" name="foil3" correct="true">0</choice>
+	</choicegroup>
+</multiplechoiceresponse>
+</part>
+
+<part loncapaid="14">
+<p><b><u>Part b)</u></b>For times around \(t_2\) the instantaneous acceleration is </p>
+
+<multiplechoiceresponse max="10" randomize="no" loncapaid="15" type="MultipleChoice">
+	<choicegroup type="MultipleChoice"><choice location="random" name="foil1" correct="false">+</choice>
+		<choice location="random" name="foil2" correct="false">-</choice>
+		<choice location="random" name="foil3" correct="true">0</choice>
+	</choicegroup>
+</multiplechoiceresponse>
+</part>
+
+<part loncapaid="16">
+<p><b><u>Part c)</u></b> For times around the time \(t_m\), maximum distance from the origin, the instantaneous acceleration is</p>
+
+<multiplechoiceresponse max="10" randomize="no" loncapaid="17" type="MultipleChoice">
+	<choicegroup type="MultipleChoice"><choice location="random" name="foil1" correct="false">+</choice>
+		<choice location="random" name="foil2" correct="true">-</choice>
+		<choice location="random" name="foil3" correct="false">0</choice>
+	</choicegroup>
+</multiplechoiceresponse>
+</part>
+
+<part loncapaid="18">
+<p><b><u>Part d)</u></b> For times around \(t_4\), the instantaneous acceleration is </p>
+
+<multiplechoiceresponse max="10" randomize="no" loncapaid="19" type="MultipleChoice">
+	<choicegroup type="MultipleChoice"><choice location="random" name="foil1" correct="true">+</choice>
+		<choice location="random" name="foil2" correct="false">-</choice>
+		<choice location="random" name="foil3" correct="false">0</choice>
+	</choicegroup>
+</multiplechoiceresponse>
+</part>
+
+<p><b><u>Part e)</u></b> Listen to the explanations of Prof. Lewin in the following movie:</p>
+
+<table border="1">
+	<tr>
+		<td>
+		<iframe height="315" width="512" allowfullscreen="allowfullscreen" frameborder="0" src="http://www.youtube.com/embed/3yR7uJvmrik?rel=0"/>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<p>The movie is part of Prof. Lewin's  <a href="http://ocw.mit.edu/courses/physics/8-01-physics-i-classical-mechanics-fall-1999/video-lectures/lecture-2/">lecture #2</a> , 8.01 Physics I: Classical Mechanics, Fall 1999 <a href="http://ocw.mit.edu">MIT OCW</a> (Accessed 22 Feb, 2012). License: Creative Commons BY-NC-SA</p>
+		</td>
+	</tr>
+</table>
+
+</problem>
+</html>

@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<html>
+<!-- Systems Problems #7 -->
+<problem>
+
+<img src="/static/problems/S13/colin/images/Systems5.png" width="330" height="230" />
+
+<p>In the image above, three blocks are stacked vertically. The blocks are at rest, and the bottom one rests on a flat plane, with gravity present.</p>
+
+<p>What systems experience an interaction with block 3 that does not cancel out?</p>
+
+<optionresponse>
+	<p>A system with just block 1:</p>
+	<optioninput options="('Yes','No')" correct="No"></optioninput>
+</optionresponse>
+
+<optionresponse>
+	<p>A system with just block 2:</p>
+	<optioninput options="('Yes','No')" correct="Yes"></optioninput>
+</optionresponse>
+
+<optionresponse>
+	<p>A system with just block 3:</p>
+	<optioninput options="('Yes','No')" correct="No"></optioninput>
+</optionresponse>
+
+<optionresponse>
+	<p>A system with blocks 2 and 3:</p>
+	<optioninput options="('Yes','No')" correct="No"></optioninput>
+</optionresponse>
+
+<optionresponse>
+	<p>A system with blocks 1 and 2:</p>
+	<optioninput options="('Yes','No')" correct="Yes"></optioninput>
+</optionresponse>
+
+<optionresponse>
+	<p>A system with all three blocks:</p>
+	<optioninput options="('Yes','No')" correct="No"></optioninput>
+</optionresponse>
+
+</problem>
+</html>

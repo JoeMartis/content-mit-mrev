@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<html>
+  <problem><title> Moments of Inertial </title><script type="loncapa/python">
+from __future__ import division
+from loncapa import *
+
+II="m*d*d"
+I="7*m*d*d/12"
+III="7*m*d*d/3"
+
+</script><p>
+A uniform rod has mass m and length d. Point A is the midpoint of the rod; point B divides the rod in 2:1 ratio. A small block of mass 2m is attached to the left end of the rod. Three possible axes of rotation are marked on the diagram.
+</p><img src="/static/problems/MIT/rayyan/check_points/Pictures/BK82.png" alt="BK82" encrypturl="no"/><br/><br/>
+
+Part 1. 
+Find the rotational inertia of the rod about axis 1.<part loncapaid="11"><formularesponse answer="$I" samples="m,d@-3,-3:3,3#4" loncapaid="12"><responseparam default="0.00001" type="tolerance" name="tol" description="Numerical Tolerance"/><textline readonly="no" size="25" dojs="math"/></formularesponse><br/><br/></part>
+Part 2. 
+Find the rotational inertia of the rod about axis 2.
+<part loncapaid="13"><formularesponse answer="$II" samples="m,d@-3,-3:3,3#4" loncapaid="14"><responseparam default="0.00001" type="tolerance" name="tol" description="Numerical Tolerance"/><textline readonly="no" size="25" dojs="math"/></formularesponse><p>
+</p></part>
+<br/>
+Part 3. 
+Find the rotational inertia of the rod about axis 3.
+<part loncapaid="15"><formularesponse answer="$III" samples="m,d@-3,-3:3,3#4" loncapaid="16"><responseparam default="0.00001" type="tolerance" name="tol" description="Numerical Tolerance"/><textline readonly="no" size="25" dojs="math"/></formularesponse></part>
+</problem>
+</html>

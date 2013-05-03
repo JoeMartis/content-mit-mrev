@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <title>CheckPoint</title>
+    <parameter default="2" description="Maximum Number of Tries" type="int_pos" name="maxtries" loncapaid="11"/>
+    <p>
+Consider a pendulum swinging in the vertical plane. 
+<img encrypturl="no" src="/static/problems/MIT/rayyan/check_points/Pictures/BK5a.png" alt="p1a" texwrap="none" align="top"/></p><br/> 
+When the pendulum is in the "left-most" position, what diagram correctly shows the forces acting on it?
+
+    <br/>
+    <multiplechoiceresponse max="10" randomize="yes" loncapaid="12" type="MultipleChoice">
+      <choicegroup type="MultipleChoice">
+        <choice location="random" name="foil1" correct="false">
+
+                <img encrypturl="no" src="/static/problems/MIT/rayyan/check_points/Pictures/BK5b.png" alt="p1a" texwrap="none" align="middle"/>          
+        </choice>
+        <choice location="random" name="foil2" correct="true">
+
+                <img encrypturl="no" src="/static/problems/MIT/rayyan/check_points/Pictures/BK5c.png" alt="p1a" texwrap="none" align="middle"/>          
+        </choice>
+        <choice location="random" name="foil3" correct="false">
+
+                <img encrypturl="no" src="/static/problems/MIT/rayyan/check_points/Pictures/BK5d.png" alt="p1a" texwrap="none" align="middle"/>          
+        </choice>
+        <choice location="random" name="foil4" correct="false">
+
+                <img encrypturl="no" src="/static/problems/MIT/rayyan/check_points/Pictures/BK5e.png" alt="p1a" texwrap="none" align="middle"/>          
+        </choice>
+        <choice location="random" name="foil5" correct="false">
+
+                <img encrypturl="no" src="/static/problems/MIT/rayyan/check_points/Pictures/BK5f.png" alt="p1a" texwrap="none" align="middle"/>          
+        </choice>
+      </choicegroup>
+    </multiplechoiceresponse>
+                          </problem>
+</html>

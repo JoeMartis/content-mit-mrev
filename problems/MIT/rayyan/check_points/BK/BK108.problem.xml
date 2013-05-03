@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <title> CheckPoint: Torque and Angular Impulse </title>
+    <script type="loncapa/python">
+from __future__ import division
+from loncapa import *
+
+#Enter the computations here
+a=lc_random(1,3,1)
+b=lc_random(1,3,1)
+c=lc_random(1,3,1)
+d=lc_random(1,3,1)
+m=lc_choose(a,2.0,5.0,8.0)
+r=lc_choose(b,0.25,0.45,0.60)
+o=lc_choose(c,0.60,2.20,4.80)
+w=lc_choose(d,1.60,2.80,3.40)
+
+A= 0.4*( m* r* r)*(  o +  w)
+B= 0.1*( m* r* r)*(  o +  w)
+
+</script>
+    
+      <p>A solid sphere of mass m = $m kg and radius r = $r m is spinning about the axis passing through the center of the sphere. 
+      At t = 0, the angular speed of the sphere is \(\omega_{0}\) = $o rad/s and the sphere rotates clockwise. At t = 4.0 s,
+     the angular speed is \(\omega \) = $w rad/s and the sphere rotates counterclockwise.
+
+</p>
+      <br/>
+    
+    <part loncapaid="11">
+      
+        <p>
+Part A.
+What is the magnitude of the angular impulse applied to the sphere between t = 0 and t = 4.0 s? Enter the answer in [N.m.s<sup>-1</sup>].
+</p>
+        <br/>
+      
+      <numericalresponse answer="$A" loncapaid="12">
+        <responseparam default="5%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <textline readonly="no" dojs="math"/>
+      </numericalresponse>
+    </part>
+    <part loncapaid="13">
+      <p>
+Part B.
+Assuming that the torque applied to the sphere is constant between t = 0 and t = 4.0 s, what is the magnitude of that torque?
+</p><br/>
+\(\tau_{axis} \) [N.m] =
+
+      <numericalresponse answer="$B" loncapaid="14">
+        <responseparam default="5%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <textline readonly="no" dojs="math"/>
+      </numericalresponse>
+    </part>
+  </problem>
+</html>

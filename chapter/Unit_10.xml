@@ -1,0 +1,87 @@
+<chapter display_name="Describing Rotational and Translational Motion">
+	<sequential display_name="Describing Rotational and Translational Motion" url_name="Describing_Rotational_and_Translational_Motion">
+		<vertical display_name="Describing Rotational and Translational Motion">
+			<html display_name="Describing Rotational and Translational Motion" filename="problems/MIT/RELATE/htmlwiki/Unit10/Describing_Rotationa.html"/>
+			<discussion for="Describing Rotational and Translational Motion" id="MReV_Summer2013_Describing_Rotationa" discussion_category="Describing Rotational and Translational Motion" />
+		</vertical>
+	</sequential>
+	<sequential display_name="Applying Newton's Second Law in General Rotations" url_name="Applying_Newtons_Second_Law_in_General_Rotations">
+		<vertical display_name="Dynamics of Rigid Bodies">
+			<html display_name="Dynamics of Rigid Bodies" filename="problems/MIT/RELATE/htmlwiki/Unit10/Module1/Applying_Newtons_Sec.html"/>
+			<discussion for="Dynamics of Rigid Bodies" id="MReV_Summer2013_Applying_Newtons_Sec" discussion_category="Describing Rotational and Translational Motion" />
+		</vertical>
+		<vertical display_name="CheckPoint 1: Clockwise or Counterclockwise?">
+			<problem display_name="CheckPoint 1: Clockwise or Counterclockwise?" filename="MIT/rayyan/check_points/BK/BK91.problem" attempts="2"/>
+			<discussion for="CheckPoint 1: Clockwise or Counterclockwise?" id="MReV_Summer2013_BK91" discussion_category="Describing Rotational and Translational Motion" />
+		</vertical>
+	</sequential>
+	<sequential display_name="Rolling Constraints" url_name="Rolling_Constraints">
+		<vertical display_name="Video: Rolling Without Slipping ">
+			<video youtube="1.0:z3-wqVyjqU8" display_name="Video: Rolling Without Slipping "/>
+			<discussion for="Video: Rolling Without Slipping " id="MReV_Summer2013_youtube_1.0:z3-wqVyjqU8" discussion_category="Chapter" />
+		</vertical>
+		<vertical display_name="Rolling Constraints">
+			<html display_name="Rolling Constraints" filename="problems/MIT/RELATE/htmlwiki/Unit10/Module2/Rolling_Constraints.html"/>
+			<discussion for="Rolling Constraints" id="MReV_Summer2013_Rolling_Constraints" discussion_category="Describing Rotational and Translational Motion" />
+		</vertical>
+		<vertical display_name="Example: Disk Rolling Down a Ramp">
+			<html display_name="Example: Disk Rolling Down a Ramp" filename="problems/MIT/RELATE/htmlwiki/Unit10/Module1/IE_Disk_Down_Ramp.html"/>
+			<discussion for="Example: Disk Rolling Down a Ramp" id="MReV_Summer2013_IE_Disk_Down_Ramp" discussion_category="Describing Rotational and Translational Motion" />
+		</vertical>
+		<vertical display_name="Example: Ball Rolling Down a Ramp">
+			<html display_name="Example: Ball Rolling Down a Ramp" filename="problems/MIT/RELATE/htmlwiki/Unit10/Module1/IE_Ball_Down_Ramp.html"/>
+			<discussion for="Example: Ball Rolling Down a Ramp" id="MReV_Summer2013_IE_Ball_Down_Ramp" discussion_category="Describing Rotational and Translational Motion" />
+		</vertical>
+		<vertical display_name="Video: Solid Cylinder Rolling Without Slipping Down an Incline">
+			<video youtube="1.0:7abmkvIpfE8" display_name="Video: Solid Cylinder Rolling Without Slipping Down an Incline"/>
+			<discussion for="Video: Solid Cylinder Rolling Without Slipping Down an Incline" id="MReV_Summer2013_youtube_1.0:7abmkvIpfE8" discussion_category="Chapter" />
+		</vertical>
+		<vertical display_name="Video: Objects rolling down">
+			<video youtube="1.0:grMGhHFz4Bs" display_name="Video: Objects rolling down"/>
+			<discussion for="Video: Objects rolling down" id="MReV_Summer2013_youtube_1.0:grMGhHFz4Bs" discussion_category="Chapter" />
+		</vertical>
+		<vertical display_name="Video: The Yo-yo problem">
+			<video youtube="1.0:k4h-lkcnRWI" display_name="Video: The Yo-yo problem"/>
+			<discussion for="Video: The Yo-yo problem" id="MReV_Summer2013_youtube_1.0:k4h-lkcnRWI" discussion_category="Chapter" />
+		</vertical>
+		<vertical display_name="Checkpoint 2: Another Yo-Yo">
+			<problem display_name="Checkpoint 2: Another Yo-Yo" filename="MIT/rayyan/check_points/BK/BK89.problem" attempts="8"/>
+			<discussion for="Checkpoint 2: Another Yo-Yo" id="MReV_Summer2013_BK89" discussion_category="Describing Rotational and Translational Motion" />
+		</vertical>
+		<vertical display_name="Checkpoint 3: and another Yo-Yo">
+			<problem display_name="Checkpoint 3: and another Yo-Yo" filename="MIT/rayyan/check_points/BK/BK90.problem" attempts="9"/>
+			<discussion for="Checkpoint 3: and another Yo-Yo" id="MReV_Summer2013_BK90" discussion_category="Describing Rotational and Translational Motion" />
+		</vertical>
+	</sequential>
+	<sequential display_name="Rotational Energy" url_name="Rotational_Energy">
+		<vertical display_name="CheckPoint 4: Rolling Down an Incline">
+			<problem display_name="CheckPoint 4: Rolling Down an Incline" filename="MIT/rayyan/check_points/BK/BK95.problem" attempts="4"/>
+			<discussion for="CheckPoint 4: Rolling Down an Incline" id="MReV_Summer2013_BK95" discussion_category="Describing Rotational and Translational Motion" />
+		</vertical>
+		<vertical display_name="CheckPoint 5: Swinging Rod">
+			<problem display_name="CheckPoint 5: Swinging Rod" filename="MIT/rayyan/check_points/BK/BK96.problem" attempts="2"/>
+			<discussion for="CheckPoint 5: Swinging Rod" id="MReV_Summer2013_BK96" discussion_category="Describing Rotational and Translational Motion" />
+		</vertical>
+		<vertical display_name="CheckPoint 6: Falling Plate">
+			<problem display_name="CheckPoint 6: Falling Plate" filename="MIT/rayyan/check_points/BK/BK97.problem" attempts="4"/>
+			<discussion for="CheckPoint 6: Falling Plate" id="MReV_Summer2013_BK97" discussion_category="Describing Rotational and Translational Motion" />
+		</vertical>
+<!--	This is in the homework. <problem display_name="Checkpoint 7: Pivoted bar swinging top to bottom" filename="MIT/boriskor/Rotation/Bar swinging top to bottom multipart.problem" attempts="10"/> -->
+		<vertical display_name="CheckPoint 8: Yo-Yo">
+			<problem display_name="CheckPoint 8: Yo-Yo" filename="MIT/rayyan/check_points/BK/BK98.problem" attempts="4"/>
+			<discussion for="CheckPoint 8: Yo-Yo" id="MReV_Summer2013_BK98" discussion_category="Describing Rotational and Translational Motion" />
+		</vertical>
+		<vertical display_name="Checkpoint 9: Disc rolls without slipping down an incline while an attached pulley rotates">
+			<problem display_name="Checkpoint 9: Disc rolls without slipping down an incline while an attached pulley rotates" filename="MIT/boriskor/Multiconcept Problems/Rolling disc rotating pulley.problem" attempts="2"/>
+			<discussion for="Checkpoint 9: Disc rolls without slipping down an incline while an attached pulley rotates" id="MReV_Summer2013_Rolling_disc_rotating_pulley" discussion_category="Describing Rotational and Translational Motion" />
+		</vertical>
+		<vertical display_name="Video: Flywheels">
+			<video youtube="1.0:aaLoa6YfL_o" display_name="Video: Flywheels"/>
+			<discussion for="Video: Flywheels" id="MReV_Summer2013_youtube_1.0:aaLoa6YfL_o" discussion_category="Chapter" />
+		</vertical>
+		<vertical display_name="Video: Rotation and Translation">
+			<video youtube="1.0:gJjFq3-VJc0" display_name="Video: Rotation and Translation"/>
+			<discussion for="Video: Rotation and Translation" id="MReV_Summer2013_youtube_1.0:gJjFq3-VJc0" discussion_category="Chapter" />
+		</vertical>
+	</sequential>
+</chapter>

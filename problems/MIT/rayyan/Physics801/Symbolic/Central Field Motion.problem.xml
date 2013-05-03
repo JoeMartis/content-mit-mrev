@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <script type="loncapa/python">
+from __future__ import division
+from loncapa import *
+
+radius="sqrt(A/M*R^5)"
+    
+</script>
+    
+      <p>
+An object of mass M moves under the influence of an attractive central force \( F = - A r^4 \hat{r}\)
+where \(\hat{r}\) is a unit vector in the radial direction.
+<br/>
+If the object is in a circular orbit of radius \(R\), find its speed \(v\) as a function
+of \(M\), \(A\), and \(R\).
+<br/>
+\(v =\)
+</p>
+    
+    <formularesponse answer="$radius" samples="M,A,R@1,1,1:10,12,8#4" loncapaid="11">
+      <responseparam default="1%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+      <textline readonly="no" size="25" dojs="math"/>
+    </formularesponse>
+  </problem>
+</html>

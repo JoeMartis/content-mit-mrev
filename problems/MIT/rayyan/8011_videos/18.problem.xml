@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <title>Professor Pritchard Video: Calculating Angular Momentum </title>
+    <parameter default="2" description="Maximum Number of Tries" type="int_pos" name="maxtries" loncapaid="11"/>
+    
+      <p><table border="1"><tr><td><b>Calculating Angular Momentum</b></td></tr><tr><td><iframe height="400" width="560" allowfullscreen="allowfullscreen" frameborder="0" src="http://www.youtube.com/embed/gAyf2Z7RiiA?rel=0"/></td></tr></table><br/>
+Did you find this video useful?
+</p>
+    
+    <br/>
+    <multiplechoiceresponse max="10" randomize="yes" loncapaid="12" type="MultipleChoice">
+      <choicegroup type="MultipleChoice">
+        <choice location="1" name="foil1" correct="true">
+
+              Very useful          
+        </choice>
+        <choice location="2" name="foil2" correct="false">
+
+              Somewhat useful          
+        </choice>
+        <choice location="3" name="foil3" correct="false">
+
+              Not useful          
+        </choice>
+        <choice location="4" name="foil4" correct="false">
+
+              Confusing          
+        </choice>
+      </choicegroup>
+    </multiplechoiceresponse>
+  </problem>
+</html>

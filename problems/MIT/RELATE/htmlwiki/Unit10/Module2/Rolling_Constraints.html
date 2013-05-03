@@ -1,0 +1,127 @@
+<html>
+<head>
+<title>Dynamics of Rigid Bodies: Constraints</title>
+<script type="text/javascript"> 
+function toggleDisplay( id, hidetext, showtext )
+{
+ link = document.getElementById( id + "l" ).childNodes[0];
+ 
+ with( document.getElementById( id ).style )
+ {
+  if( display == "none" )
+	{
+	 display = "inline";
+	 link.nodeValue = hidetext;
+	}
+  else
+	{
+	 display = "none";
+	 link.nodeValue = showtext;
+	}
+ }
+}
+</script>
+<style type="text/css">
+.collapseButton {
+float:right;
+font-weight:400;
+text-align:right;
+width:auto;
+}
+
+.wikitable th,.prettytable th {
+background:#f2f2f2;
+text-align:left;
+font-weight:400;
+}
+
+table.subtable {
+background:#fff;
+border:1px #aaa solid;
+border-collapse:collapse;
+margin:1em 1em 1em 0;
+font-size:10pt;
+}
+
+.subtable th {
+color:#555;
+background:#fff;
+text-align:left;
+font-weight:700;
+}
+
+.subsubtable th {
+background:#f2f2f2;
+color:#000;
+text-align:left;
+font-weight:700;
+}
+
+img.tex.inlinemath {
+height:1.1em;
+vertical-align:0;
+}
+
+img.tex.inlinesub {
+height:1.4em;
+vertical-align:-3px;
+}
+
+table.wikitable,table.prettytable,.subsubtable {
+background:#f9f9f9;
+border:1px #aaa solid;
+border-collapse:collapse;
+margin:1em 1em 1em 0;
+font-size:10pt;
+}
+
+.wikitable th,.wikitable td,.prettytable th,.prettytable td,.subtable th,.subtable td,.subsubtable th,.subsubtable td {
+border:1px #aaa solid;
+padding:.2em;
+}
+
+.wikitable caption,.prettytable caption,.subtable caption,.subsubtable caption {
+font-weight:700;
+}
+</style>
+</head>
+
+<body>
+
+<h2>Dynamics of Rigid Bodies: Constraints</h2>
+
+<h3> Constraint for Rolling Objects</h3>
+
+<p>The motion of a rigid body is often constrained. A common example of such motion is when we talk about a round object "rolling without slipping."</p>
+
+<p>"Rolling without slipping" means that the point of contact between the object and the ground is not moving with respect to the ground. Objects that move on a surface with sufficiently high friction roll in such a way that the point of contact is always fixed. You can see this in the image below, from Wikimedia Commons:</p>
+
+<table width="400px" class="prettytable"><tr><td>
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Cycloid_f.gif" />
+<p><i>Source: Wikimedia Commons, user <a href="https://commons.wikimedia.org/wiki/User:Zorgit">Zorgit</a>. Protected under a <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC-BY-SA 3.0 license</a></i></p>
+</td></tr></table>
+
+<p>This situation generally requires static friction to prevent the object from slipping at the point of contact.</p>
+
+<p>When an object rolls without slipping, the object must roll one circumference worth of distance every time it turns one complete revolution. Since the angular quantities of rotational motion are expressed in radians, we can express the constraint of rolling without slipping through the relationship:</p>
+
+<p>\( \omega R = \pm v_{CM}\)</p>
+
+<p>and, taking its derivative,</p>
+
+<p>\( \alpha R = \pm a_{CM}\)</p>
+
+<p>where R is the radius of the rolling object.</p>
+
+<p style="float:right"><a href="/static/problems/MIT/RELATE/htmlwiki/Unit10/Module1/files/Yarn-Positive.png"><img width="150" src="/static/problems/MIT/RELATE/htmlwiki/Unit10/Module1/files/Yarn-Positive.png" height="165" /></a></p>
+
+<p>The sign in this equation must reflect the physics of the situation. Consider a ball of string as in the figure to the right. If the ball rotates counter-clockwise, then \( \omega > 0\) by convention. Since its velocity is in the positive direction, the positive sign is chosen. Click on the image to see a larger version.</p>
+
+<p style="clear:both"> </p>
+
+<p style="float:right"><a href="/static/problems/MIT/RELATE/htmlwiki/Unit10/Module1/files/Yarn-Negative.png"><img width="150" src="/static/problems/MIT/RELATE/htmlwiki/Unit10/Module1/files/Yarn-Negative.png" height="165" /></a></p>
+
+<p>However, if the trailing string is on the right-hand side of the ball, as in the second figure, then the ball must be rotated clockwise to wind the string and \( \omega = -\frac{v_{CM}}{R}\) </p>
+
+</body>
+</html>

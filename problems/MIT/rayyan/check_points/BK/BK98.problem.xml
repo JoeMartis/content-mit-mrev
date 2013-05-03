@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <title> CheckPoint: Yo-Yo </title>
+    <script type="loncapa/python">
+from __future__ import division
+from loncapa import *
+
+a=lc_random(1,3,1)
+b=lc_random(1,3,1)
+c=lc_random(1,3,1)
+f=lc_random(1,3,1)
+m=lc_choose(a,0.12,0.25,0.8)
+II=lc_choose(b,0.064,0.096,0.12)
+r=lc_choose(c,0.02,0.03,0.035)
+dd=lc_choose(f,0.8,1.1,1.4)
+
+v= r* math.sqrt(2* m* dd*9.8/( II+ m* r* r))
+
+</script>
+    
+      <p>
+
+A yo-yo has mass $m kg and rotational inertia $II \(kg m^2\). A light thin string is wrapped around the central part of the yo-yo that has radius $r m. The string is attached to the ceiling as shown. The yo-yo is released from rest and begins to descend as the string unwraps.
+
+</p>
+    
+    <img src="/static/problems/MIT/rayyan/check_points/Pictures/BK98.PNG" alt="BK98" encrypturl="no"/>
+    <part loncapaid="11">
+      <p>
+</p><br/>
+Part 1.
+Describe the major energy transformation that takes place .
+
+      <br/>
+      <multiplechoiceresponse max="10" direction="vertical" randomize="no" loncapaid="12" type="MultipleChoice">
+        <choicegroup type="MultipleChoice">
+          <choice location="random" name="foil1" correct="false">
+		<p>kinetic rotational into kinetic translational&lt;</p>
+              
+          </choice>
+          <choice location="random" name="foil2" correct="false">
+
+                <p>kinetic translational into kinetic rotational</p>
+            
+          </choice>
+          <choice location="random" name="foil3" correct="false">
+
+                <p>gravitational potential into kinetic rotational</p>
+            
+          </choice>
+          <choice location="random" name="foil4" correct="false">
+
+                <p>gravitational potential into kinetic translational</p>
+            
+          </choice>
+          <choice location="random" name="foil5" correct="false">
+
+                <p>kinetic translational into kinetic rotational and gravitational potential</p>
+            
+          </choice>
+          <choice location="random" name="foil6" correct="false">
+
+                <p>kinetic rotational into kinetic translational and gravitational potential</p>
+            
+          </choice>
+          <choice location="random" name="foil7" correct="true">
+
+                <p>gravitational potential into kinetic translational and kinetic rotational   </p>
+            
+          </choice>
+        </choicegroup>
+      </multiplechoiceresponse>
+    </part>
+    <part loncapaid="13">
+      <p>
+</p><br/>
+Part 2.
+what is the relationship between the linear speed  \(v\) of the center of mass of the yo-yo and its angular speed \(\omega\)?
+
+      <br/>
+      <multiplechoiceresponse max="10" direction="vertical" randomize="no" loncapaid="14" type="MultipleChoice">
+        <choicegroup type="MultipleChoice">
+          <choice location="random" name="foil1" correct="true">
+                  <p>\( v = \omega r\)</p>
+          </choice>
+          <choice location="random" name="foil2" correct="false">
+                  <p>\( v = \omega / r \)</p>
+          </choice>
+          <choice location="random" name="foil3" correct="false">
+                 <p> \( v = 2 \omega r \)</p>
+          </choice>
+          <choice location="random" name="foil4" correct="false">
+                  <p>\( v = 2 \omega / r \)</p>
+          </choice>
+          <choice location="random" name="foil5" correct="false">
+                  <p>\( v = \omega r/2 \)</p>
+          </choice>
+          <choice location="random" name="foil6" correct="false">
+                 <p> \( v = \omega / (2 r) \)</p>
+          </choice>
+        </choicegroup>
+      </multiplechoiceresponse>
+    </part>
+    <part loncapaid="15">
+	<p>Part 3. </p>
+	<p>Use conservation of energy to find the linear speed of the yo-yo by the time it descended a distance $dd m. Use g = 9.8 m/s2. </p>
+
+	<p>\(v =\)</p>
+
+      <numericalresponse answer="$v" unit="m/s" loncapaid="16">
+        <responseparam default="5%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <textline readonly="no" dojs="math"/>
+      </numericalresponse>
+    </part>
+      </problem>
+</html>

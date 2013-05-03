@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <title> CheckPoint: Blocks and Pulleys </title>
+    <script type="loncapa/python">
+from __future__ import division
+from loncapa import *
+
+a=lc_random(1,3,1)
+b=lc_random(1,3,1)
+c=lc_random(1,3,1)
+d=lc_random(1,3,1)
+e=lc_random(1,3,1)
+I=lc_choose(a,2.4,2.8,3.6)
+r=lc_choose(b,0.15,0.20,0.24)
+M=lc_choose(c,0.8,1.4,1.9)
+M3=3* M
+
+ans=( M*9.8* r)/(4* M* r* r+ I)
+
+</script>
+    
+      <p>
+The system shown in the diagram contains two blocks, of masses $M kg and $M3 kg, connected by a light string 
+over a pulley of radius $r m and rotational inertia $I kg m^2. The block of mass $M3 is free to slide on a horizontal 
+frictionless surface and the pulley is free to rotate on a frictionless fixed horizontal axle passing through its center. 
+Find the angular acceleration \(\alpha\) of the pulley once the system is released from rest. 
+The string connecting the blocks does not slip on the pulley. Enter your answer in rad/s<sup>2</sup> and use g = 9.8 m/\(s^{2}\)
+</p>
+      <br/>
+    
+    <img src="/static/problems/MIT/rayyan/check_points/Pictures/BK84.png" alt="BK84" encrypturl="no"/>
+    <part loncapaid="11">
+      
+        <p>
+</p>
+        <br/>
+        \(\alpha=\)
+      
+      <numericalresponse answer="$ans" unit="rad/s^2" loncapaid="12">
+        <responseparam default="5%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <textline readonly="no" dojs="math"/>
+      </numericalresponse>
+    </part>
+      </problem>
+</html>

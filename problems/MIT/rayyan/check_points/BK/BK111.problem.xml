@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <title> CheckPoint: Angular Collision </title>
+    
+      <p>A rod of mass M and length 2D rests on a horizontal frictionless surface contained in the (x,y) plane. A small block of 
+      mass M is attached to one of the ends of the rod. Another small block, also of mass M, slides along the surface at velocity 
+      v directed perpendicular to the rod. The sliding rod strikes the end of the rod as shown and remains attached to it. 
+      As a result, the rod with the attached blocks begins to move along the horizontal surface. The figure shows a top view of the 
+      described situation at the instants before and after the moving block is attached to the rod. (Gravity is into te screen).
+</p>
+      <br/>
+    
+    <img width="604" alt="BK111" encrypturl="no" src="/static/problems/MIT/rayyan/check_points/Pictures/BK111_b.png"/>
+    <parameter default="2" description="Maximum Number of Tries" type="int_pos" name="maxtries" loncapaid="11"/>
+    <br/>
+    
+      <p>
+Part A. 
+Using conservation of momentum, find the speed u of the center of the midpoint of the rod after the collision.
+</p>
+    
+    <part loncapaid="12">
+      <br/>
+      <multiplechoiceresponse max="10" direction="vertical" randomize="yes" loncapaid="13" type="MultipleChoice">
+        <choicegroup type="MultipleChoice">
+          <choice location="random" name="foil1" correct="false">
+
+                v
+            
+          </choice>
+          <choice location="random" name="foil2" correct="true">
+
+                v/3
+            
+          </choice>
+          <choice location="random" name="foil3" correct="false">
+
+                v/2
+            
+          </choice>
+          <choice location="random" name="foil4" correct="false">
+
+v/4
+          </choice>
+          <choice location="random" name="foil5" correct="false">
+
+v/8
+          </choice>
+        </choicegroup>
+      </multiplechoiceresponse>
+    </part>
+    <part loncapaid="14">
+      
+        <p>
+Part B. 
+Using conservation of angular momentum, find the angular speed of rotation of the rod about its midpoint after the collision.
+</p>
+      
+      <br/>
+      <multiplechoiceresponse max="10" direction="vertical" randomize="yes" loncapaid="15" type="MultipleChoice">
+        <choicegroup type="MultipleChoice">
+          <choice location="random" name="foil1" correct="true">
+
+                \(\omega = 3v/7D\) 
+            
+          </choice>
+          <choice location="random" name="foil2" correct="false">
+
+                \(\omega = 2v/5D\) 
+            
+          </choice>
+          <choice location="random" name="foil3" correct="false">
+
+                \(\omega = v/4D\)
+            
+          </choice>
+          <choice location="random" name="foil4" correct="false">
+
+                \(\omega = 5v/12D\)
+            
+          </choice>
+          <choice location="random" name="foil5" correct="false">
+
+                \(\omega = v/3D\)
+            
+          </choice>
+        </choicegroup>
+      </multiplechoiceresponse>
+    </part>
+              </problem>
+</html>

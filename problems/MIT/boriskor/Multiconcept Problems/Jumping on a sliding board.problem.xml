@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <script type="loncapa/python">
+from __future__ import division
+from loncapa import *
+
+v="sqrt(g*L/2)"
+    
+</script>
+    
+      <p><br/>
+You stand at the end of a long board of length \(L\). The board rests on a frictionless frozen surface of a pond. You want to jump to the opposite end of the board. What is the minimum takeoff speed \(v\) that would allow you to accomplish that? The board and you have the same mass \(m\).<br/>
+Use g for the acceleration due to gravity.
+<br/>
+\(v =\)
+</p>
+    
+    <formularesponse answer="$v" samples="g,L,m@4,5,1:10,12,10#2" loncapaid="11">
+      <responseparam default="1%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+      <textline readonly="no" size="25" dojs="math"/>
+    </formularesponse>
+  </problem>
+</html>

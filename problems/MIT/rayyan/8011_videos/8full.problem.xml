@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <title>What is MAPS?</title>
+    
+	<p><table border="1"><tr><td><b>What is MAPS</b></td></tr><tr><td><iframe width="560" height="315" src="http://www.youtube.com/embed/qH_Da8YONo0" frameborder="0" allowfullscreen="allowfullscreen"></iframe></td></tr></table><br/>
+	Did you find this video useful?
+	</p>
+	
+    <multiplechoiceresponse max="10" randomize="yes" loncapaid="12" type="MultipleChoice">
+      <choicegroup type="MultipleChoice">
+        <choice location="1" name="foil1" correct="true"><p>Very useful</p></choice>
+        <choice location="2" name="foil2" correct="false"><p>Somewhat useful</p></choice>
+        <choice location="3" name="foil3" correct="false"><p>Not useful</p></choice>
+        <choice location="4" name="foil4" correct="false"><p>Confusing</p></choice>
+      </choicegroup>
+    </multiplechoiceresponse>
+  </problem>
+</html>

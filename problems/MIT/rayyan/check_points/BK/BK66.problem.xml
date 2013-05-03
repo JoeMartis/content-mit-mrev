@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <title> CheckPoint: Work and Kinetic Energy</title>
+    
+      <p>A block of mass m is dragged along a horizontal surface by a constant force  \(F\) applied at an angle  \(\theta\) above the horizontal as shown. The speed of the block is constant and equals \(v\). The block undergoes a displacement d. 
+
+</p>
+      <br/>
+    
+    <img width="\" alt="BK66" encrypturl="no" src="/static/problems/MIT/rayyan/check_points/Pictures/BK66.PNG"/>
+    <parameter default="2" description="Maximum Number of Tries" type="int_pos" name="maxtries" loncapaid="11"/>
+    <br/>
+    
+      <p>
+Part 1. 
+Find the work done on the block by force F during this process.
+</p>
+    
+    <part loncapaid="12">
+      <br/>
+      <multiplechoiceresponse max="10" direction="vertical" randomize="no" loncapaid="13" type="MultipleChoice">
+        <choicegroup type="MultipleChoice">
+          <choice location="random" name="foil1" correct="true">
+                  \( F\cdot d \cdot \cos \theta\)
+          </choice>
+          <choice location="random" name="foil2" correct="false">
+                  \( - F\cdot d \cdot \cos \theta\)
+          </choice>
+          <choice location="random" name="foil3" correct="false">
+                  \( F\cdot d \cdot \sin \theta\)
+          </choice>
+          <choice location="random" name="foil4" correct="false">
+                  \(- F\cdot d \cdot \sin \theta\)
+          </choice>
+          <choice location="random" name="foil5" correct="false">
+
+zero
+          </choice>
+          <choice location="random" name="foil6" correct="false">
+                  \( \frac{1}{2} m v^2\)
+          </choice>
+        </choicegroup>
+      </multiplechoiceresponse>
+    </part>
+    <part loncapaid="14">
+      
+        <p>
+Part 2. 
+Find the work done on the block by the force of friction during this process.
+</p>
+      
+      <br/>
+      <multiplechoiceresponse max="10" direction="vertical" randomize="yes" loncapaid="15" type="MultipleChoice">
+        <choicegroup type="MultipleChoice">
+          <choice location="random" name="foil1" correct="false">
+                  \( F\cdot d \cdot \cos \theta\)
+          </choice>
+          <choice location="random" name="foil2" correct="true">
+                  \( - F\cdot d \cdot \cos \theta\)
+          </choice>
+          <choice location="random" name="foil3" correct="false">
+                  \( F\cdot d \cdot \sin \theta\)
+          </choice>
+          <choice location="random" name="foil4" correct="false">
+                  \(- F\cdot d \cdot \sin \theta\)
+          </choice>
+          <choice location="random" name="foil5" correct="false">
+                  \( (mg -F \sin \theta) d \cos \theta\)
+          </choice>
+          <choice location="random" name="foil6" correct="false">
+                  \( \frac{1}{2} m v^2\)
+          </choice>
+          <choice location="random" name="foil7" correct="false">
+
+                Impossible to determine without knowing the coefficient of kinetic friction 
+            
+          </choice>
+        </choicegroup>
+      </multiplechoiceresponse>
+    </part>
+    <part loncapaid="16">
+      
+        <p>
+Part 3. 
+Find the change in the kinetic energy of the block during this process. 
+</p>
+      
+      <br/>
+      <multiplechoiceresponse max="10" direction="vertical" randomize="no" loncapaid="17" type="MultipleChoice">
+        <choicegroup type="MultipleChoice">
+          <choice location="random" name="foil1" correct="false">
+                  \( \frac{1}{2} m v^2\)
+          </choice>
+          <choice location="random" name="foil2" correct="false">
+                  \( - F\cdot d \cdot \cos \theta\)
+          </choice>
+          <choice location="random" name="foil3" correct="false">
+                  \( \frac{1}{2} m v^2 -F\cdot d \cdot \cos \theta\)
+          </choice>
+          <choice location="random" name="foil4" correct="false">
+                  \( \frac{1}{2} m v^2 +F\cdot d \cdot \cos \theta\)
+          </choice>
+          <choice location="random" name="foil5" correct="true">
+
+Zero
+          </choice>
+          <choice location="random" name="foil6" correct="false">
+                  \( - \frac{1}{2} m v^2 +F\cdot d \cdot \cos \theta\)
+          </choice>
+        </choicegroup>
+      </multiplechoiceresponse>
+    </part>
+      </problem>
+</html>

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <img src="/static/problems/MIT/rayyan/osu/images/conservation_2.png" alt="Conservation_2" encrypturl="no" height="150"/>
+    
+      <p>Two balls of different mass, starting from rest, slide down two identical frictionless tracks of the same vertical height, and then reach the bottom. Which of the following quantities is/are same for these two processes?</p>
+    
+    <multiplechoiceresponse max="10" direction="vertical" randomize="no" loncapaid="11" type="MultipleChoice">
+      <choicegroup type="MultipleChoice">
+        <choice name="foil1" correct="false">
+              <p>The work done by the earth</p>
+        </choice>
+        <choice name="foil2" correct="false">
+              <p>The change in the balls' kinetic energy</p>
+        </choice>
+        <choice name="foil13" correct="true">
+              <p>The change in the balls' speed</p>
+        </choice>
+        <choice name="foil1\4" correct="false">
+		<p>The change in the balls' kinetic energy &amp; the change of the balls' speed</p>
+        </choice>
+        <choice name="foil5" correct="false">
+		<p>The change in the balls' kinetic energy &amp; the work done by the earth</p>
+        </choice>
+        <choice name="foil6" correct="false">
+		<p>The change in the balls' speed &amp; the work done by the earth</p>
+        </choice>
+        <choice name="foil7" correct="false">
+		<p>All three are the same</p>
+        </choice>
+        <choice name="foil8" correct="false">
+		<p>None of the above</p>
+        </choice>
+      </choicegroup>
+    </multiplechoiceresponse>
+  </problem>
+</html>

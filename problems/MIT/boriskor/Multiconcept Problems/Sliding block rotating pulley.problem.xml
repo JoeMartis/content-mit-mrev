@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <img src="/static/problems/MIT/boriskor/BKimages/block attached to pulley sliding down.png" alt="block slides down an incline; attached by a string to a rotating massive pulley" encrypturl="no"/>
+    <parameter default="2" description="Maximum Number of Tries" type="int_pos" name="maxtries" loncapaid="11"/>
+    <br/>
+    
+      <p>
+A thin light string is wrapped around a solid uniform disk of mass \(M\) and radius \(r\), mounted as shown. The loose end of the string is attached to a block of mass \(m\) which is allowed to slide down an inclined plane that makes angle \(\theta\) with the horizontal. Find the acceleration \(a\) of the block. Neglect friction.
+</p>
+    
+    <br/>
+    <multiplechoiceresponse max="10" direction="vertical" randomize="yes" loncapaid="12" type="MultipleChoice">
+      <choicegroup type="MultipleChoice">
+        <choice location="random" name="foil1" correct="true">
+
+                a = (2mg sin \(\theta\))/(M + 2m)          
+        </choice>
+        <choice location="random" name="foil2" correct="false">
+
+                a = (mg sin \(\theta\))/(M + 2m)          
+        </choice>
+        <choice location="random" name="foil3" correct="false">
+
+                a = (2mg sin \(\theta\))/(2M + m)          
+        </choice>
+        <choice location="random" name="foil4" correct="false">
+
+                a = (2mg cos \(\theta\))/(M + 3m)          
+        </choice>
+        <choice location="random" name="foil5" correct="false">
+
+                a = (mg cos \(\theta\))/(2M + m)          
+        </choice>
+      </choicegroup>
+    </multiplechoiceresponse>
+      </problem>
+</html>

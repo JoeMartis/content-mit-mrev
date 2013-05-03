@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <img src="/static/problems/MIT/rayyan/osu/images/acceleration_2.png" alt="acceleration_2" encrypturl="no" height="200"/>
+    
+      <p><br/>
+You are given the same small wheel and force as in the previous problem.  As before, the spokes and hub are virtually massless.  What is the magnitude of the wheel's angular acceleration?  </p>
+    
+    <br/>
+    <multiplechoiceresponse max="10" direction="vertical" randomize="no" loncapaid="11" type="MultipleChoice">
+      <choicegroup type="MultipleChoice">
+        <choice name="foil1" correct="false">
+		<p>&#xBC; rad/s<sup>2</sup></p>
+        </choice>
+        <choice name="foil2" correct="false">
+		<p>&#xBD;  rad/s<sup>2</sup></p>
+        </choice>
+        <choice name="foil3" correct="true">
+              <p>1 rad/s<sup>2</sup>          </p>
+        </choice>
+        <choice name="foil4" correct="false">
+              <p>2 rad/s<sup>2</sup>          </p>
+        </choice>
+        <choice name="foil5" correct="false">
+              <p>4 rad/s<sup>2</sup>          </p>
+        </choice>
+      </choicegroup>
+    </multiplechoiceresponse>
+              </problem>
+</html>

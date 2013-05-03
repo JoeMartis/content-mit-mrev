@@ -1,0 +1,31 @@
+{
+  "GRADER" : [
+    {
+      "type" : "Homework",
+      "min_count" : 80,
+      "drop_count" : 2,
+      "short_label" : "HW",
+      "weight" : 0.9
+    },
+	{
+      "type" : "Checkpoint",
+      "min_count" : 80,
+      "drop_count" : 0,
+      "short_label" : "Chk",
+      "weight" : 0.1
+    }
+  ],
+  "GRADE_CUTOFFS" : {
+    "A" : 0.9,
+    "B+" : 0.85,
+    "B" : 0.8,
+    "B-" : 0.75,
+    "C+" : 0.7,
+    "C" : 0.65,
+    "C-" : 0.6,
+    "D+" : 0.55,
+    "D" : 0.5,
+    "D-" : 0.45,
+    "F" : 0.4
+  }
+}

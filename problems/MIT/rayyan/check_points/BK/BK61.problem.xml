@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <parameter default="2" description="Maximum Number of Tries" type="int_pos" name="maxtries" loncapaid="21"/>
+    <title> Work up an incline </title>
+    
+      <p>A block of mass m is being pulled upward along an inclined plane by a constant force \(F\) directed along the plane as shown. The plane makes angle \(\theta\) with the horizontal. The block moves a distance \(d\) up along the plane . The magnitude of the force of friction acting on the block is \(f\).
+
+</p>
+      <br/>
+    
+    <img src="/static/problems/MIT/rayyan/check_points/Pictures/BK61.png" alt="BK61" encrypturl="no"/>
+    <br/><br/>
+Part 1. 
+The work done by force \(F\) is:
+    <part loncapaid="17">
+      <br/>
+      <multiplechoiceresponse max="10" direction="vertical" randomize="no" loncapaid="12" type="MultipleChoice">
+        <choicegroup type="MultipleChoice">
+          <choice location="random" name="foil1" correct="false">
+                  \( F d \cos \left( \theta \right)\)
+          </choice>
+          <choice location="random" name="foil2" correct="false">
+                  \( -F d \cos \left( \theta \right)\)
+          </choice>
+          <choice location="random" name="foil3" correct="true">
+                  \(F d\)
+          </choice>
+          <choice location="random" name="foil4" correct="false">
+                  \(\frac{-F d }{ \cos \left( \theta \right)}\)
+          </choice>
+          <choice location="random" name="foil5" correct="false">
+                  \(\frac{F d }{ \sin \left( \theta \right)}\)
+          </choice>
+          <choice location="random" name="foil6" correct="false">
+                  \(- F d\)
+          </choice>
+          <choice location="random" name="foil7" correct="false">
+
+zero
+          </choice>
+        </choicegroup>
+      </multiplechoiceresponse>
+    </part>
+    <br/>
+    
+      <p>
+Part 2.
+The work done by the force of friction is:
+</p>
+    
+    <part loncapaid="18">
+      <br/>
+      <multiplechoiceresponse max="10" direction="vertical" randomize="yes" loncapaid="13" type="MultipleChoice">
+        <choicegroup type="MultipleChoice">
+          <choice location="random" name="foil1" correct="false">
+                  \( f d \cos \left( \theta \right)\)
+          </choice>
+          <choice location="random" name="foil2" correct="false">
+                  \( -fd \sin \left( \theta \right)\)
+          </choice>
+          <choice location="random" name="foil3" correct="true">
+                  \(-fd\)
+          </choice>
+          <choice location="random" name="foil4" correct="false">
+                  \(\frac{-fd}{ \cos \left( \theta \right)}\)
+          </choice>
+          <choice location="random" name="foil5" correct="false">
+                  \(\frac{fd}{ \sin \left( \theta \right)}\)
+          </choice>
+          <choice location="random" name="foil6" correct="false">
+                  \(fd\)
+          </choice>
+          <choice location="random" name="foil7" correct="false">
+
+zero
+          </choice>
+        </choicegroup>
+      </multiplechoiceresponse>
+    </part>
+    <br/>
+    
+      <p>
+Part 3. 
+The work done by the force of gravity is:
+</p>
+    
+    <part loncapaid="19">
+      <br/>
+      <multiplechoiceresponse max="10" direction="vertical" randomize="no" loncapaid="14" type="MultipleChoice">
+        <choicegroup type="MultipleChoice">
+          <choice location="random" name="foil1" correct="false">
+                  \( mgd\cos \left( \theta \right)\)
+          </choice>
+          <choice location="random" name="foil2" correct="false">
+                  \( mgd\sin \left( \theta \right)\)
+          </choice>
+          <choice location="random" name="foil3" correct="false">
+                  \(-mgd\)
+          </choice>
+          <choice location="random" name="foil4" correct="true">
+                  \( - m g d \sin \left( \theta \right)\)
+          </choice>
+          <choice location="random" name="foil5" correct="false">
+                  \( - m g d \cos \left( \theta \right)\)
+          </choice>
+          <choice location="random" name="foil6" correct="false">
+
+zero
+          </choice>
+        </choicegroup>
+      </multiplechoiceresponse>
+    </part>
+    <br/>
+    
+      <p>
+Part 4. 
+The work done by the normal force is:
+</p>
+    
+    <part loncapaid="20">
+      <br/>
+      <multiplechoiceresponse max="10" direction="vertical" randomize="yes" loncapaid="15" type="MultipleChoice">
+        <choicegroup type="MultipleChoice">
+          <choice location="random" name="foil1" correct="false">
+                  \( mgd\cos \left( \theta \right)\)
+          </choice>
+          <choice location="random" name="foil2" correct="false">
+                  \( mgd\sin \left( \theta \right)\)
+          </choice>
+          <choice location="random" name="foil3" correct="false">
+                  \(-mgd\)
+          </choice>
+          <choice location="random" name="foil4" correct="false">
+                  \( -mgd\cos \left( \theta \right)\)
+          </choice>
+          <choice location="random" name="foil5" correct="false">
+                  \( - m g d \sin \left( \theta \right)\)
+          </choice>
+          <choice location="random" name="foil6" correct="true">
+
+zero
+          </choice>
+        </choicegroup>
+      </multiplechoiceresponse>
+    </part>
+    <br/>
+          </problem>
+</html>

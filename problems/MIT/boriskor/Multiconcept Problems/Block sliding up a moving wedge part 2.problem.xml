@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<html>
+<problem>
+
+
+<script type="loncapa/python">
+from __future__ import division
+from loncapa import *
+
+v="sqrt(4*g*h/3)"
+    
+</script>
+
+<p>Now solve the problem: What is the speed of the wedge <i>at the moment the block leaves it</i>? </p>
+<p>\(v =\)</p>
+<formularesponse answer="$v" samples="g,h@4,5:10,12#2" loncapaid="14">
+	<responseparam default="0.01" type="tolerance" name="tol" description="Numerical Tolerance"/>
+	<textline readonly="no" size="25" dojs="math"/>
+</formularesponse>
+
+</problem>
+</html>

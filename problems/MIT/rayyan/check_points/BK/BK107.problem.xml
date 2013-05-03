@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <title> CheckPoint: Angular Momentum of a disk </title>
+    <script type="loncapa/python">
+from __future__ import division
+from loncapa import *
+
+#Enter the computations here
+a=lc_random(1,3,1)
+b=lc_random(1,3,1)
+c=lc_random(1,3,1)
+m=lc_choose(a,2.0,5.0,8.0)
+r=lc_choose(b,0.25,0.45,0.60)
+t=lc_choose(c,0.8,1.2,4.2)
+
+A=2* r
+
+C=2* r* t
+
+D=4* t/( m* r)
+
+</script>
+    
+      <p>A solid disc of mass m = $m kg and radius r = $r m is spinning clockwise about the axis passing through the center of the disc. At t = 0, three forces are applied to the disc as shown.</p>
+    
+    <img src="/static/problems/MIT/rayyan/check_points/Pictures/BK107.PNG" alt="BK107" encrypturl="no"/>
+    <part loncapaid="11">
+      <p>
+</p><br/>
+Part 1. 
+What is the magnitude of the net torque acting on the disc?
+<br/>
+\(\tau \)  [N.m] =
+
+      <numericalresponse answer="$A" unit="N*m" loncapaid="12">
+        <responseparam default="5%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <textline readonly="no" dojs="math"/>
+      </numericalresponse>
+    </part>
+    <part loncapaid="13">
+      
+        <p>
+Part 2. 
+Immediately after the three forces are applied, is the angular momentum of the disc increasing, decreasing or staying the same?
+</p>
+      
+      <br/>
+      <multiplechoiceresponse max="10" direction="vertical" randomize="yes" loncapaid="14" type="MultipleChoice">
+        <choicegroup type="MultipleChoice">
+          <choice location="random" name="foil1" correct="true">
+
+                increasing 
+            
+          </choice>
+          <choice location="random" name="foil2" correct="false">
+
+                decreasing
+            
+          </choice>
+          <choice location="random" name="foil3" correct="false">
+
+                same
+            
+          </choice>
+        </choicegroup>
+      </multiplechoiceresponse>
+    </part>
+    <part loncapaid="15">
+      <p>
+Part 3. 
+Assuming that the net torque stays constant, what is the change in the angular momentum of the disc between t = 0 and t = $t s?
+</p><br/>
+&#x394;\(L\)  [N.m.s<sup>-1</sup>] = 
+      <numericalresponse answer="$C" unit="kg*m^2/s" loncapaid="16">
+        <responseparam default="5%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <textline readonly="no" dojs="math"/>
+      </numericalresponse>
+    </part>
+    <part loncapaid="17">
+      <p>
+Part 4. 
+What is the change of the angular speed between t = 0 and the moment described in Part 3?
+</p><br/>
+&#x394;&#x3C9; [s<sup>-1</sup>] =
+
+      <numericalresponse answer="$D" unit="rad/s" loncapaid="18">
+        <responseparam default="5%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <textline readonly="no" dojs="math"/>
+      </numericalresponse>
+    </part>
+      </problem>
+</html>

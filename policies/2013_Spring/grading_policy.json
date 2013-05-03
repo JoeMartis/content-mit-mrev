@@ -1,0 +1,52 @@
+{
+  "GRADER" : [
+    {
+      "type" : "Homework1",
+      "min_count" : 14,
+      "drop_count" : 0,
+      "short_label" : "HW1",
+      "weight" : 1,
+      "score_by_attempt": "false"
+
+    },
+    {
+      "type" : "Homework2",
+      "min_count" : 14,
+      "drop_count" : 0,
+      "short_label" : "HW2",
+      "weight" : 1,
+      "score_by_attempt": "false"
+
+    },
+    {
+      "type" : "Homework3",
+      "min_count" : 14,
+      "drop_count" : 0,
+      "short_label" : "HW3",
+      "weight" : 1,
+      "score_by_attempt": "false"
+
+    },
+	{
+      "type" : "Checkpoint",
+      "min_count" : 59,
+      "drop_count" : 6,
+      "short_label" : "Chk",
+      "weight" : 3,
+      "score_by_attempt": "true"
+    }
+  ],
+  "GRADE_CUTOFFS" : {
+    "A" : 0.9,
+    "B+" : 0.85,
+    "B" : 0.8,
+    "B-" : 0.75,
+    "C+" : 0.7,
+    "C" : 0.65,
+    "C-" : 0.6,
+    "D+" : 0.55,
+    "D" : 0.5,
+    "D-" : 0.45,
+    "F" : 0.4
+  }
+}

@@ -1,0 +1,136 @@
+<html>
+<head>
+<title>Force and Potential Energy</title>
+<script type="text/javascript"> 
+function toggleDisplay( id, hidetext, showtext )
+{
+  link = document.getElementById( id + "l" ).childNodes[0];
+ 
+  with( document.getElementById( id ).style )
+    {
+      if( display == "none" )
+	{
+	  display = "inline";
+	  link.nodeValue = hidetext;
+	}
+      else
+	{
+	  display = "none";
+	  link.nodeValue = showtext;
+	}
+    }
+}
+</script>
+<style type="text/css">
+.collapseButton {
+float:right;
+font-weight:400;
+text-align:right;
+width:auto;
+}
+
+.wikitable th,.prettytable th {
+background:#f2f2f2;
+text-align:left;
+font-weight:400;
+}
+
+table.subtable {
+background:#fff;
+border:1px #aaa solid;
+border-collapse:collapse;
+margin:1em 1em 1em 0;
+font-size:10pt;
+}
+
+.subtable th {
+color:#555;
+background:#fff;
+text-align:left;
+font-weight:700;
+}
+
+.subsubtable th {
+background:#f2f2f2;
+color:#000;
+text-align:left;
+font-weight:700;
+}
+
+img.tex.inlinemath {
+height:1.1em;
+vertical-align:0;
+}
+
+img.tex.inlinesub {
+height:1.4em;
+vertical-align:-3px;
+}
+
+table.wikitable,table.prettytable,.subsubtable {
+background:#f9f9f9;
+border:1px #aaa solid;
+border-collapse:collapse;
+margin:1em 1em 1em 0;
+font-size:10pt;
+}
+
+.wikitable th,.wikitable td,.prettytable th,.prettytable td,.subtable th,.subtable td,.subsubtable th,.subsubtable td {
+border:1px #aaa solid;
+padding:.2em;
+}
+
+.wikitable caption,.prettytable caption,.subtable caption,.subsubtable caption {
+font-weight:700;
+}
+</style>
+</head>
+<body>
+<h2>Force and Potential Energy</h2>
+<h3> Potential Energy from Force: definition</h3>
+<p>For a conservative force, we define the potential energy as:
+\(U(x) = - \int_{x_{ref}}^{x} F(x')\; dx'\)
+</p><p>The choice of reference point does not matter because when observable quantities are calculated using the potential energy, it is only the difference between the potential at two different points (e.g. initial and final as in the equation above) that has observable effects. Another view of the zero point is that the potential at a particular point is defined as an indefinite integral whose upper limit is that point. Since integration is uncertain by an additive constant, and the reference point basically determines that constant.
+</p><p>In this course, we will mostly deal with the following conservative forces. It is helpful to do the integrals in advance and have the form of the potential energy ready to use in problems. The following table is a summary of these forces and their potential energies:
+</p>
+<table class="wikitable">
+<tr>
+<th> <b>Interaction</b>
+</th>
+<th> <b>Force</b>
+</th>
+<th> <b>Potential Energy</b>
+</th></tr>
+<tr>
+<th> Gravitational, near earth
+</th>
+<td> \( \displaystyle F= mg \)
+</td>
+<td> \( \displaystyle U(h)= mgh \) where h is the height
+</td></tr>
+<tr>
+<th> Gravitational, Universal
+</th>
+<td> \( F= \displaystyle -\frac{G m_1 m_2}{r^2} \)
+</td>
+<td> \( U(r)= \displaystyle -\frac{G m_1 m_2}{r} \) Where r is the distant between two objects
+</td></tr>
+<tr>
+<th> Spring
+</th>
+<td>\( \displaystyle F= -kx \)
+</td>
+<td>\( \displaystyle U(x)= \frac{1}{2}kx^2 \) where x is the distance from the equilibrium point of the spring
+</td></tr></table>
+<h3> Force from Potential Energy</h3>
+<p>What if you know the potential energy, but not the force in terms of which it was derived?  Given that the potential energy is negative the integral of the force, it should be clear that 
+</p><p>\[F(x) = -\frac{dU}{dx}\]
+</p><p>i.e. the force is the negative of the derivative of the potential energy with respect to position.  This means that if the potential decreases with increasing x, then the force is in the positive x direction.  This makes sense: as the particle moves to the right, its potential energy will decrease - therefore, if energy is conserved, it's kinetic energy will increase which can only happen if the force is in the direction of motion.
+</p><p>If you think of a graph of the potential energy (note elastic potential energy below) vs. position as the height above ground of a frictionless track (e.g. of a roller coaster), then it's clear that an upward sloping track will push the particle to the left (due to the normal force).
+</p><p><br/>
+<img src="/static/problems/MIT/RELATE/htmlwiki/Unit8/Module7/files/ElasPot.png"/>
+</p><p>A particle to the right of the origin feels a force back toward the origin - i.e. a restoring force proportional to the negative of the displacement.
+</p>
+</body>
+</html>
+

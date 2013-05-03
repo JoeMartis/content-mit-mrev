@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <img src="/static/problems/MIT/boriskor/BKimages/prob75_fricpullplane.gif" alt="Two blocks with a pulley and an incline" encrypturl="no"/>
+    <script type="loncapa/python">
+from __future__ import division
+from loncapa import *
+
+M2min="M1*sin(theta)- mus*M1*cos(theta)"
+M2max="M1*sin(theta)+ mus*M1*cos(theta)"
+    
+</script>
+    
+      <p><br/>
+In the diagram, \(M_1\) and \(\theta\) are given. The coefficient of static friction between \(M_1\) and the incline is \(\mu_s\). 
+<br/>You can type \(M_1\), \(\theta\), and \(\mu_s\) as M1, theta, and mus respectively.
+<br/>
+
+Find the minimum value of \(M_2\) that would keep the system in equilibrium.
+ </p>
+    
+    <br/>
+    <part loncapaid="11">
+      
+        <p>
+          \(M_{2min}=\)
+        </p>
+      
+      <formularesponse answer="$M2min" samples="M1,theta,mus@4,5,2:10,60,4#2" loncapaid="14">
+        <responseparam default="1%" type="tolerance" name="tol" description="Numerical Tolerance">
+</responseparam>
+        <textline readonly="no" size="25" dojs="math">
+</textline>
+      </formularesponse>
+    </part>
+    <br/>
+    <hr/>
+    <part loncapaid="13">
+      
+        <p>Find the maximum value of \(M_2\) that would keep the system in equilibrium.
+
+<br/>
+\(M_{2max}=\)
+</p>
+      
+      <formularesponse answer="$M2max" samples="M1,theta,mus@4,5,2:10,60,4#2" loncapaid="15">
+        <responseparam default="1%" type="tolerance" name="tol" description="Numerical Tolerance">
+</responseparam>
+        <textline readonly="no" size="25" dojs="math">
+</textline>
+      </formularesponse>
+    </part>
+    
+  </problem>
+</html>

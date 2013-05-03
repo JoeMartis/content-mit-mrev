@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <parameter default="2" description="Maximum Number of Tries" type="int_pos" name="maxtries" loncapaid="11"/>
+    
+      <p>
+A student is standing on a bathroom scale inside an elevator. The elevator is moving. The magnitude of the normal force acting on the student is 500 N. The reading of the scale must then be: 
+</p>
+    
+    <br/>
+    <multiplechoiceresponse max="10" randomize="no" loncapaid="12" type="MultipleChoice">
+      <choicegroup type="MultipleChoice">
+        <choice location="random" name="foil1" correct="true">
+
+              exactly 500 N          
+        </choice>
+        <choice location="random" name="foil2" correct="false">
+
+              less than 500 N          
+        </choice>
+        <choice location="random" name="foil3" correct="false">
+
+              greater than 500 N          
+        </choice>
+        <choice location="random" name="foil4" correct="false">
+
+              either less or greater than 500 N, depending on the direction of the elevator's <i>velocity</i>          
+        </choice>
+        <choice location="random" name="foil5" correct="false">
+
+              either less or greater than 500 N, depending on the direction of the elevator's <i>acceleration</i>          
+        </choice>
+      </choicegroup>
+    </multiplechoiceresponse>
+  </problem>
+</html>

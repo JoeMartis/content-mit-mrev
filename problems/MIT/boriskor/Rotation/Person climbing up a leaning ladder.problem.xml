@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <img src="/static/problems/MIT/boriskor/BKimages/ladder_corner.jpg" alt="Ladder leaning against the corner" encrypturl="no"/>
+    <script type="loncapa/python">
+from __future__ import division
+from loncapa import *
+
+x="2*mu*L/(tan(theta))-0.5*L"
+    
+</script>
+    
+      <p><br/>
+A uniform ladder of mass \(m\) and length \(L\) rests against the wall as shown.  The wall is frictionless. The coefficient of static friction between the floor and the ladder is \(\mu\). The ladder makes the angle \(\theta\) with the wall. How far along the ladder can a person of mass \(m\) climb before the ladder begins to slide?
+
+<br/>
+\(x=\)
+</p>
+    
+    <formularesponse answer="$x" samples="mu,theta,L,m,g@4,30,5,1,1:10,70,10,20,20#3" loncapaid="11">
+      <responseparam default="1%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+      <textline readonly="no" size="25" dojs="math"/>
+    </formularesponse>
+      </problem>
+</html>

@@ -1,0 +1,130 @@
+<html>
+<head>
+<title>Acceleration vs. Deceleration</title>
+<script type="text/javascript"> 
+function toggleDisplay( id, hidetext, showtext )
+{
+  link = document.getElementById( id + "l" ).childNodes[0];
+ 
+  with( document.getElementById( id ).style )
+    {
+      if( display == "none" )
+	{
+	  display = "inline";
+	  link.nodeValue = hidetext;
+	}
+      else
+	{
+	  display = "none";
+	  link.nodeValue = showtext;
+	}
+    }
+}
+</script>
+<style type="text/css">
+.collapseButton {
+float:right;
+font-weight:400;
+text-align:right;
+width:auto;
+}
+
+.wikitable th,.prettytable th {
+background:#f2f2f2;
+text-align:left;
+font-weight:400;
+}
+
+table.subtable {
+background:#fff;
+border:1px #aaa solid;
+border-collapse:collapse;
+margin:1em 1em 1em 0;
+}
+
+.subtable th {
+color:#555;
+background:#fff;
+text-align:left;
+font-weight:700;
+}
+
+.subsubtable th {
+background:#f2f2f2;
+color:#000;
+text-align:left;
+font-weight:700;
+}
+
+img.tex.inlinemath {
+height:1.1em;
+vertical-align:0;
+}
+
+img.tex.inlinesub {
+height:1.4em;
+vertical-align:-3px;
+}
+
+table.wikitable,table.prettytable,.subsubtable {
+background:#f9f9f9;
+border:1px #aaa solid;
+border-collapse:collapse;
+margin:1em 1em 1em 0;
+font-size:10pt;
+}
+
+.wikitable th,.wikitable td,.prettytable th,.prettytable td,.subtable th,.subtable td,.subsubtable th,.subsubtable td {
+border:1px #aaa solid;
+padding:.2em;
+}
+
+.wikitable caption,.prettytable caption,.subtable caption,.subsubtable caption {
+font-weight:700;
+}
+</style>
+</head>
+<body>
+<h3> Acceleration vs. Deceleration</h3>
+<p>It is important to discuss one problem with the specialized vocabulary of physics. So far, we have introduced three different aspects of motion. Each one can be discussed in terms of a vector concept (magnitude and direction) or in terms of a scalar concept (magnitude only). For instance, we discussed displacement, a vector, and distance, a scalar. For motion in one direction, distance is the magnitude of displacement. We discussed velocity, a vector, and speed, a scalar. If we are considering instantaneous velocity, then speed is the magnitude of velocity. Our last quantity, acceleration, can also be discussed in terms of a vector acceleration or simply the magnitude, but for acceleration we have no special term for the magnitude. The vector is called "the acceleration" and the magnitude is "the magnitude of the acceleration". This can result in confusion.
+</p><p>This problem is exacerbated by the fact that in everyday language, we often use the terms distance, speed and acceleration. The everyday definitions of distance and speed are basically equivalent to their physics definitions, since we rarely consider direction of travel in everyday speech and these quantities are scalars in physics (no direction). Unfortunately, in physics, we usually use the term "acceleration" to refer to a vector, while in everyday speech it denotes a magnitude.
+</p><p>The difficulties do not end there. Everyday usage does make one concession to the vector nature of motion. When we talk about acceleration in everyday speech, we usually specify whether the object is "accelerating" (speeding up) or "decelerating" (slowing down). Both terms imply a change in velocity, and so in physics we can call either case "accelerating". In physics, the difference between accelerating and decelerating is determined by the relative directions of the velocity and the acceleration.  
+</p>
+<table class="wikitable">
+<tr>
+<th> <b>Everyday Term</b>
+</th>
+<th align="center"> <b>Physics Equivalent</b>
+</th></tr>
+<tr>
+<td> acceleration </td>
+<td> acceleration and velocity point in the same direction
+</td></tr>
+<tr>
+<td> deceleration </td>
+<td> acceleration and velocity point in opposite directions
+</td></tr></table>
+<p>The difference between acceleration and deceleration can also be illustrated graphically.
+</p>
+<table class="wikitable">
+<tr>
+<td> <img src="/static/problems/MIT/RELATE/htmlwiki/Unit4/Module4/files/Pos1.gif"/> </td>
+<td> <img src="/static/problems/MIT/RELATE/htmlwiki/Unit4/Module4/files/Neg1.gif"/>
+</td></tr>
+<tr>
+<th> <b>positive acceleration<br/>positive velocity<br/>"accelerating"</b>
+</th>
+<th> <b>negative acceleration<br/>negative velocity<br/>"accelerating"</b>
+</th></tr>
+<tr>
+<td> <img src="/static/problems/MIT/RELATE/htmlwiki/Unit4/Module4/files/Neg2.gif"/> </td>
+<td> <img src="/static/problems/MIT/RELATE/htmlwiki/Unit4/Module4/files/Pos2.gif"/>
+</td></tr>
+<tr>
+<th> <b>negative acceleration<br/>positive velocity<br/>"decelerating"</b>
+</th>
+<th> <b>positive acceleration<br/>negative velocity<br/>"decelerating"</b>
+</th></tr></table>
+</body>
+</html>
+

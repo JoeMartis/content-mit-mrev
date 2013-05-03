@@ -1,0 +1,46 @@
+<chapter display_name="Describing Motion">
+	<sequential  display_name="Describing Motion" url_name="Describing_Motion">
+		<html display_name="Describing Motion" filename="problems/MIT/RELATE/htmlwiki/Unit4/Describing_Motion_1.html"/>
+	</sequential>
+	<sequential display_name="Position, Displacement, Distance, and Coordinate systems" url_name="Position_Displacement_Distance_and_Coordinate_systems">
+		<html display_name="Position, Displacement, Distance and Coordinate Systems" filename="problems/MIT/RELATE/htmlwiki/Unit4/Module1/Position__Displaceme.html"/>
+		<html display_name="Example: Late for Physics" filename="problems/MIT/RELATE/htmlwiki/Unit4/Module1/IE_Late_for_Physics.html"/>
+		<problem display_name="Checkpoint 1: An Ant's Displacement" filename="MIT/rayyan/osu/03_Vectors/moving/moving.problem" attempts="2"/>
+		<problem display_name="CheckPoint 2: 2 Coordinate Systems" filename="MIT/rayyan/check_points/BK/BK31B.problem" attempts="9"/>
+	</sequential>
+	<sequential display_name="Velocity, Speed and Models in Mechanics" url_name="Velocity_Speed_and_Models_in_Mechanics">
+		<html display_name="Velocity, Speed and Models in Mechanics" filename="problems/MIT/RELATE/htmlwiki/Unit4/Module2/Velocity__Speed_and.html"/>
+		<html display_name="Average Speed" filename="problems/MIT/RELATE/htmlwiki/Unit4/Module2/Averge_Speed.html"/>
+		<html display_name="Average Velocity and Average Speed" filename="problems/MIT/analiab/Videos/average_velocity_and_speed_.html"/>
+		<html display_name="Summary: Speed, Average Velocity, and Average Speed" filename="problems/MIT/RELATE/htmlwiki/Unit4/Module2/Terminology.html"/>
+		<html display_name="Example: Return to Campus" filename="problems/MIT/RELATE/htmlwiki/Unit4/Module2/IE_Return_to_Campus.html"/>
+		<html display_name="Instantaneous Velocity" filename="problems/MIT/RELATE/htmlwiki/Unit4/Module2/Instantaneous_Velocity.html"/>
+		<html display_name="Instantaneous Velocity and Instantaneous Speed" filename="problems/MIT/analiab/Videos/Instantaneous_velocity_and_speed.html"/>
+		<html display_name="Constant Velocity" filename="problems/MIT/analiab/Problems/ConstantVelocity.html"/>
+		<html display_name="Multi-Dimensional Velocity" filename="problems/MIT/RELATE/htmlwiki/Unit4/Module2/Multi_Dimensional_Velocity.html"/>
+	</sequential>
+	<sequential display_name="Velocity and Acceleration" url_name="Velocity_and_Acceleration">
+		<html display_name="Average and Instantaneous Acceleration" filename="problems/MIT/analiab/Videos/average_and_instantaneous_acceleration.html"/>
+		<html display_name="Velocity and Acceleration" filename="problems/MIT/RELATE/htmlwiki/Unit4/Module3/Velocity_and_Acceler_1.html"/>
+		<problem display_name="Video: the direction of the acceleration" filename="MIT/analiab/Problems/direction_of_the_acceleration.problem" attempts="3"/>
+		<problem display_name="CheckPoint 3: Equation of motion" filename="MIT/rayyan/check_points/BK/BK32.problem" attempts="13"/>
+		<problem display_name="CheckPoint 4: Equation of motion 2" filename="MIT/rayyan/check_points/BK/BK33.problem" attempts="8"/>
+		<html display_name="Video: 3D motion with non constant acceleration" filename="problems/MIT/analiab/Videos/example_3D_motion_non_constant_acceleration.html"/>
+	</sequential>
+	<sequential display_name="Graphing Motion, Acceleration vs. Deceleration" url_name="Graphing_Motion_Acceleration_vs._Deceleration">
+		<html display_name="Graphing Motion and Acceleration vs Deceleration" filename="problems/MIT/RELATE/htmlwiki/Unit4/Module4/Graphing_Motion_and.html"/>
+		<html display_name="Graphing Accelerated Motion" filename="problems/MIT/RELATE/htmlwiki/Unit4/Module4/Graphing_Acceleration.html"/>
+		<problem display_name="CheckPoint 5: Reading Graphs" filename="MIT/rayyan/check_points/BK/BK36.problem" attempts="16"/>
+		<problem display_name="CheckPoint 6: Reading Graphs 2" filename="MIT/rayyan/check_points/BK/BK37.problem" attempts="15"/>
+		<html display_name="Acceleration vs. Deceleration" filename="problems/MIT/RELATE/htmlwiki/Unit4/Module4/Deceleration.html"/>
+		<problem display_name="CheckPoint 7: Position versus Time" filename="MIT/RELATE/htmlwiki/Unit4/Module4/CP_Accel_Decel.problem" attempts="10"/>
+		<problem display_name="Checkpoint 8: Acceleration and Deceleration" filename="MIT/rayyan/osu/02_Motion Along a Straight Line/motion/motion_3.problem" attempts="2"/>
+		<problem display_name="Checkpoint 9: Graphing Velocity" filename="MIT/rayyan/osu/02_Motion Along a Straight Line/motion/motion_1.problem" attempts="2"/>
+		<problem display_name="Checkpoint 10: Graphing Acceleration" filename="MIT/rayyan/osu/02_Motion Along a Straight Line/motion/motion_2.problem" attempts="1"/>
+		<problem display_name="Checkpoint 11: Snapshots" filename="MIT/rayyan/osu/02_Motion Along a Straight Line/motion/motion.problem" attempts="1"/>
+		<html display_name="Simulation: The moving man" filename="problems/MIT/analiab/Videos/simulation_the_moving_man.html"/>
+		<problem display_name="Video: Given v vs. t obtain x(t)" filename="MIT/analiab/Problems/given_plot_of_v_obtain_x.problem" attempts="10"/>
+		<problem display_name="Video: Given v vs. t obtain a vs. t" filename="MIT/analiab/Problems/given_the_plot_of_v_obtain_the_plot_of_a_new.problem" attempts="10"/>
+		<problem display_name="Video: Given v vs. t obtain x vs. t" filename="MIT/analiab/Problems/given_the_plot_of_v_obtain_the_plot_of_x_new.problem" attempts="10"/>
+	</sequential>
+</chapter>

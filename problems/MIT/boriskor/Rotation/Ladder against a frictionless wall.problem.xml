@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <img src="/static/problems/MIT/boriskor/BKimages/ladder_corner.jpg" alt="Ladder leaning against the corner" encrypturl="no"/>
+    <script type="loncapa/python">
+from __future__ import division
+from loncapa import *
+
+theta="atan(2*mu)"
+    
+</script>
+    
+	<p>A uniform ladder rests against the wall as shown.  The wall is frictionless. The coefficient of static friction between the floor and the ladder is \(\mu\). What is the maximum value of \(\theta\) that the ladder can make with the wall without sliding?</p>
+	<p>Use <i> mu</i> for \(\mu\) in your answer. For inverse trigonometric functions use <i>asin( )</i> , <i>acos( )</i> or <i>atan( )</i>, these are the only 3 inverse trigonometric functions the problem will accept.</p>
+
+	<p>\(\theta=\)</p>
+    
+    <formularesponse answer="$theta" samples="mu@1:4#3" loncapaid="11">
+      <responseparam default="1%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+      <textline readonly="no" size="25" dojs="math"/>
+    </formularesponse>
+      </problem>
+</html>

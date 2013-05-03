@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <title> CheckPoint: Angular Collision </title>
+    <p>The diagram shows the side view of two uniform solid discs spinning in the same direction on a horizontal thin frictionless axle. The discs are made of the same material that has the same thickness. The disc on the right has twice the radius of the disc on the left. The angular speeds of the discs are 2&#x3C9; and &#x3C9;, respectively. 
+</p><br/>
+The discs are slowly brought in contact with each other. Due to the friction between the surfaces, the discs eventually begin to spin with the same angular speed. 
+<br/>
+    <img width="611" alt="BK109" encrypturl="no" src="/static/problems/MIT/rayyan/check_points/Pictures/BK109.PNG"/>
+    <parameter default="2" description="Maximum Number of Tries" type="int_pos" name="maxtries" loncapaid="11"/>
+    <br/>
+    
+      <p>
+Part A. 
+The best concept to apply in order to find the final angular speed of the discs is:
+</p>
+    
+    <part loncapaid="12">
+      <br/>
+      <multiplechoiceresponse max="10" direction="vertical" randomize="yes" loncapaid="13" type="MultipleChoice">
+        <choicegroup type="MultipleChoice">
+          <choice location="random" name="foil1" correct="true">
+
+                Conservation of angular momentum
+            
+          </choice>
+          <choice location="random" name="foil2" correct="false">
+
+                Newton's laws for rotational motion
+            
+          </choice>
+          <choice location="random" name="foil3" correct="false">
+
+                Conservation of momentum
+            
+          </choice>
+          <choice location="random" name="foil4" correct="false">
+
+Conservation of energy
+          </choice>
+          <choice location="random" name="foil5" correct="false">
+
+Rotational kinematics
+          </choice>
+        </choicegroup>
+      </multiplechoiceresponse>
+    </part>
+    <part loncapaid="14">
+      
+        <p>
+Part B. 
+If the rotational inertia of the smaller disc about the axis of rotation is I, then the 
+rotational inertia of the larger disc about its axis of rotation is:
+</p>
+      
+      <br/>
+      <multiplechoiceresponse max="10" direction="vertical" randomize="yes" loncapaid="15" type="MultipleChoice">
+        <choicegroup type="MultipleChoice">
+          <choice location="random" name="foil1" correct="false">
+
+                 2I 
+            
+          </choice>
+          <choice location="random" name="foil2" correct="false">
+
+                 4I
+            
+          </choice>
+          <choice location="random" name="foil3" correct="false">
+
+                 8I
+            
+          </choice>
+          <choice location="random" name="foil4" correct="true">
+
+                 16I
+            
+          </choice>
+          <choice location="random" name="foil5" correct="false">
+
+                 32I
+            
+          </choice>
+          <choice location="random" name="foil6" correct="false">
+
+64I
+          </choice>
+        </choicegroup>
+      </multiplechoiceresponse>
+    </part>
+    <part loncapaid="16">
+      
+        <p>
+Part C. 
+The magnitude of the final angular speed of the discs is:
+</p>
+      
+      <br/>
+      <multiplechoiceresponse max="10" direction="vertical" randomize="yes" loncapaid="17" type="MultipleChoice">
+        <choicegroup type="MultipleChoice">
+          <choice location="random" name="foil1" correct="true">
+			<p>18&#x3C9;/17 </p>
+          </choice>
+          <choice location="random" name="foil2" correct="false">
+			<p>20&#x3C9;/17</p>
+          </choice>
+          <choice location="random" name="foil3" correct="false">
+			<p>6&#x3C9;/5</p>
+          </choice>
+          <choice location="random" name="foil4" correct="false">
+			<p>8&#x3C9;/5</p>
+          </choice>
+          <choice location="random" name="foil5" correct="false">
+			<p>10&#x3C9;/9</p>
+          </choice>
+          <choice location="random" name="foil6" correct="false">
+			<p>4&#x3C9;/3</p>
+          </choice>
+        </choicegroup>
+      </multiplechoiceresponse>
+    </part>
+    <part loncapaid="18">
+      
+        <p>
+Part D. 
+Find the final angular speed of the discs if all initial conditions are the same &#x2013; except the discs spin in the opposite directions before they come in contact.
+</p>
+      
+      <br/>
+      <multiplechoiceresponse max="10" direction="vertical" randomize="yes" loncapaid="19" type="MultipleChoice">
+        <choicegroup type="MultipleChoice">
+          <choice location="random" name="foil1" correct="true">
+			<p>14&#x3C9;/17 </p>
+          </choice>
+          <choice location="random" name="foil2" correct="false">
+			<p>12&#x3C9;/17</p>
+          </choice>
+          <choice location="random" name="foil3" correct="false">
+			<p>2&#x3C9;/5</p>
+          </choice>
+          <choice location="random" name="foil4" correct="false">
+			<p>&#x3C9;/5</p>
+          </choice>
+          <choice location="random" name="foil5" correct="false">
+			<p>4&#x3C9;/9</p>
+          </choice>
+          <choice location="random" name="foil6" correct="false">
+			<p>2&#x3C9;/3</p>
+          </choice>
+        </choicegroup>
+      </multiplechoiceresponse>
+    </part>
+              </problem>
+</html>

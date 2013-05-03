@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <img src="/static/problems/MIT/boriskor/BKimages/prob75_fricpullplane.gif" alt="Two blocks with a pulley and an incline" encrypturl="no"/>
+    <script type="loncapa/python">
+from __future__ import division
+from loncapa import *
+
+M_2="M_1 *sin(theta)"
+    
+</script>
+    
+      <p><br/>
+In the diagram, \(M_1\) and \(\theta\) are given. The inclined plane is frictionless, and you can assume that the pulley is massless and rotates around a frictionless axel. Find the value of \(M_2\)  that would keep the system in equilibrium.
+<br/>
+Type  \(M_1\) and \(\theta\) as M_1 and theta respectively.
+<br/>
+\(M_2 =\)
+</p>
+    
+    <formularesponse answer="$M_2" samples="M_1,theta@4,5:10,60#2" loncapaid="11">
+      <responseparam default="1%" type="tolerance" name="tol" description="Numerical Tolerance">
+</responseparam>
+      <textline readonly="no" size="25" dojs="math">
+</textline>
+    </formularesponse>
+    
+  </problem>
+</html>

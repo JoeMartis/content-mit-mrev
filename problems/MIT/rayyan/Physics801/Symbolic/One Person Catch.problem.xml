@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <img width="600" height="300" encrypturl="no" src="/static/problems/MIT/rayyan/Physics801/Symbolic/figures/Acceleration_catchingball.png"/>
+    <br/>
+    <script type="loncapa/python">
+from __future__ import division
+from loncapa import *
+
+#Enter the computations here
+ans="g/tan(B)"
+</script>
+    
+      <p>
+Starting from rest, a child throws a ball of mass <i>m</i> with an initial speed <i>v</i> at <i>B</i> degrees above the horizontal. 
+The child then chases after the ball, accelerating at a constant acceleration <i>a</i>. If the child wants to catch the ball 
+at the same height it was thrown, what must be the child's acceleration <i>a</i>? 
+
+Use g for the gravitational constant.
+</p>
+    
+    <br/>
+    <formularesponse answer="$ans" samples="g,B,m@1,0.1,1:10,3,4#2" loncapaid="11">
+      <responseparam default="0.01" type="tolerance" name="tol" description="Numerical Tolerance"/>
+      <textline readonly="no" size="25" dojs="math"/>
+
+    </formularesponse>
+      </problem>
+</html>

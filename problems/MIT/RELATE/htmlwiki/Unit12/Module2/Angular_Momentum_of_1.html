@@ -1,0 +1,119 @@
+<html>
+<head>
+<title>Angular Momentum of Orbits</title>
+<script type="text/javascript"> 
+function toggleDisplay( id, hidetext, showtext )
+{
+  link = document.getElementById( id + "l" ).childNodes[0];
+ 
+  with( document.getElementById( id ).style )
+    {
+      if( display == "none" )
+	{
+	  display = "inline";
+	  link.nodeValue = hidetext;
+	}
+      else
+	{
+	  display = "none";
+	  link.nodeValue = showtext;
+	}
+    }
+}
+</script>
+<style type="text/css">
+.collapseButton {
+float:right;
+font-weight:400;
+text-align:right;
+width:auto;
+}
+
+.wikitable th,.prettytable th {
+background:#f2f2f2;
+text-align:left;
+font-weight:400;
+}
+
+table.subtable {
+background:#fff;
+border:1px #aaa solid;
+border-collapse:collapse;
+margin:1em 1em 1em 0;
+font-size:10pt;
+}
+
+.subtable th {
+color:#555;
+background:#fff;
+text-align:left;
+font-weight:700;
+}
+
+.subsubtable th {
+background:#f2f2f2;
+color:#000;
+text-align:left;
+font-weight:700;
+}
+
+img.tex.inlinemath {
+height:1.1em;
+vertical-align:0;
+}
+
+img.tex.inlinesub {
+height:1.4em;
+vertical-align:-3px;
+}
+
+table.wikitable,table.prettytable,.subsubtable {
+background:#f9f9f9;
+border:1px #aaa solid;
+border-collapse:collapse;
+margin:1em 1em 1em 0;
+font-size:10pt;
+}
+
+.wikitable th,.wikitable td,.prettytable th,.prettytable td,.subtable th,.subtable td,.subsubtable th,.subsubtable td {
+border:1px #aaa solid;
+padding:.2em;
+}
+
+.wikitable caption,.prettytable caption,.subtable caption,.subsubtable caption {
+font-weight:700;
+}
+</style>
+</head>
+<body>
+<h2>Angular Momentum of Orbits</h2>
+<h3> Learning Goals</h3>
+<ul style="list-style:disc outside none"><li>Explain why the angular momentum of an orbiting object about a central massive body is conserved.
+</li><li>Relate the speed at apoapsis to the speed at periapsis.
+</li></ul>
+<h3>Conservation of Angular Momentum about Central Body</h3>
+<p>The Keplerian Orbit Model automatically implies conservation of angular momentum about an axis passing through the infinitely massive object and perpendicular to the plane of the motion.  The only interaction in the system is the gravitational interaction between the infinitely massive object (henceforward "object <i>M</i>") and the point particle (henceforward "object <i>m</i>").  Clearly the gravitational force on <i>M</i> produces no torque because <i>M</i> is located at the chosen axis of rotation.  The gravitational force on <i>m</i> produces no torque because it is collinear with the position vector and therefore the cross product gives zero.
+</p>
+<h3> Form of the Angular Momentum</h3>
+<p>Since the mass <i>M</i> is fixed at the axis of rotation, the angular momentum of the system is due entirely to the motion of <i>m</i>, which is considered a point particle.  Thus, the angular momentum of the system is:
+</p><p>\( \vec{L} = \vec{r} \times (m\vec{v})\)
+</p><p>where <i>v</i> is the speed of <i>m</i>.  
+</p>
+<h3> Apoapsis and Periapsis</h3>
+<p>At the points of farthest distance and closest approach, the velocity \(\vec{v}\) is perpendicular to the position vector \(\vec{r}\), so the angular momentum takes the simpler form:
+</p><p>\(L_{\rm ex} = mv_{\rm ex}r_{\rm ex}\;\)
+</p><p>where the subscript "ex" denotes an extremum of the separation between <i>M</i> and <i>m</i> (apoapsis or periapsis).  Since <i>m</i> is constant, conservation of angular momentum in the orbit implies the relationship:
+</p><p>\(v_{\rm a}r_{\rm a} = v_{\rm p}r_{\rm p}\;\)
+</p><p>where "a" denotes apoapsis and "p" periapsis.  This relationship implies that the orbiting mass <i>m</i> is moving much slower at apoapsis than at periapsis.  
+</p><p><img width="700px" src="/static/problems/MIT/RELATE/htmlwiki/Unit12/Module2/files/OrbitL.png"/>
+</p>
+<h3> Corollary:  Kepler's Second Law</h3>
+<p>In the definition of the Keplerian Orbit Model, we presented Kepler's First and Third Laws of planetary motion.  We now add:
+</p><p><b>Kepler's Second Law:</b>  A line joining a planet and the Sun sweeps out equal areas during equal intervals of time.
+</p><p>In modern language, we might say that the derivative of this area is constant.  It can be shown mathematically that the rate of change of this area is equal to:
+</p><p>\( \frac{dA}{dt} = \vec{v}\times \vec{r}\)
+</p><p> The right hand side is constant by angular-momentum conservation, so Kepler's Second Law is equivalent to the statement that angular momentum is conserved for the orbit.
+</p>
+</body>
+</html>
+

@@ -1,0 +1,238 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <title> CheckPoint: Pendulum Period Comparisons </title>
+    
+      <br/>
+      <p>A rubber band can be cut into pieces of different lengths. A block of mass m, suspended on a single piece of such rubber band that has a length d, would have oscillations of period T. Now consider the following systems, built of different pieces of that rubber band and different blocks. The systems are marked A, B, C and D, as shown in the diagram.</p>
+      <p>Remember: "T" in this problem is the period of oscillations, not the tension.</p>
+    
+    <img width="500" alt="A set of masses hung by rubber bands" encrypturl="no" src="/static/problems/MIT/rayyan/check_points/Pictures/BK133.PNG"/>
+    <parameter default="2" description="Maximum Number of Tries" type="int_pos" name="maxtries" loncapaid="10"/>
+    <br/>
+    <part loncapaid="1">
+      <p>
+</p><br/>
+Part A. Find T<sub>A</sub>
+
+      <br/>
+      <multiplechoiceresponse max="10" direction="vertical" randomize="no" loncapaid="11" type="MultipleChoice">
+        <choicegroup type="MultipleChoice">
+          <choice name="foil1" correct="false">
+
+                T
+            
+          </choice>
+          <choice name="foil2" correct="false">
+
+                2T
+            
+          </choice>
+          <choice name="foil3" correct="false">
+
+                T/2
+            
+          </choice>
+          <choice name="foil4" correct="true">
+
+                T*sqrt(2)
+            
+          </choice>
+          <choice name="foil5" correct="false">
+
+                T / sqrt(2)
+            
+          </choice>
+          <choice name="foil6" correct="false">
+
+                T/4
+            
+          </choice>
+          <choice name="foil7" correct="false">
+
+                4T
+            
+          </choice>
+          <choice name="foil8" correct="false">
+
+                T*sqrt(8)
+            
+          </choice>
+          <choice name="foil9" correct="false">
+
+                T / sqrt(8)
+            
+          </choice>
+        </choicegroup>
+      </multiplechoiceresponse>
+    </part>
+    <part loncapaid="2">
+      <p>
+</p><br/>
+Part B. Find T<sub>B</sub>
+
+      <br/>
+      <multiplechoiceresponse max="10" direction="vertical" randomize="no" loncapaid="12" type="MultipleChoice">
+        <choicegroup type="MultipleChoice">
+          <choice name="foil1" correct="false">
+
+                T
+            
+          </choice>
+          <choice name="foil2" correct="false">
+
+                2T
+            
+          </choice>
+          <choice name="foil3" correct="true">
+
+                T/2
+            
+          </choice>
+          <choice name="foil4" correct="false">
+
+                T*sqrt(2)
+            
+          </choice>
+          <choice name="foil5" correct="false">
+
+                T / sqrt(2)
+            
+          </choice>
+          <choice name="foil6" correct="false">
+
+                T/4
+            
+          </choice>
+          <choice name="foil7" correct="false">
+
+                4T
+            
+          </choice>
+          <choice name="foil8" correct="false">
+
+                T*sqrt(8)
+            
+          </choice>
+          <choice name="foil9" correct="false">
+
+                T / sqrt(8)
+            
+          </choice>
+        </choicegroup>
+      </multiplechoiceresponse>
+    </part>
+    <part loncapaid="3">
+      <p>
+</p><br/>
+Part C. Find T<sub>C</sub>
+
+      <br/>
+      <multiplechoiceresponse max="10" direction="vertical" randomize="no" loncapaid="13" type="MultipleChoice">
+        <choicegroup type="MultipleChoice">
+          <choice name="foil1" correct="true">
+
+                T
+            
+          </choice>
+          <choice name="foil2" correct="false">
+
+                2T
+            
+          </choice>
+          <choice name="foil3" correct="false">
+
+                T/2
+            
+          </choice>
+          <choice name="foil4" correct="false">
+
+                T*sqrt(2)
+            
+          </choice>
+          <choice name="foil5" correct="false">
+
+                T / sqrt(2)
+            
+          </choice>
+          <choice name="foil6" correct="false">
+
+                T/4
+            
+          </choice>
+          <choice name="foil7" correct="false">
+
+                4T
+            
+          </choice>
+          <choice name="foil8" correct="false">
+
+                T*sqrt(8)
+            
+          </choice>
+          <choice name="foil9" correct="false">
+
+                T / sqrt(8)
+            
+          </choice>
+        </choicegroup>
+      </multiplechoiceresponse>
+    </part>
+    <part loncapaid="4">
+      <p>
+</p><br/>
+Part D. Find T<sub>D</sub>
+
+      <br/>
+      <multiplechoiceresponse max="10" direction="vertical" randomize="no" loncapaid="14" type="MultipleChoice">
+        <choicegroup type="MultipleChoice">
+          <choice name="foil1" correct="false">
+
+                T
+            
+          </choice>
+          <choice name="foil2" correct="false">
+
+                2T
+            
+          </choice>
+          <choice name="foil3" correct="false">
+
+                T/2
+            
+          </choice>
+          <choice name="foil4" correct="false">
+
+                T*sqrt(2)
+            
+          </choice>
+          <choice name="foil5" correct="false">
+
+                T / sqrt(2)
+            
+          </choice>
+          <choice name="foil6" correct="false">
+
+                T/4
+            
+          </choice>
+          <choice name="foil7" correct="false">
+
+                4T
+            
+          </choice>
+          <choice name="foil8" correct="true">
+
+                T*sqrt(8)
+            
+          </choice>
+          <choice name="foil9" correct="false">
+
+                T / sqrt(8)
+            
+          </choice>
+        </choicegroup>
+      </multiplechoiceresponse>
+    </part>
+      </problem>
+</html>

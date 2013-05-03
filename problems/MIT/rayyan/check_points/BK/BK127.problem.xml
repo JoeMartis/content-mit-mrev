@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <title>CheckPoint: Force and Simple Harmonic Motion</title>
+    <parameter default="2" description="Maximum Number of Tries" type="int_pos" name="maxtries" loncapaid="11"/>
+    <p>
+</p><br/> 
+Which of the following equations describes simple harmonic motion? <b>Check all that apply.</b>
+Note that F, x, v, and a stand for, respectively, force, position, velocity, and acceleration. 
+Symbol c is a positive constant.<br/>
+
+    <part loncapaid="20">
+      <optionresponse texlayout="horizontal" max="10" randomize="no" loncapaid="15">
+        <ul>
+          <li>
+            
+              <p>
+                \(F=-cv\)
+    </p>
+            
+            <optioninput name="Foil1" options="('True','False')" correct="False">
+</optioninput>
+          </li>
+          <li>
+            
+              <p>
+                \(F=-ca\)
+    </p>
+            
+            <optioninput name="Foil2" options="('True','False')" correct="False">
+</optioninput>
+          </li>
+          <li>
+            
+              <p>
+                \(F=-cx\)
+    </p>
+            
+            <optioninput name="Foil3" options="('True','False')" correct="True">
+</optioninput>
+          </li>
+          <li>
+            
+              <p>
+                \(F=+cx\)
+    </p>
+            
+            <optioninput name="Foil4" options="('True','False')" correct="False">
+</optioninput>
+          </li>
+          <li>
+            
+              <p>
+                \(F=+cv\)
+    </p>
+            
+            <optioninput name="Foil5" options="('True','False')" correct="False">
+</optioninput>
+          </li>
+          <li>
+            
+              <p>
+                \(F=+ca\)
+    </p>
+            
+            <optioninput name="Foil6" options="('True','False')" correct="False">
+</optioninput>
+          </li>
+          <li>
+            
+              <p>
+                \(F=-x/c\)
+    </p>
+            
+            <optioninput name="Foil7" options="('True','False')" correct="True">
+</optioninput>
+          </li>
+          <li>
+            
+              <p>
+                \(F=-x^2/c\)
+    </p>
+            
+            <optioninput name="Foil8" options="('True','False')" correct="False">
+</optioninput>
+          </li>
+          <li>
+            
+              <p>
+                \(F=-cv^2\)
+    </p>
+            
+            <optioninput name="Foil9" options="('True','False')" correct="False">
+</optioninput>
+          </li>
+        </ul>
+      </optionresponse>
+    </part>
+  </problem>
+</html>

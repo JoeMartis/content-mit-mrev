@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <title> CheckPoint: A varying force </title>
+    <script type="loncapa/python">
+from __future__ import division
+from loncapa import *
+
+a=lc_random(1,3,1)
+b=lc_random(1,3,1)
+c=lc_random(1,3,1)
+m=lc_choose(a,3,5,12)
+cofb=lc_choose(b,2,4,8)
+cofc=lc_choose(c,6,9,12)
+mv=(65* cofb/4)+(19* cofc/3)
+
+</script>
+    
+      <p>An object experiences a time-dependent force \( F(t) = \)$cofb  \( t^3 + \)$cofc  \( t^2 \)(all coefficients have appropriate SI units). What is the change in momentum \(\Delta p \) of the object between t = 2.0 s and t = 3.0 s?</p>
+
+      <p>\(\Delta p=\)</p>
+      
+      <numericalresponse answer="$mv" unit="kg*m/s" loncapaid="12">
+        <responseparam default="5%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <textline readonly="no" dojs="math"/>
+      </numericalresponse>
+  </problem>
+</html>

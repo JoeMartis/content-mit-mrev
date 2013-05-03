@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <script type="loncapa/python">
+from __future__ import division
+from loncapa import *
+
+x="m*g*sin(theta)"
+y="-m*g*cos(theta)"
+
+</script>
+    <img src="/static/problems/MIT/rayyan/Physics801/quizzes/figures/vector_componenets.png" alt="vector componenets" encrypturl="no"/>
+    <p>
+Express the vector of the gravitational force \(m \vec{g}\) in components using the given coordinate system in the figure. Use the format \(m \vec{g} = (x,y)\), and use "theta" to input \(\theta\) in your answer.</p>
+
+<p>\(m \vec{g} = (\)</p>
+
+    <formularesponse answer="$x" samples="m,g,theta@-3,-3,-3:3,3,3#4" loncapaid="15">
+      <responseparam default="0.00001" type="tolerance" name="tol" description="Numerical Tolerance"/>
+      <textline readonly="no" size="25" dojs="math"/>
+    </formularesponse>
+    
+      <p>
+        \(,\)
+      </p>
+    
+    <formularesponse answer="$y" samples="m,g,theta@-3,-3,-3:3,3,3#4" loncapaid="14">
+      <textline readonly="no" size="25" dojs="math"/>
+    </formularesponse>
+    
+      <p>
+        \()\)
+      </p>
+    
+          </problem>
+</html>

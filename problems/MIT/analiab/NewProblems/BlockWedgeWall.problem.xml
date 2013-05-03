@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <img src="/static/problems/MIT/analiab/NewProblems/files/BlockWedgeWall.fw.png"  encrypturl="no"/>
+    <script type="loncapa/python">
+from __future__ import division
+from loncapa import *
+
+Fnet="m*g*sin(theta)"
+Fww="m*g*sin(theta)*cos(theta)"
+    
+</script>
+    
+      <p><br/>
+      
+ A wedge with an inclination of angle \(\theta\) rests next to a wall. A box of mass \(m\) is sliding down
+the incline surface, as shown. There is no friction between the wedge and the box, between the wedge and the 
+horizontal surface or the wedge and the wall. You can type \(\theta\) as theta and g for the acceleration due to gravity.
+<br/>
+
+<b>Part a.</b> Find the magnitude, F<sub>net</sub>, of the sum of all forces acting on the box.
+ </p>
+    
+    <br/>
+    <part loncapaid="11">
+      
+        <p>
+          \(F_{net}=\)
+        </p>
+      
+      <formularesponse answer="$Fnet" samples="m,theta,g@4,0,6:10,60,12#2" loncapaid="14">
+        <responseparam default="1%" type="tolerance" name="tol" description="Numerical Tolerance">
+</responseparam>
+        <textline readonly="no" size="25" dojs="math">
+</textline>
+      </formularesponse>
+    </part>
+       <br/>
+    <hr/>
+
+    <part loncapaid="13">
+    <b>Part b.</b>The force exerted on the wedge by the box is directed:
+    
+     <multiplechoiceresponse max="10" randomize="no" loncapaid="14" type="MultipleChoice">
+        <choicegroup type="MultipleChoice">
+          <choice name="foil1" correct="true">
+
+              perpendicular to the incline surface          
+        </choice>
+ <choice name="foil2" correct="false">
+
+              perpendicular to the wall          
+        </choice>
+<choice name="foil3" correct="false">
+
+              parallel to the wall          
+        </choice>            
+           
+         </choicegroup>
+    </multiplechoiceresponse>
+        </part>
+  <hr/>  
+    <part loncapaid="15">
+        <p>
+       <b>Part c.</b> Find the magnitude, F<sub>ww</sub>, of the force that the wall exerts on the wedge.
+</p>
+<p>
+\(F_{ww}=\)
+</p>
+
+      <formularesponse answer="$Fww" samples="m,theta,g@4,0,6:10,60,12#2" loncapaid="15">
+        <responseparam default="1%" type="tolerance" name="tol" description="Numerical Tolerance">
+</responseparam>
+        <textline readonly="no" size="25" dojs="math">
+</textline>
+      </formularesponse>
+    </part>
+
+  </problem>
+</html>

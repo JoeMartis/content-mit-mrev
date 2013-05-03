@@ -1,0 +1,211 @@
+{
+    "course/2013_IAP": {
+        "graceperiod": "1 day 5 hours 59 minutes 59 seconds",
+        "start": "2013-01-05T14:15",
+        "due": "2013-02-02T23:59",
+        "showanswer": "closed",
+        "attempts": 9,
+        "graded": "true",
+        "format": "Checkpoint",
+        "rerandomize": "per_student",
+
+        "display_name": "Mechanics Review Online",
+        "show_calculator": "Yes",
+
+        "giturl" : "https://github.com/mitocw",
+        "tabs": [ {"type": "courseware"},
+                  {"name": "Course Info", "type": "course_info"},
+                  {"name": "Discussion", "type": "discussion"},
+                  {"name": "Progress", "type": "progress"}
+                ],
+        "discussion_topics": {
+            "General": {
+                "sort_key": "A",
+                "id": "801reV_IAP2013_General"
+            },
+            "Feedback": {
+                "sort_key": "AA",
+                "id": "801reV_IAP2013_Feedback"
+            },
+            "Troubleshooting": {
+                "sort_key": "AB",
+                "id": "801reV_IAP2013_Troubleshooting"
+            }
+        }
+    },
+
+    "chapter/Testing": {
+    	"start": "2014-01-30T23:59",
+    	"due": "2015-01-30T23:59",
+    	"format": "Homework"
+    },
+
+    "chapter/Solutions": {
+    	"start": "2014-01-30T23:59",
+    	"due": "2015-01-30T23:59",
+    	"format": "Homework"
+    },
+
+    "chapter/MRI": {
+    	"format": "Homework"
+    },
+
+    "chapter/Pset1": {
+    	"start": "2014-01-30T23:59",
+    	"due": "2015-01-30T23:59",
+    	"format": "Homework",
+        "graded": "false"
+    },
+    "chapter/Pset2": {
+    	"start": "2014-01-30T23:59",
+    	"due": "2015-01-30T23:59",
+    	"format": "Homework",
+        "graded": "false"
+    },
+    "chapter/Pset3": {
+    	"start": "2014-01-30T23:59",
+    	"due": "2015-01-30T23:59",
+    	"format": "Homework",
+        "graded": "false"
+    },
+    "chapter/Pset4": {
+    	"start": "2014-01-30T23:59",
+    	"due": "2015-01-30T23:59",
+   	"format": "Homework",
+        "graded": "false"
+    },
+    "chapter/Pset5": {
+    	"start": "2014-01-30T23:59",
+    	"due": "2015-01-30T23:59",
+    	"format": "Homework",
+        "graded": "false"
+    },
+    "chapter/Pset9": {
+    	"start": "2014-01-30T23:59",
+    	"due": "2015-01-30T23:59",
+    	"format": "Homework",
+        "graded": "false"
+    },
+    "chapter/Pset10": {
+    	"start": "2014-01-30T23:59",
+    	"due": "2015-01-30T23:59",
+    	"format": "Homework",
+        "graded": "false"
+    },
+    "chapter/Pset11": {
+    	"start": "2014-01-30T23:59",
+    	"due": "2015-01-30T23:59",
+    	"format": "Homework",
+        "graded": "false"
+    },
+
+    "chapter/HWK_1": {
+    	"due": "2013-01-30T23:59",
+    	"format": "Homework"
+    },
+    "chapter/HWK_2": {
+    	"due": "2013-01-30T23:59",
+    	"format": "Homework"
+    },
+    "chapter/HWK_3": {
+    	"due": "2013-01-30T23:59",
+    	"format": "Homework"
+    },
+    "chapter/HWK_4": {
+    	"due": "2013-01-30T23:59",
+    	"format": "Homework"
+    },
+    "chapter/HWK_5": {
+    	"due": "2013-01-30T23:59",
+    	"format": "Homework"
+    },
+    "chapter/HWK_6": {
+    	"due": "2013-01-30T23:59",
+    	"format": "Homework"
+    },
+    "chapter/HWK_7": {
+    	"due": "2013-01-30T23:59",
+    	"format": "Homework"
+    },
+    "chapter/HWK_8": {
+    	"due": "2013-01-30T23:59",
+    	"format": "Homework"
+    },
+    "chapter/HWK_9": {
+    	"due": "2013-01-30T23:59",
+    	"format": "Homework"
+    },
+    "chapter/HWK_10": {
+    	"due": "2013-01-30T23:59",
+    	"format": "Homework"
+    },
+    "chapter/HWK_11": {
+    	"due": "2013-01-30T23:59",
+    	"format": "Homework"
+    },
+    "chapter/HWK_12": {
+    	"due": "2013-01-30T23:59",
+    	"format": "Homework"
+    },
+    "chapter/HWK_13": {
+    	"due": "2013-01-30T23:59",
+    	"format": "Homework"
+    },
+    "chapter/HWK_14": {
+    	"start": "2014-01-30T23:59",
+    	"due": "2015-01-30T23:59",
+    	"format": "Homework"
+    },
+    "chapter/Rev_Problems": {
+    	"due": "2013-01-30T23:59",
+    	"format": "Homework"
+    },
+
+    "chapter/Unit_1": {
+    	"due": "2013-01-16T13:00"
+    },
+    "chapter/Unit_2": {
+    	"due": "2013-01-16T13:00"
+    },
+    "chapter/Unit_3": {
+    	"due": "2013-01-16T13:00"
+    },
+    "chapter/Unit_4": {
+    	"due": "2013-01-18T13:00"
+    },
+    "chapter/Unit_5": {
+    	"due": "2013-01-18T13:00"
+    },
+    "chapter/Unit_6": {
+    	"due": "2013-01-18T13:00"
+    },
+    "chapter/Unit_7": {
+    	"due": "2013-01-22T13:00"
+    },
+    "chapter/Unit_8": {
+    	"due": "2013-01-22T13:00"
+    },
+    "chapter/Unit_9": {
+    	"due": "2013-01-25T13:00"
+    },
+    "chapter/Unit_10": {
+    	"due": "2013-01-25T13:00"
+    },
+    "chapter/Unit_11": {
+    	"due": "2013-01-25T13:00"
+    },
+    "chapter/Unit_12": {
+    	"due": "2013-01-30T13:00"
+    },
+    "chapter/Unit_13": {
+    	"due": "2013-01-30T13:00"
+    },
+    "chapter/Unit_14": {
+    	"start": "2014-01-30T23:59",
+    	"due": "2015-01-30T23:59"
+    },
+    "chapter/Rev_Examples": {
+    	"due": "2013-01-30T13:00"
+    }
+
+}

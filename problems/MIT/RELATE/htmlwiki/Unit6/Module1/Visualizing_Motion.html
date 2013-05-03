@@ -1,0 +1,107 @@
+<html>
+<head>
+<title>Visualizing 1-D Motion</title>
+<script type="text/javascript"> 
+function toggleDisplay( id, hidetext, showtext )
+{
+  link = document.getElementById( id + "l" ).childNodes[0];
+ 
+  with( document.getElementById( id ).style )
+    {
+      if( display == "none" )
+	{
+	  display = "inline";
+	  link.nodeValue = hidetext;
+	}
+      else
+	{
+	  display = "none";
+	  link.nodeValue = showtext;
+	}
+    }
+}
+</script> <style type="text/css">
+.collapseButton {
+float:right;
+font-weight:400;
+text-align:right;
+width:auto;
+}
+
+.wikitable th,.prettytable th {
+background:#f2f2f2;
+text-align:left;
+font-weight:400;
+}
+
+table.subtable {
+background:#fff;
+border:1px #aaa solid;
+border-collapse:collapse;
+margin:1em 1em 1em 0;
+}
+
+.subtable th {
+color:#555;
+background:#fff;
+text-align:left;
+font-weight:700;
+}
+
+.subsubtable th {
+background:#f2f2f2;
+color:#000;
+text-align:left;
+font-weight:700;
+}
+
+img.tex.inlinemath {
+height:1.1em;
+vertical-align:0;
+}
+
+img.tex.inlinesub {
+height:1.4em;
+vertical-align:-3px;
+}
+
+table.wikitable,table.prettytable,.subsubtable {
+background:#f9f9f9;
+border:1px #aaa solid;
+border-collapse:collapse;
+margin:1em 1em 1em 0;
+}
+
+.wikitable th,.wikitable td,.prettytable th,.prettytable td,.subtable th,.subtable td,.subsubtable th,.subsubtable td {
+border:1px #aaa solid;
+padding:.2em;
+}
+
+.wikitable caption,.prettytable caption,.subtable caption,.subsubtable caption {
+font-weight:700;
+}		</style>
+</head>
+<body>
+<h3>
+Visualizing Calculus of 1-dimensional Motion</h3>
+<p>
+			General one-dimensional motion is calculus, pure and simple. In fact, Newton invented calculus to deal with motion. While the brain can easiily perceive velocity it has trouble with acceleration (except in special cases such as projectile motion). The best way to visualize acceleration is to connect graphs of position, velocity, and acceleration together in your mind using the rules of calculus.</p>
+<p>
+			Acceleration is, by definition, the derivative of velocity. Derivative is the slope of the curve at a particular point, defined mathematically (and in physics) as the limit of the average velocity as the interval of the average decreases to zero.</p>
+<p>
+<img src="/static/problems/MIT/RELATE/htmlwiki/Unit6/Module1/files/Accelerationfromvelocity.png"/></p>
+<p>
+			If the acceleration is known, and you want to find the velocity, you have to do two things:</p>
+<ul style="list-style:disc outside none">
+<li>
+				Start with a known velocity, \(v_x(t=0)\), and</li>
+<li>
+				Integrate the acceleration from \(t=0\) to the time \(t\) at which you want to find the velocity:</li>
+</ul>
+<p>
+<img src="/static/problems/MIT/RELATE/htmlwiki/Unit6/Module1/files/Integralofacceleration.png"/></p>
+<p>
+			The graphical relationship between the position and velocity is exactly the same as the one shown here between velocity and acceleration. The only new feature here is that the acceleration is the second derivative of the position vs. time. This enables you to connect the acceleration directly to the curvature of the position vs. acceleration curve.</p>
+</body>
+</html>
+

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <img src="/static/problems/MIT/rayyan/osu/images/satellite_energy.png" alt="satellite_energy" encrypturl="no" height="250"/>
+    
+      <p><br/>
+Which satellite orbits with a longer period, T, around earth?  Assume that the orbits are circular and both satellites have the same mass.
+</p>
+    
+    <br/>
+    <multiplechoiceresponse max="10" direction="vertical" randomize="no" loncapaid="11" type="MultipleChoice">
+      <choicegroup type="MultipleChoice">
+        <choice name="foil1" correct="false">
+			<p>\(T_A &lt; T_B\)</p>
+        </choice>
+        <choice name="foil2" correct="true">
+			<p>\(T_A &gt; T_B\)</p>
+        </choice>
+        <choice name="foil3" correct="false">
+
+                \(T_A = T_B\)
+          
+        </choice>
+        <choice name="foil4" correct="false">
+
+              Cannot be calculated          
+        </choice>
+      </choicegroup>
+    </multiplechoiceresponse>
+      </problem>
+</html>

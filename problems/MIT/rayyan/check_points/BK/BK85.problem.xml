@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <title> CheckPoint: Balance </title>
+    <script type="loncapa/python">
+from __future__ import division
+from loncapa import *
+
+a=lc_random(1,3,1)
+b=lc_random(1,3,1)
+c=lc_random(1,3,1)
+d=lc_random(1,3,1)
+e=lc_random(1,3,1)
+m=lc_choose(a,30,40,60)
+r=lc_choose(b,0.15,0.20,0.24)
+M=lc_choose(c,180,220,260)
+
+fa=( M*9.8-2* m*9.8)/3
+fb=(2* M*9.8+5* m*9.8)/3
+m2=0.5* M
+
+</script>
+    
+      <p>
+A horizontal uniform bar of mass $M kg and length L = 3.0 m is placed on two supports, labeled A and B, located as shown in the 
+diagram. A block of mass $m kg is placed on the right end of the bar. 
+</p>
+    
+    <img src="/static/problems/MIT/rayyan/check_points/Pictures/BK85.png" alt="BK85" encrypturl="no"/>
+    <part loncapaid="11">
+      <p>
+</p><br/>
+Part 1. 
+Find the normal forces \(F_A \) and \(F_B\) exerted on the bar by the supports. Enter your answer in Newtons (N). Use g = 9.8 m/s2.
+
+<br/>
+\(F_A =\)
+
+      <numericalresponse answer="$fa" unit="N" loncapaid="12"> 
+        <responseparam default="5%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <textline readonly="no" dojs="math"/>
+      </numericalresponse>
+      
+        <p>
+</p>
+        <br/>
+        \(F_B =\)
+      
+      <numericalresponse answer="$fb" unit="N" loncapaid="14">
+        <responseparam default="5%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <textline readonly="no" dojs="math"/>
+      </numericalresponse>
+    </part>
+    <part loncapaid="15">
+      
+        <p>
+Part 2. 
+What is the minimum mass m that would cause the bar to tip over? Enter your answer in kg.
+
+</p>
+        <br/>
+        \(m=\)
+      
+      <numericalresponse answer="$m2" unit="kg" loncapaid="16">
+        <responseparam default="5%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <textline readonly="no" dojs="math"/>
+      </numericalresponse>
+    </part>
+      </problem>
+</html>

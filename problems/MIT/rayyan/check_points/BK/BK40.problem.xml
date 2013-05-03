@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <title> CheckPoint: Projectile on a distant planet 2 </title>
+    <script type="loncapa/python">
+from __future__ import division
+from loncapa import *
+
+#Enter the computations here
+a=lc_random(1,4,1)
+b=lc_random(1,4,1)
+c=lc_random(1,3,1)
+theta=lc_choose(a,20,40,60,80)
+thetar=lc_choose(a,20,40,60,80)*deg2rad
+vi=lc_choose(b,18, 32, 45, 76)
+g=lc_choose(c,10,15,30)
+v= vi/math.cos( thetar)
+t= vi*math.tan( thetar)/ g
+h=( vi*math.tan( thetar))*( vi*math.tan( thetar))/(2* g)
+x= vi* t
+
+</script>
+    
+      <p>
+On a distant planet,a projectile of mass 2 kg is launched horizontally with initial velocity $vi m/s from a certain height. Just before it lands on the horizontal terrain, its velocity makes an angle $theta degrees with the horizontal. The acceleration due to gravity is $g m/s<sup>2</sup>. 
+
+</p>
+      <br/>
+    
+    <part loncapaid="11">
+      
+        <p>
+Part 1. 
+Find the speed of the projectile just before landing. 
+
+</p>
+        \(v=\)
+      
+      <numericalresponse answer="$v" unit="m/s" loncapaid="12">
+        <responseparam default="5%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <textline readonly="no" dojs="math"/>
+      </numericalresponse>
+    </part>
+    <br/>
+    <part loncapaid="13">
+      
+        <p>
+Part 2. 
+Find the time the projectile spends in the air.
+
+</p>
+        \(t=\)
+      
+      <numericalresponse answer="$t" unit="s" loncapaid="14">
+        <responseparam default="5%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <textline readonly="no" dojs="math"/>
+      </numericalresponse>
+    </part>
+    <br/>
+    <part loncapaid="15">
+      
+        <p>
+Part 3.
+Find the height h from which the projectile is launched. . 
+
+</p>
+        \(h=\)
+      
+      <numericalresponse answer="$h" unit="m" loncapaid="16">
+        <responseparam default="5%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <textline readonly="no" dojs="math"/>
+      </numericalresponse>
+    </part>
+    <br/>
+    <part loncapaid="17">
+      
+        <p>
+Part 4. 
+Find the horizontal range \(\Delta x\) of the flight.
+</p>
+        \(\Delta x=\)
+      
+      <numericalresponse answer="$x" unit="m" loncapaid="18">
+        <responseparam default="5%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <textline readonly="no" dojs="math"/>
+      </numericalresponse>
+    </part>
+  </problem>
+</html>

@@ -1,0 +1,379 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <title> CheckPoint: Different Projectiles </title>
+    
+      <p>
+Three projectiles, A, B, and C, are launched as shown. The arrows represent the initial velocities of the projectiles, drawn to scale. All three projectiles eventually land on the ground. Neglect air resistance.<br/>
+</p>
+    
+    <img width="500" align="center" encrypturl="no" alt="BK38.PNG" src="/static/problems/MIT/rayyan/check_points/Pictures/BK38.PNG"/>
+    <br/>
+    <part loncapaid="11">
+      
+        <p>
+Part 1. 
+Which projectile has the greatest initial speed?
+</p>
+      
+      <multiplechoiceresponse max="10" direction="horizontal" randomize="no" loncapaid="12" type="MultipleChoice">
+        <choicegroup type="MultipleChoice">
+          <choice name="foil1" correct="false">
+
+                A
+            
+          </choice>
+          <choice name="foil2" correct="false">
+
+                B
+            
+          </choice>
+          <choice name="foil3" correct="true">
+
+                C
+            
+          </choice>
+          <choice name="foil4" correct="false">
+
+                Same for all three projectiles
+            
+          </choice>
+        </choicegroup>
+      </multiplechoiceresponse>
+    </part>
+    <br/>
+    <part loncapaid="13">
+      
+        <p>
+Part 2. 
+Which projectile has the smallest final speed?
+</p>
+      
+      <multiplechoiceresponse max="10" direction="horizontal" randomize="no" loncapaid="14" type="MultipleChoice">
+        <choicegroup type="MultipleChoice">
+          <choice name="foil1" correct="false">
+
+                A
+            
+          </choice>
+          <choice name="foil2" correct="true">
+
+                B
+            
+          </choice>
+          <choice name="foil3" correct="false">
+
+                C
+            
+          </choice>
+          <choice name="foil4" correct="false">
+
+                Same for all three projectiles
+            
+          </choice>
+        </choicegroup>
+      </multiplechoiceresponse>
+    </part>
+    <br/>
+    <part loncapaid="15">
+      
+        <p>
+Part 3. 
+Which projectile has the greatest initial horizontal component of the velocity?
+</p>
+      
+      <multiplechoiceresponse max="10" direction="horizontal" randomize="no" loncapaid="16" type="MultipleChoice">
+        <choicegroup type="MultipleChoice">
+          <choice name="foil1" correct="false">
+
+                A
+            
+          </choice>
+          <choice name="foil2" correct="false">
+
+                B
+            
+          </choice>
+          <choice name="foil3" correct="true">
+
+                C
+            
+          </choice>
+          <choice name="foil4" correct="false">
+
+                Same for all three projectiles
+            
+          </choice>
+        </choicegroup>
+      </multiplechoiceresponse>
+    </part>
+    <br/>
+    <part loncapaid="17">
+      
+        <p>
+Part 4. 
+Which projectile has the smallest final horizontal component of the velocity?
+</p>
+      
+      <multiplechoiceresponse max="10" direction="horizontal" randomize="no" loncapaid="18" type="MultipleChoice">
+        <choicegroup type="MultipleChoice">
+          <choice name="foil1" correct="false">
+
+                A
+            
+          </choice>
+          <choice name="foil2" correct="true">
+
+                B
+            
+          </choice>
+          <choice name="foil3" correct="false">
+
+                C
+            
+          </choice>
+          <choice name="foil4" correct="false">
+
+                Same for all three projectiles
+            
+          </choice>
+        </choicegroup>
+      </multiplechoiceresponse>
+    </part>
+    <br/>
+    <part loncapaid="19">
+      
+        <p>
+Part 5. 
+Which projectile has the greatest acceleration at the top point of the flight?
+</p>
+      
+      <multiplechoiceresponse max="10" direction="horizontal" randomize="no" loncapaid="20" type="MultipleChoice">
+        <choicegroup type="MultipleChoice">
+          <choice name="foil1" correct="false">
+
+                A
+            
+          </choice>
+          <choice name="foil2" correct="false">
+
+                B
+            
+          </choice>
+          <choice name="foil3" correct="false">
+
+                C
+            
+          </choice>
+          <choice name="foil4" correct="true">
+
+                Same for all three projectiles
+            
+          </choice>
+        </choicegroup>
+      </multiplechoiceresponse>
+    </part>
+    <br/>
+    <part loncapaid="21">
+      
+        <p>
+
+Part 6. 
+Which projectile has the greatest speed at the top point of the flight?
+</p>
+      
+      <multiplechoiceresponse max="10" direction="horizontal" randomize="no" loncapaid="22" type="MultipleChoice">
+        <choicegroup type="MultipleChoice">
+          <choice name="foil1" correct="false">
+
+                A
+            
+          </choice>
+          <choice name="foil2" correct="false">
+
+                B
+            
+          </choice>
+          <choice name="foil3" correct="true">
+
+                C
+            
+          </choice>
+          <choice name="foil4" correct="false">
+
+                Same for all three projectiles
+            
+          </choice>
+        </choicegroup>
+      </multiplechoiceresponse>
+    </part>
+    <br/>
+    <part loncapaid="23">
+      
+        <p>
+
+Part 7. 
+Which projectile reaches the greatest maximum height?
+</p>
+      
+      <multiplechoiceresponse max="10" direction="horizontal" randomize="no" loncapaid="24" type="MultipleChoice">
+        <choicegroup type="MultipleChoice">
+          <choice name="foil1" correct="true">
+
+                A
+            
+          </choice>
+          <choice name="foil2" correct="false">
+
+                B
+            
+          </choice>
+          <choice name="foil3" correct="false">
+
+                C
+            
+          </choice>
+          <choice name="foil4" correct="false">
+
+                Same for all three projectiles
+            
+          </choice>
+        </choicegroup>
+      </multiplechoiceresponse>
+    </part>
+    <br/>
+    <part loncapaid="25">
+      
+        <p>
+
+Part 8. 
+Which projectile spends the longest time in the air?
+</p>
+      
+      <multiplechoiceresponse max="10" direction="horizontal" randomize="no" loncapaid="26" type="MultipleChoice">
+        <choicegroup type="MultipleChoice">
+          <choice name="foil1" correct="true">
+
+                A
+            
+          </choice>
+          <choice name="foil2" correct="false">
+
+                B
+            
+          </choice>
+          <choice name="foil3" correct="false">
+
+                C
+            
+          </choice>
+          <choice name="foil4" correct="false">
+
+                Same for all three projectiles
+            
+          </choice>
+        </choicegroup>
+      </multiplechoiceresponse>
+    </part>
+    <br/>
+    <part loncapaid="27">
+      
+        <p>
+Part 9. 
+Which projectile has the greatest horizontal range?
+</p>
+      
+      <multiplechoiceresponse max="10" direction="horizontal" randomize="no" loncapaid="28" type="MultipleChoice">
+        <choicegroup type="MultipleChoice">
+          <choice name="foil1" correct="true">
+
+                A
+            
+          </choice>
+          <choice name="foil2" correct="false">
+
+                B
+            
+          </choice>
+          <choice name="foil3" correct="false">
+
+                C
+            
+          </choice>
+          <choice name="foil4" correct="false">
+
+                Same for all three projectiles
+            
+          </choice>
+        </choicegroup>
+      </multiplechoiceresponse>
+    </part>
+    <br/>
+    <part loncapaid="29">
+      
+        <p>
+Part 10. 
+Assuming that all three projectiles are still in the air three seconds into the flight, which projectile has the greatest height above the ground at that moment?
+</p>
+      
+      <multiplechoiceresponse max="10" direction="horizontal" randomize="no" loncapaid="30" type="MultipleChoice">
+        <choicegroup type="MultipleChoice">
+          <choice name="foil1" correct="true">
+
+                A
+            
+          </choice>
+          <choice name="foil2" correct="false">
+
+                B
+            
+          </choice>
+          <choice name="foil3" correct="false">
+
+                C
+            
+          </choice>
+          <choice name="foil4" correct="false">
+
+                Same for all three projectiles
+            
+          </choice>
+        </choicegroup>
+      </multiplechoiceresponse>
+    </part>
+    <br/>
+    <part loncapaid="31">
+      
+        <p>
+Part 11. 
+Assuming that all three projectiles are still in the air three seconds into the flight, which projectile has the greatest horizontal displacement at that moment?
+</p>
+      
+      <multiplechoiceresponse max="10" direction="horizontal" randomize="no" loncapaid="32" type="MultipleChoice">
+        <choicegroup type="MultipleChoice">
+          <choice name="foil1" correct="false">
+
+                A
+            
+          </choice>
+          <choice name="foil2" correct="false">
+
+                B
+            
+          </choice>
+          <choice name="foil3" correct="true">
+
+                C
+            
+          </choice>
+          <choice name="foil4" correct="false">
+
+                Same for all three projectiles
+            
+          </choice>
+        </choicegroup>
+      </multiplechoiceresponse>
+    </part>
+    <br/>
+      </problem>
+</html>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <img src="/static/problems/MIT/rayyan/osu/images/binary_stars_1.png" alt="binary_stars_1" encrypturl="no" height="250"/>
+    
+      <p><br/>
+In the binary star system, these two stars usually rotate in circles around a point on the connection line between these two stars. The mass of star 2 is twice the mass of star 1.  The point of rotation is:
+</p>
+    
+    <br/>
+    <multiplechoiceresponse max="10" direction="vertical" randomize="no" loncapaid="11" type="MultipleChoice">
+      <choicegroup type="MultipleChoice">
+        <choice name="foil1" correct="false">
+
+              Closer to star 1          
+        </choice>
+        <choice name="foil2" correct="true">
+
+              Closer to star 2          
+        </choice>
+        <choice name="foil3" correct="false">
+			<p>Right in the middle between star 1 &amp; 2</p>
+        </choice>
+        <choice name="foil4" correct="false">
+
+              Not enough information to determine          
+        </choice>
+      </choicegroup>
+    </multiplechoiceresponse>
+      </problem>
+</html>

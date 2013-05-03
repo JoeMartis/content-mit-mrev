@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <title> Sum of Forces </title>
+    <script type="loncapa/python">
+from __future__ import division
+from loncapa import *
+
+deg2rad = math.pi/180.0
+rad2deg = 180.0/math.pi
+
+F1=lc_random(3,5,1)
+F2=lc_random(1,3,1)
+F3=lc_random(2,4,1)
+theta=lc_random(30,70,10)
+t= theta* deg2rad
+x= F1- F3*math.cos( t)
+y= F2+ F3*math.sin( t)
+mag= math.sqrt( x* x+ y* y)
+ang= rad2deg*math.atan( y/ x)
+ 
+</script>
+    <parameter default="2" description="Maximum Number of Tries" type="int_pos" name="maxtries" loncapaid="11"/>
+    <p>Three forces, <b>\(F_1\)</b>, <b>\(F_2\)</b> and <b>\(F_3\)</b> are applied to an object of mass <b>\(m\)</b> as shown. Angle &#952; is given..</p><br/><img encrypturl="no" src="/static/problems/MIT/rayyan/check_points/Pictures/BK29.png" alt="p1a" texwrap="none" align="top"/><br/><u><b>Part1:</b></u>What is the <b>x</b>-component of the net force acting on the object?
+
+    <part loncapaid="14">
+      <br/>
+      <multiplechoiceresponse max="10" direction="vertical" randomize="yes" loncapaid="12" type="MultipleChoice">
+        <choicegroup type="MultipleChoice">
+          <choice location="random" name="foil1" correct="false">
+                  \(F_1+F_2+F_3cos\theta\)
+          </choice>
+          <choice location="random" name="foil2" correct="false">
+                  \(F_1+F_2+F_3sin\theta\)
+          </choice>
+          <choice location="random" name="foil3" correct="false">
+                  \(F_1+F_2+F_3cos\theta\)
+          </choice>
+          <choice location="random" name="foil4" correct="false">
+                  \(F_1+F_2-F_3sin\theta\)
+          </choice>
+          <choice location="bottom" name="foil5" correct="false">
+                  \(F_1+F_3cos\theta\)
+          </choice>
+          <choice location="bottom" name="foil6" correct="true">
+                  \(F_1-F_3cos\theta\)
+          </choice>
+          <choice location="bottom" name="foil7" correct="false">
+                  \(F_1+F_3sin\theta\)
+          </choice>
+          <choice location="bottom" name="foil8" correct="false">
+                  \(F_1-F_3sin\theta\)
+          </choice>
+        </choicegroup>
+      </multiplechoiceresponse>
+    </part>
+    <br/>
+    
+      <p><u><b>Part2:</b></u>What is the <b>y</b>-component of the net force acting on the object?
+</p>
+    
+    <part loncapaid="15">
+      <br/>
+      <multiplechoiceresponse max="10" direction="vertical" randomize="yes" loncapaid="13" type="MultipleChoice">
+        <choicegroup type="MultipleChoice">
+          <choice location="random" name="foil1" correct="false">
+                  \(F_1+F_2+F_3cos\theta\)
+          </choice>
+          <choice location="random" name="foil2" correct="false">
+                  \(F_1+F_2+F_3sin\theta\)
+          </choice>
+          <choice location="random" name="foil3" correct="false">
+                  \(F_1+F_2+F_3cos\theta\)
+          </choice>
+          <choice location="random" name="foil4" correct="false">
+                  \(F_1+F_2-F_3sin\theta\)
+          </choice>
+          <choice location="bottom" name="foil5" correct="false">
+                  \(F_2+F_3cos\theta\)
+          </choice>
+          <choice location="bottom" name="foil6" correct="false">
+                  \(F_2-F_3cos\theta\)
+          </choice>
+          <choice location="bottom" name="foil7" correct="true">
+                  \(F_2+F_3sin\theta\)
+          </choice>
+          <choice location="bottom" name="foil8" correct="false">
+                  \(F_2-F_3sin\theta\)
+          </choice>
+        </choicegroup>
+      </multiplechoiceresponse>
+    </part>
+    <br/>
+    
+      <p><u><b>Part3:</b></u>If the magnitudes of forces <b>\(F_1\)</b>, <b>\(F_2\)</b> and <b>\(F_3\)</b> are $F1 N, $F2 N and $F3 N, respectively, and angle \(\theta\) is $theta degrees, what is the magnitude of the net force acting on the object? Enter the answer in "N".
+</p>
+    
+    <br/>
+    <part loncapaid="16">
+      <numericalresponse answer="$mag" unit="N" loncapaid="17">
+        <responseparam default="2%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <responseparam default="0,15" type="int_range,0-16" name="sig" description="Significant Figures"/>
+        <textline readonly="no" dojs="math"/>
+        <hintgroup showoncorrect="no">
+          
+            <br/>
+          
+        </hintgroup>
+      </numericalresponse>
+    </part>
+    <br/>
+    
+      <p><u><b>Part4:</b></u>If the magnitudes of forces <b>\(F_1\)</b>, <b>\(F_2\)</b> and <b>\(F_3\)</b> are $F1 N, $F2 N and $F3 N, respectively, and angle \(\theta\) is $theta degrees, what angle does the net force make with the <b>+x</b> direction? Enter the answer in degrees. </p>
+    
+    <br/>
+    <part loncapaid="18">
+      <numericalresponse answer="$ang" unit="deg" loncapaid="19">
+        <responseparam default="2%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <responseparam default="2,15" name="sig" description="Significant Figures"/>
+        <textline readonly="no" dojs="math"/>
+        <hintgroup showoncorrect="no">
+          
+            <br/>
+          
+        </hintgroup>
+      </numericalresponse>
+    </part>
+      </problem>
+</html>

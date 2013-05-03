@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <img src="/static/problems/MIT/boriskor/BKimages/49-disc pivoted at mid-radius.png" alt="A disc pivoted at the midpoint of a vertical radius - in the vertical plane" encrypturl="no"/>
+    <br/>
+    
+      <p>
+A uniform disc has mass \(m\) and radius \(r\). The disc is pivoted at the midpoint of a vertical radius, marked by a red line as shown. Initially, the disc is held at rest. After the disc is released, it swings downward in the vertical plane. Neglect all resistive forces.
+</p>
+    
+    <br/>
+    <part loncapaid="11">
+What is the angular acceleration of the disc at the instant the red line is horizontal?
+
+<br/><multiplechoiceresponse max="10" direction="vertical" randomize="yes" loncapaid="12" type="MultipleChoice"><choicegroup type="MultipleChoice"><choice location="random" name="foil1" correct="true">\(\alpha=(2g)/(3r)\)</choice><choice location="random" name="foil2" correct="false">\(\alpha=g/(3r)\)</choice><choice location="random" name="foil3" correct="false">\(\alpha=(2g)/(5r)\)</choice><choice location="random" name="foil4" correct="false">\(\alpha=g/(4r)\)</choice><choice location="random" name="foil5" correct="false">\(\alpha=(3g)/(5r)\)</choice><choice location="random" name="foil6" correct="false">\(\alpha=g/(2r)\)</choice></choicegroup></multiplechoiceresponse>
+</part>
+    <part loncapaid="13">
+What is the maximum linear speed of the bottom point of the disc during the motion?
+
+<br/><multiplechoiceresponse max="10" direction="vertical" randomize="yes" loncapaid="14" type="MultipleChoice"><choicegroup type="MultipleChoice"><choice location="random" name="foil1" correct="true">\(v_{max} = \sqrt (6gr)\)</choice><choice location="random" name="foil2" correct="false">\(v_{max} = \sqrt (5gr)\)</choice><choice location="random" name="foil3" correct="false">\(v_{max} = 2\sqrt (gr)\)</choice><choice location="random" name="foil4" correct="false">\(v_{max} = \sqrt (3gr)\)</choice><choice location="random" name="foil5" correct="false">\(v_{max} = 2\sqrt (6gr)\)</choice><choice location="random" name="foil6" correct="false">\(v_{max} = 2\sqrt (3gr)\)</choice></choicegroup></multiplechoiceresponse>
+</part>
+      </problem>
+</html>

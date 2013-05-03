@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    
+      <p>
+A binary system consists of stars of masses \(m\) and \(2m\), separated by distance \(L\). The stars are revolving in circular orbits around their common center of mass. The centripetal acceleration of the star with the smaller mass is \(a_c\). 
+
+</p>
+    
+    <br/>
+    <part loncapaid="11">
+What is the centripetal acceleration \(a'_c\) of the other star?
+
+<br/><multiplechoiceresponse max="10" direction="vertical" randomize="yes" loncapaid="12" type="MultipleChoice"><choicegroup type="MultipleChoice"><choice location="random" name="foil1" correct="true">\(a'_c = a_c\)/2</choice><choice location="random" name="foil2" correct="false">\(a'_c = Gm^2 / L^2\)</choice><choice location="random" name="foil3" correct="false">\(a'_c = Gm^2 / L\)</choice><choice location="random" name="foil4" correct="false">\(a'_c = Gm / (2L^2)\)</choice><choice location="random" name="foil5" correct="false">\(a'_c = 2Gm / L^2\)</choice><choice location="random" name="foil6" correct="false">\(a'_c = 2a_c\)</choice></choicegroup></multiplechoiceresponse>
+</part>
+    <br/>
+    <part loncapaid="13">
+Find the period of revolutions of the stars. 
+
+<br/><multiplechoiceresponse max="10" direction="vertical" randomize="yes" loncapaid="1r" type="MultipleChoice"><choicegroup type="MultipleChoice"><choice location="random" name="foil1" correct="true">\(T=2 \pi \sqrt{2L/(3a)}\)</choice><choice location="random" name="foil2" correct="false">\(T=2 \pi \sqrt{3L/(2a)}\)</choice><choice location="random" name="foil3" correct="false">\(T=2 \pi \sqrt{L/a}\)</choice><choice location="random" name="foil4" correct="false">\(T=2 \pi \sqrt{L/(3a)}\)</choice><choice location="random" name="foil5" correct="false">\(T= \pi \sqrt{2L/(3a)}\)</choice><choice location="random" name="foil6" correct="false">\(T=4 \pi \sqrt{L/(3a)}\)</choice></choicegroup></multiplechoiceresponse>
+</part>
+  </problem>
+</html>

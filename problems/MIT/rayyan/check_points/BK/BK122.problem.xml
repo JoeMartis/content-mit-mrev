@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <title> CheckPoint: Elliptical Orbit </title>
+    <script type="loncapa/python">
+from __future__ import division
+from loncapa import *
+
+w="2*v/5/r"
+w2="10*v/9/r"
+u="5*v/3"
+f="25/9"
+
+</script>
+    <p>
+A satellite is moving around a planet of radius r  in an elliptical orbit. The minimum altitude of the satellite above the planet is (r/2) and the maximum altitude is (3r/2). At the maximum altitude, the tangential speed of the satellite is v. 
+</p><br/>
+Answer the following parts in terms of v and r.
+<br/>
+
+    <part loncapaid="11">
+      
+        <p>
+Part 1.
+Find the angular speed of the satellite at the maximum altitude
+</p>
+        <br/>
+        \(\omega=\)
+      
+      <formularesponse answer="$w" samples="r,v@1,1:10,10#4" loncapaid="12">
+        <responseparam default="5%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <textline dojs="math"/>
+      </formularesponse>
+    </part>
+    <part loncapaid="13">
+      
+        <p>
+Part 2.
+Find the tangential speed of the satellite at the minimum altitude
+</p>
+        <br/>
+        \(v_{min}=\)
+      
+      <formularesponse answer="$u" samples="r,v@1,1:10,10#4" loncapaid="14">
+        <responseparam default="1%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <textline dojs="math"/>
+      </formularesponse>
+    </part>
+    <part loncapaid="15">
+      
+        <p>
+Part 3.
+Find the angular speed of the satellite at the minimum altitude.
+</p>
+        <br/>
+        \(\omega=\)
+      
+      <formularesponse answer="$w2" samples="r,v@1,1:10,10#4" loncapaid="16">
+        <responseparam default="1%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <textline dojs="math"/>
+      </formularesponse>
+    </part>
+    <part loncapaid="17">
+      
+        <p>
+Part 4.
+What is the ratio of the kinetic energy of the satellite at the minimum altitude to that at the maximum altitude?
+</p>
+        <br/>
+        \(KE_{max}/KE_{min}=\)
+      
+      <formularesponse answer="$f" samples="r,v@1,1:10,10#4" loncapaid="18">
+        <responseparam default="1%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <textline dojs="math"/>
+      </formularesponse>
+    </part>
+  </problem>
+</html>

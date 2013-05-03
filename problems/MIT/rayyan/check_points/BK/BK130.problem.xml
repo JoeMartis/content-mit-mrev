@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <title> CheckPoint: Gravity on Another Planet </title>
+    <script type="loncapa/python">
+from __future__ import division
+from loncapa import *
+
+#Enter the computations here
+t=lc_random(0.2, 5, 0.1)
+L=lc_random(0.2, 2, 0.1)
+g = (4*3.14159*3.14159* L)/( t* t)
+
+</script>
+    
+      <p>Somewhere on a distant planet, a simple pendulum is pulled away from the equilibrium and released. The pendulum comes back to the point of release exactly $t seconds after the release. If the length of the pendulum is $L m, what is the acceleration due to gravity on the planet?
+</p>
+      <br/>
+      \(a=\)
+    
+    <part loncapaid="11">
+      <numericalresponse answer="$g" unit="m/s^2" loncapaid="12">
+        <responseparam default="5%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <textline readonly="no" dojs="math"/>
+      </numericalresponse>
+    </part>
+  </problem>
+</html>

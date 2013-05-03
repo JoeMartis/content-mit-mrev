@@ -1,0 +1,11 @@
+<chapter>
+	<sequential display_name="Introduction to the course" url_name="Introduction_to_the_course">	
+		<html display_name="Welcome!" filename="intro/welcome.html"/>
+		<html display_name="Course Outline" filename="intro/outline.html"/>
+		<html display_name="Grading and Administration" filename="intro/grading.html"/>
+		<html display_name="Overview of MAPS" filename="intro/maps.html"/>
+		<html display_name="Models and SIM strategy" filename="intro/sim.html"/>
+		<problem display_name="Professor Pritchard Video: Introduction to MAPS" filename="intro/maps_video" attempts="1"/>
+		<html display_name="Video: An approach to Problem Solving" filename="problems/MIT/analiab/Videos/VideoReviewBilly.html"/>
+	</sequential>
+</chapter>  

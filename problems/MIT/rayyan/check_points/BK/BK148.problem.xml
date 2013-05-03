@@ -1,0 +1,288 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    
+      <p>A block of mass m is attached to a spring with a force constant k. The block is set on a horizontal table. Initially, the spring is relaxed. It is then compressed a distance x from the equilibrium and the block is held at rest at the "compressed position." After the block is released, it slides a distance x/2 to the right of its initial position (see the diagram) and stops at the "final position."
+Find the coefficient of kinetic friction \( \mu _{k}\) between the table and the block. The acceleration due to gravity is g. 
+</p>
+      <br/>
+    
+    <img width="717" alt="BK148" encrypturl="no" src="/static/problems/MIT/rayyan/check_points/Pictures/BK148.png"/>
+    <parameter default="2" description="Maximum Number of Tries" type="int_pos" name="maxtries" loncapaid="11">
+      <br/>
+      
+        <p>
+Part 1. 
+Which concept is most useful in solving this problem?
+</p>
+      
+      <part loncapaid="12">
+        <br/>
+        <multiplechoiceresponse max="10" direction="vertical" randomize="yes" loncapaid="13" type="MultipleChoice">
+          <choicegroup type="MultipleChoice">
+            <choice location="random" name="foil1" correct="false">
+
+                  Kinematics of simple harmonic motion
+                              
+            </choice>
+            <choice location="random" name="foil2" correct="false">
+
+                  Kinematics of constant-acceleration motion
+                              
+            </choice>
+            <choice location="random" name="foil3" correct="false">
+
+                  Newton's 2nd law
+                              
+            </choice>
+            <choice location="random" name="foil4" correct="true">
+
+Law of conservation of energy
+              
+            </choice>
+            <choice location="random" name="foil5" correct="false">
+
+Law of conservation of mechanical energy
+              
+            </choice>
+            <choice location="random" name="foil6" correct="false">
+
+Law of conservation of angular momentum
+              
+            </choice>
+            <choice location="random" name="foil7" correct="false">
+
+Law of conservation of momentum
+              
+            </choice>
+          </choicegroup>
+        </multiplechoiceresponse>
+      </part>
+      <part loncapaid="14">
+        
+          <p>
+Part 2. 
+The mechanical energy is NOT conserved in this situation because:
+</p>
+        
+        <br/>
+        <multiplechoiceresponse max="10" direction="vertical" randomize="yes" loncapaid="15" type="MultipleChoice">
+          <choicegroup type="MultipleChoice">
+            <choice location="random" name="foil1" correct="false">
+
+                  The acceleration of the block is not constant 
+                              
+            </choice>
+            <choice location="random" name="foil2" correct="false">
+
+                  The force exerted by the spring on the block is not conservative
+                              
+            </choice>
+            <choice location="random" name="foil3" correct="true">
+
+                  The force of kinetic friction is present
+                              
+            </choice>
+            <choice location="random" name="foil4" correct="false">
+
+                  The motion is not simple harmonic
+                              
+            </choice>
+            <choice location="random" name="foil5" correct="false">
+
+                  The motion is simple harmonic
+                              
+            </choice>
+          </choicegroup>
+        </multiplechoiceresponse>
+      </part>
+      <part loncapaid="16">
+        
+          <p>
+Part 3. 
+What is the direction of the net force as the block passes the "initial" position after being released?
+</p>
+        
+        <br/>
+        <multiplechoiceresponse max="10" direction="vertical" randomize="yes" loncapaid="17" type="MultipleChoice">
+          <choicegroup type="MultipleChoice">
+            <choice location="random" name="foil1" correct="false">
+
+                  To the right 
+                              
+            </choice>
+            <choice location="random" name="foil2" correct="true">
+
+                  To the left
+                              
+            </choice>
+            <choice location="random" name="foil3" correct="false">
+
+                  Not enough information to answer
+                              
+            </choice>
+            <choice location="random" name="foil4" correct="false">
+
+                  The net force is zero
+                              
+            </choice>
+          </choicegroup>
+        </multiplechoiceresponse>
+      </part>
+      <part loncapaid="18">
+        
+          <p>
+Part 4. 
+What expression of the law of conservation of energy is most useful in solving this problem?
+</p>
+        
+        <br/>
+        <multiplechoiceresponse max="10" direction="vertical" randomize="yes" loncapaid="19" type="MultipleChoice">
+          <choicegroup type="MultipleChoice">
+            <choice location="random" name="foil1" correct="true">
+
+                  k\(x^{2}\) /2 = k\(x^{2}\)/8 + 3\( \mu _{k}\)mgx/2 
+                              
+            </choice>
+            <choice location="random" name="foil2" correct="false">
+
+                  k\(x^{2}\) /2 = k\(x^{2}\)/4 + 3\( \mu _{k}\)mgx/2
+                              
+            </choice>
+            <choice location="random" name="foil3" correct="false">
+
+                  k\(x^{2}\) /2 = k\(x^{2}\)/8 + 3\( \mu _{k}\)mgx
+                              
+            </choice>
+            <choice location="random" name="foil4" correct="false">
+
+                  k\(x^{2}\) /2 = k\(x^{2}\)/8 - 3\( \mu _{k}\)mgx/2
+                              
+            </choice>
+            <choice location="random" name="foil5" correct="false">
+
+                  k\(x^{2}\) /2 = k\(x^{2}\)/4 - 3\( \mu _{k}\)mgx/2
+                              
+            </choice>
+            <choice location="random" name="foil6" correct="false">
+
+k\(x^{2}\) /2 = k\(x^{2}\)/8 - 3\( \mu _{k}\)mgx
+              
+            </choice>
+          </choicegroup>
+        </multiplechoiceresponse>
+      </part>
+      <part loncapaid="20">
+        
+          <p>
+Part 5. 
+The correct value for \( \mu _{k}\)
+is:
+</p>
+        
+        <br/>
+        <multiplechoiceresponse max="10" direction="vertical" randomize="yes" loncapaid="21" type="MultipleChoice">
+          <choicegroup type="MultipleChoice">
+            <choice location="random" name="foil1" correct="true">
+
+                  (kx)/(4mg) 
+                              
+            </choice>
+            <choice location="random" name="foil2" correct="false">
+
+                  (kx)/(2mg)
+                              
+            </choice>
+            <choice location="random" name="foil3" correct="false">
+
+                  (kx)/(mg)
+                              
+            </choice>
+            <choice location="random" name="foil4" correct="false">
+
+                  (2kx)/(mg)
+                              
+            </choice>
+            <choice location="random" name="foil5" correct="false">
+
+(4kx)/(mg)
+              
+            </choice>
+            <choice location="random" name="foil6" correct="false">
+
+(3kx)/(2mg)
+              
+            </choice>
+            <choice location="random" name="foil7" correct="false">
+
+(2kx)/(3mg)
+              
+            </choice>
+          </choicegroup>
+        </multiplechoiceresponse>
+      </part>
+      <part loncapaid="22">
+        
+          <p>
+Part 6. 
+After coming to rest at the "final" position, does the block remain there?
+</p>
+        
+        <br/>
+        <multiplechoiceresponse max="10" direction="vertical" randomize="yes" loncapaid="23" type="MultipleChoice">
+          <choicegroup type="MultipleChoice">
+            <choice location="random" name="foil1" correct="false">
+
+                  Yes, the block remains at rest: there is no kinetic energy at that point 
+                              
+            </choice>
+            <choice location="random" name="foil2" correct="false">
+
+                  No, the block begins to move to the left since it is pulled by the spring
+                              
+            </choice>
+            <choice location="random" name="foil3" correct="true">
+
+                  No definitive answer is possible unless the coefficient of static friction is known
+                              
+            </choice>
+          </choicegroup>
+        </multiplechoiceresponse>
+      </part>
+      <part loncapaid="24">
+        
+          <p>
+Part 7. 
+If the block does begin to move back after reaching its "final" position, what distance does it travel by the time the net force acting on it is zero?
+</p>
+        
+        <br/>
+        <multiplechoiceresponse max="10" direction="vertical" randomize="yes" loncapaid="25" type="MultipleChoice">
+          <choicegroup type="MultipleChoice">
+            <choice location="random" name="foil1" correct="true">
+
+                  x/4 
+                              
+            </choice>
+            <choice location="random" name="foil2" correct="false">
+
+                  x/2
+                              
+            </choice>
+            <choice location="random" name="foil3" correct="false">
+
+                  3x/4
+                              
+            </choice>
+            <choice location="random" name="foil4" correct="false">
+
+                  3x/2
+                              
+            </choice>
+          </choicegroup>
+        </multiplechoiceresponse>
+      </part>
+
+    </parameter>
+  </problem>
+</html>

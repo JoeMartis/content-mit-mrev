@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <img src="/static/problems/MIT/rayyan/osu/images/integration.png" alt="integration" encrypturl="no" height="200"/>
+    
+      <p><br/>
+A mass M is uniformly distributed over the length L of a thin rod. The contribution to the moment of inertia by a short element dx at distance r from the axis of rotation is given by:
+</p>
+    
+    <br/>
+    <multiplechoiceresponse max="10" direction="vertical" randomize="no" loncapaid="11" type="MultipleChoice">
+      <choicegroup type="MultipleChoice">
+        <choice name="foil1" correct="false">
+
+                rM dx          
+        </choice>
+        <choice name="foil2" correct="true">
+
+                \(r^2 (M/L) dx\)
+          
+        </choice>
+        <choice name="foil3" correct="false">
+
+                \(r^2(M/L)\)
+          
+        </choice>
+        <choice name="foil4" correct="false">
+
+                \(r^2 Mdx\)
+          
+        </choice>
+        <choice name="foil5" correct="false">
+
+                \(r^2 M\)
+          
+        </choice>
+      </choicegroup>
+    </multiplechoiceresponse>
+      </problem>
+</html>

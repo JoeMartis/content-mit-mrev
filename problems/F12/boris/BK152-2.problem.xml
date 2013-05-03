@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<html>
+<!-- BK problem 152 -->
+<problem>
+
+<script type="loncapa/python">
+from symmath import *
+</script>
+
+	<p>Find the instantaneous speed of point B.</p>
+	<formularesponse answer="3*v/5" samples="v@1:1#1">
+		<textline readonly="no" size="25" dojs="math" />
+	</formularesponse>
+
+</problem>
+</html>

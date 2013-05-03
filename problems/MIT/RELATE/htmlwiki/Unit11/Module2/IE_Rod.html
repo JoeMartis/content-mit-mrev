@@ -1,0 +1,144 @@
+<html>
+<head>
+<title>Example: Angular Momentum of a Rod</title>
+<script type="text/javascript"> 
+function toggleDisplay( id, hidetext, showtext )
+{
+  link = document.getElementById( id + "l" ).childNodes[0];
+ 
+  with( document.getElementById( id ).style )
+    {
+      if( display == "none" )
+	{
+	  display = "inline";
+	  link.nodeValue = hidetext;
+	}
+      else
+	{
+	  display = "none";
+	  link.nodeValue = showtext;
+	}
+    }
+}
+</script> <style type="text/css">
+.collapseButton {
+float:right;
+font-weight:400;
+text-align:right;
+width:auto;
+}
+
+.wikitable th,.prettytable th {
+background:#f2f2f2;
+text-align:left;
+font-weight:400;
+}
+
+table.subtable {
+background:#fff;
+border:1px #aaa solid;
+border-collapse:collapse;
+margin:1em 1em 1em 0;
+font-size:10pt;
+}
+
+.subtable th {
+color:#555;
+background:#fff;
+text-align:left;
+font-weight:700;
+}
+
+.subsubtable th {
+background:#f2f2f2;
+color:#000;
+text-align:left;
+font-weight:700;
+}
+
+img.tex.inlinemath {
+height:1.1em;
+vertical-align:0;
+}
+
+img.tex.inlinesub {
+height:1.4em;
+vertical-align:-3px;
+}
+
+table.wikitable,table.prettytable,.subsubtable {
+background:#f9f9f9;
+border:1px #aaa solid;
+border-collapse:collapse;
+margin:1em 1em 1em 0;
+font-size:10pt;
+}
+
+.wikitable th,.wikitable td,.prettytable th,.prettytable td,.subtable th,.subtable td,.subsubtable th,.subsubtable td {
+border:1px #aaa solid;
+padding:.2em;
+}
+
+.wikitable caption,.prettytable caption,.subtable caption,.subsubtable caption {
+font-weight:700;
+}		</style>
+<link index="11" href="data:text/css," type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<h3>
+			Illustrative Example: Angular Momentum of a Rod</h3>
+<p>
+			Consider a rod of length <i><b>D</b></i> with mass <i><b>M</b></i>&#160;distributed uniformly throughout it. The rod rotates within the x-y plane with an angular speed <i><b>&#969;</b></i>. Calculate the angular momentum about:</p>
+<ol style="list-style-type:decimal">
+<li>
+				the axis of symmetry of the rod (left figure)</li>
+<li>
+				the axis perpendicular to the x-y plane passing through point <i><b>Q</b></i> (right figure).</li>
+</ol>
+<p>
+<img src="/static/problems/MIT/RELATE/htmlwiki/Unit11/Module2/files/rod.png"/></p>
+<table class="wikitable collapsible collapsed">
+<tbody>
+<tr>
+<th>
+						Answer: [<a href="javascript:toggleDisplay('ht10','hide','show')" id="ht10l">show</a>]</th>
+</tr>
+<tr style="display:none" id="ht10">
+<td>
+						1. About the axis of symmetry: <b><i>L<sub>axis</sub> = </i>(<i>MD<sup>2</sup>/12</i>)<i>&#969;</i></b>.
+						<p>
+							2. About the axis passing through point <i><b>Q</b></i>: <b><i>L<sub>Q</sub> = </i>(<i>MD<sup>2</sup>/3</i>)<i>&#969;</i></b>.</p>
+<table class="subtable collapsible collapsed">
+<tbody>
+<tr>
+<th>
+										Solution [<a href="javascript:toggleDisplay('ht11','hide','show')" id="ht11l">show</a>]</th>
+</tr>
+<tr style="display:none" id="ht11">
+<td>
+										To answer question 1 we are given the moment of inertia about an axis that passes through point <i><b>Q</b></i> (right figure): <i>I<sub>axis,Q</sub> = MD<sup>2</sup>/3</i>&#160;. We can obtain the moment of inertia about an axis that passes through the center of mass using the parallel axis theorem.:
+										<p>
+<i>I</i><sub><i>a</i><i>x</i><i>i</i><i>s</i>,<i>Q</i></sub> = <i>I</i><sub><i>c</i><i>m</i></sub> + <i>M</i>(<i>D</i> / 2)<sup>2</sup></p>
+<p>
+											Now we can solve for the moment of inertia about the center of mass of the rod:</p>
+<p>
+<i>I</i><sub><i>c</i><i>m</i></sub> = <i>I</i><sub><i>a</i><i>x</i><i>i</i><i>s</i>,<i>Q</i></sub> &#8722; <i>M</i>(<i>D</i> / 2)<sup>2</sup> = <i>M</i><i>D</i><sup>2</sup> / 12</p>
+<p>
+											Because the axis that passes through the rod's center of mass is the axis of symmetry, the angular momentum about the axis of symmetry is:</p>
+<p>
+<i>L</i><sub><i>a</i><i>x</i><i>i</i><i>s</i>,<i>s</i><i>y</i><i>m</i></sub> = (<i>M</i><i>D</i><sup>2</sup> / 12)&#969;</p>
+<p>
+											and the angular momentum about the axis passing through point <i><b>Q</b></i> is:</p>
+<p>
+<i>L</i><sub><i>a</i><i>x</i><i>i</i><i>s</i>,<i>Q</i></sub> = (<i>M</i><i>D</i><sup>2</sup> / 3)&#969;</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
+

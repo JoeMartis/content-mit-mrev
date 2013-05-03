@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <title> CheckPoint: Center of mass</title>
+    
+      <p>Four particles are located in a coordinate plane. Their masses and x- and y-coordinates are given in the table (except for the coordinates of particle \(m_{4}\) ). Find those coordinates if the center of mass of all four particles is located at the origin?
+
+</p>
+      <br/>
+    
+    <img width="634" alt="BK52" encrypturl="no" src="/static/problems/MIT/rayyan/check_points/Pictures/BK52.png"/>
+    <parameter default="2" description="Maximum Number of Tries" type="int_pos" name="maxtries" loncapaid="11"/>
+    <br/>
+    <part loncapaid="12">
+      <br/>
+      <multiplechoiceresponse max="10" direction="vertical" randomize="yes" loncapaid="13" type="MultipleChoice">
+        <choicegroup type="MultipleChoice">
+          <choice location="random" name="foil1" correct="false">
+
+                \(x_{4}\) = -2 cm; \(y_{4}\) = -7 cm
+            
+          </choice>
+          <choice location="random" name="foil2" correct="true">
+
+                \(x_{4}\) = 1.5 cm; \(y_{4}\) = -2.5 cm
+            
+          </choice>
+          <choice location="random" name="foil3" correct="false">
+
+                \(x_{4}\) = 2 cm; \(y_{4}\) = 7 cm
+            
+          </choice>
+          <choice location="random" name="foil4" correct="false">
+
+                \(x_{4}\) = -1.5 cm; \(y_{4}\) = 2.5 cm
+          </choice>
+          <choice location="random" name="foil5" correct="false">
+
+                \(x_{4}\) = -2 cm; \(y_{4}\) = 7 cm
+          </choice>
+          <choice location="random" name="foil6" correct="false">
+
+                \(x_{4}\) = 1.5 cm; \(y_{4}\) = 2.5 cm
+          </choice>
+        </choicegroup>
+      </multiplechoiceresponse>
+    </part>
+      </problem>
+</html>

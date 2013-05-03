@@ -1,0 +1,28 @@
+<html>
+  <problem>
+    
+      <p>A car starts from rest and accelerates up to 30 mph.  After a minute, the car (at 30 mph) accelerates again up to 60 mph.  What can you say about the work done by the engine to perform these increases in speed?</p>
+    
+    <br/>
+    
+    <optionresponse direction="vertical" randomize="yes">
+    <p>the 0-30 mph increase required more work than the 30-60 mph increase
+    <optioninput name="OneA" options="('Correct','Incorrect')" correct="Incorrect"></optioninput></p>
+    <p>the 30-60 mph increase required less work than the 0-30 mph increase
+    <optioninput name="OneB" options="('Correct','Incorrect')" correct="Incorrect"></optioninput></p>
+    <p>the 0-30 mph increase required less work than the 30-60 mph increase
+    <optioninput name="TwoA" options="('Correct','Incorrect')" correct="Correct"></optioninput></p>
+    <p>the 30-60 mph increase required more work than the 0-30 mph increase
+    <optioninput name="TwoB" options="('Correct','Incorrect')" correct="Correct"></optioninput></p>
+    <p>both increases in speed required zero work
+    <optioninput name="Three" options="('Correct','Incorrect')" correct="Incorrect"></optioninput></p>
+    <p>the 0-30 mph increase required the same amount of work as the 30-60 mph increase
+    <optioninput name="FourA" options="('Correct','Incorrect')" correct="Incorrect"></optioninput></p>
+    <p>the 30-60 mph increase required the same amount of work as the 0-30 mph increase
+    <optioninput name="FourB" options="('Correct','Incorrect')" correct="Incorrect"></optioninput></p>
+    <p>cannot tell -- need to know the time interval of each acceleration
+    <optioninput name="Five" options="('Correct','Incorrect')" correct="Incorrect"></optioninput></p>
+    </optionresponse>
+    
+  </problem>
+</html>

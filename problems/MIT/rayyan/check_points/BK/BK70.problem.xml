@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <parameter default="2" description="Maximum Number of Tries" type="int_pos" name="maxtries" loncapaid="21"/>
+    <title> CheckPoint: Spring Potential Energy </title>
+    <img src="/static/problems/MIT/rayyan/check_points/Pictures/BK70.PNG" alt="BK70" encrypturl="no"/>
+    
+      <p>A spring is pulled by an applied force F as shown. The spring is stretched a distance x. What is the potential energy stored in the spring?
+
+</p>
+ 
+ <part loncapaid="17">
+ 
+ <multiplechoiceresponse max="10" direction="vertical" randomize="no" loncapaid="12" type="MultipleChoice">
+        <choicegroup type="MultipleChoice">
+          <choice location="random" name="foil1" correct="false">
+                  \(- F x\)
+          </choice>
+          <choice location="random" name="foil2" correct="false">
+                  \( F x\)
+          </choice>
+          <choice location="random" name="foil3" correct="false">
+                  \(\frac{ - F x }{2}\)
+          </choice>
+          <choice location="random" name="foil4" correct="true">
+                  \(\frac{  F x }{2}\)
+          </choice>
+          <choice location="random" name="foil5" correct="false">
+                  \(2 F x\)
+          </choice>
+          <choice location="random" name="foil6" correct="false">
+                  \(- 2 F x\)
+          </choice>
+        </choicegroup>
+      </multiplechoiceresponse>
+    </part>
+      </problem>
+</html>

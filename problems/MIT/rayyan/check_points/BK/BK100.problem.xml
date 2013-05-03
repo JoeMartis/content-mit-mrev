@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <title> CheckPoint: Ranking of Angular Momenta </title>
+    <parameter default="2" description="Maximum Number of Tries" type="int_pos" name="maxtries" loncapaid="11"/>
+    
+      <p>
+Rank the magnitudes of angular momenta of particles labeled A-G relative to the axis passing through point O. All particles have equal masses and speeds.
+</p>
+    
+    <img src="/static/problems/MIT/rayyan/check_points/Pictures/BK100.PNG" alt="BK100" encrypturl="no"/>
+    <br/>
+    <multiplechoiceresponse max="10" direction="vertical" randomize="yes" loncapaid="12" type="MultipleChoice">
+      <choicegroup type="MultipleChoice">
+        <choice location="random" name="foil1" correct="true">
+			<p>\(L_{B}\) &gt; \(L_{A}\) = \(L_{C}\) = \(L_{D}\) &gt; \(L_{E}\) &gt;\(L_{F}\) &gt; \(L_{G}\)</p>
+        </choice>
+        <choice location="random" name="foil2" correct="false">
+			<p>\(L_{C}\) = \(L_{B}\) = \(L_{A}\) = \(L_{D}\) &gt; \(L_{E}\) =\(L_{F}\) &gt; \(L_{G}\)</p>
+        </choice>
+        <choice location="random" name="foil3" correct="false">
+			<p>\(L_{A}\) &gt; \(L_{B}\) = \(L_{C}\) = \(L_{D}\) &gt; \(L_{E}\) &gt;\(L_{F}\) &gt; \(L_{G}\)</p>
+        </choice>
+        <choice location="random" name="foil4" correct="false">
+			<p>\(L_{B}\) &gt; \(L_{A}\) = \(L_{F}\) = \(L_{G}\) &gt; \(L_{E}\) &gt;\(L_{C}\) &gt; \(L_{D}\)</p>
+        </choice>
+        <choice location="random" name="foil5" correct="false">
+			<p>\(L_{B}\) &gt; \(L_{G}\) = \(L_{C}\) = \(L_{D}\) &gt; \(L_{F}\) &gt;\(L_{E}\) &gt; \(L_{A}\)</p>
+        </choice>
+      </choicegroup>
+    </multiplechoiceresponse>
+      </problem>
+</html>

@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <title> CheckPoint: Block on Spring </title>
+    <script type="loncapa/python">
+from __future__ import division
+from loncapa import *
+
+#Enter the computations here
+m = lc_random(0.4, 0.8, 0.05)
+vmax = lc_random(1.2, 1.8, 0.1)
+amax = lc_random(0.12, 0.45, 0.01)
+T = 2*3.14159 *  vmax /  amax
+A =  vmax* vmax/ amax
+d =  A/(math.sqrt(2))
+x = math.sqrt(2/3)* A
+
+</script>
+    
+      <br/>
+      <p>A block of mass m = $m kg is connected to a spring. The block is in simple harmonic motion during which its maximum velocity is v<sub>max</sub>  = $vmax m/s and its maximum acceleration is a<sub>max</sub> =  $amax m/s^2. </p>
+    
+    <part loncapaid="11">
+      <p>
+</p><br/>
+Part 1. Find the period of oscillations.
+
+      <numericalresponse answer="$T" unit="s" loncapaid="12">
+        <responseparam default="5%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <textline readonly="no" dojs="math"/>
+      </numericalresponse>
+    </part>
+    <part loncapaid="13">
+      <p>
+</p><br/>
+Part 2.
+Find the amplitude of the oscillations.
+
+      <numericalresponse answer="$A" unit="m" loncapaid="14">
+        <responseparam default="5%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <textline readonly="no" dojs="math"/>
+      </numericalresponse>
+    </part>
+    <part loncapaid="15">
+      <p>
+</p><br/>
+Part 3. 
+How far is the block from equilibrium at the moment when its kinetic energy equals to its potential energy? Assume that potential energy is zero at equilibrium.
+
+      <numericalresponse answer="$d" unit="m" loncapaid="16">
+        <responseparam default="5%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <textline readonly="no" dojs="math"/>
+      </numericalresponse>
+    </part>
+    <part loncapaid="17">
+      <p>
+</p><br/>
+Part 4. 
+How far is the block from equilibrium at the moment when its kinetic energy equals to one-third of its maximum kinetic energy? Assume that potential energy is zero at equilibrium.
+
+      <numericalresponse answer="$x" unit="m" loncapaid="18">
+        <responseparam default="5%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <textline readonly="no" dojs="math"/>
+      </numericalresponse>
+    </part>
+      </problem>
+</html>

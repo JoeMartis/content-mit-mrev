@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <title> CheckPoint: Work by many forces</title>
+    
+      <p>The diagram shows an object of unknown mass pulled by three forces with known magnitudes. The object undergoes displacement \(s\) that makes angle \(\theta\) with force \(F_{1}\)
+</p>
+      <br/>
+    
+    <img src="/static/problems/MIT/rayyan/check_points/Pictures/BK65.png" alt="BK65" encrypturl="no"/>
+    <parameter default="2" description="Maximum Number of Tries" type="int_pos" name="maxtries" loncapaid="11"/>
+    <br/>
+    
+      <p>
+Part 1. 
+Find the work done by force \(F_{1}\).
+</p>
+    
+    <part loncapaid="12">
+      <br/>
+      <multiplechoiceresponse max="10" direction="vertical" randomize="no" loncapaid="13" type="MultipleChoice">
+        <choicegroup type="MultipleChoice">
+          <choice location="random" name="foil1" correct="false">
+
+                Impossible to know without knowing the mass of the object 
+            
+          </choice>
+          <choice location="random" name="foil2" correct="true">
+                  \( F_1\cdot s \cdot \cos \theta\)
+          </choice>
+          <choice location="random" name="foil3" correct="false">
+                  \( (F_1-F_3) \cdot s \cdot \cos \theta\)
+          </choice>
+          <choice location="random" name="foil4" correct="false">
+                  \( \sqrt{(F_1-F_3)^2 +F_2^2 } \cdot s \cdot \cos \theta\)
+          </choice>
+          <choice location="random" name="foil5" correct="false">
+                  \( F_1 \cdot s \cdot \sin \theta\)
+          </choice>
+          <choice location="random" name="foil6" correct="false">
+                  \( (F_1-F_3) \cdot s \cdot \sin \theta\)
+          </choice>
+        </choicegroup>
+      </multiplechoiceresponse>
+    </part>
+    <part loncapaid="14">
+      
+        <p>
+Part 2. 
+Find the work done by force \(F_{2}\).
+</p>
+      
+      <br/>
+      <multiplechoiceresponse max="10" direction="vertical" randomize="yes" loncapaid="15" type="MultipleChoice">
+        <choicegroup type="MultipleChoice">
+          <choice location="random" name="foil1" correct="false">
+
+                Impossible without knowing the mass of the object.
+            
+          </choice>
+          <choice location="random" name="foil2" correct="true">
+                  \( F_2\cdot s \cdot \sin \theta\)
+          </choice>
+          <choice location="random" name="foil3" correct="false">
+                  \( - F_2\cdot s \cdot \sin \theta\)
+          </choice>
+          <choice location="random" name="foil4" correct="false">
+                  \( F_2\cdot s \cdot \cos \theta\)
+          </choice>
+          <choice location="random" name="foil5" correct="false">
+                  \( - F_2\cdot s \cdot \cos \theta\)
+          </choice>
+        </choicegroup>
+      </multiplechoiceresponse>
+    </part>
+    <part loncapaid="16">
+      
+        <p>
+Part 3. 
+Find the work done by force \(F_{3}\).
+</p>
+      
+      <br/>
+      <multiplechoiceresponse max="10" direction="vertical" randomize="no" loncapaid="17" type="MultipleChoice">
+        <choicegroup type="MultipleChoice">
+          <choice location="random" name="foil1" correct="false">
+
+                Impossible to know without knowing the mass of the object 
+            
+          </choice>
+          <choice location="random" name="foil2" correct="false">
+                  \( F_3\cdot s \cdot \cos \theta\)
+          </choice>
+          <choice location="random" name="foil3" correct="false">
+                  \( (F_3-F_1) \cdot s \cdot \cos \theta\)
+          </choice>
+          <choice location="random" name="foil4" correct="true">
+                  \( - F_3 \cdot s \cdot \cos \theta\)
+          </choice>
+          <choice location="random" name="foil6" correct="false">
+                  \( (F_1-F_3) \cdot s \cdot \sin \theta\)
+          </choice>
+        </choicegroup>
+      </multiplechoiceresponse>
+    </part>
+      </problem>
+</html>

@@ -1,0 +1,321 @@
+<html>
+<head>
+<title>Potential Energy</title>
+<script type="text/javascript"> 
+function toggleDisplay( id, hidetext, showtext )
+{
+  link = document.getElementById( id + "l" ).childNodes[0];
+ 
+  with( document.getElementById( id ).style )
+    {
+      if( display == "none" )
+	{
+	  display = "inline";
+	  link.nodeValue = hidetext;
+	}
+      else
+	{
+	  display = "none";
+	  link.nodeValue = showtext;
+	}
+    }
+}
+</script> <style type="text/css">
+.collapseButton {
+float:right;
+font-weight:400;
+text-align:right;
+width:auto;
+}
+
+.wikitable th,.prettytable th {
+background:#f2f2f2;
+text-align:left;
+font-weight:400;
+}
+
+table.subtable {
+background:#fff;
+border:1px #aaa solid;
+border-collapse:collapse;
+margin:1em 1em 1em 0;
+font-size:10pt;
+}
+
+.subtable th {
+color:#555;
+background:#fff;
+text-align:left;
+font-weight:700;
+}
+
+.subsubtable th {
+background:#f2f2f2;
+color:#000;
+text-align:left;
+font-weight:700;
+}
+
+img.tex.inlinemath {
+height:1.1em;
+vertical-align:0;
+}
+
+img.tex.inlinesub {
+height:1.4em;
+vertical-align:-3px;
+}
+
+table.wikitable,table.prettytable,.subsubtable {
+background:#f9f9f9;
+border:1px #aaa solid;
+border-collapse:collapse;
+margin:1em 1em 1em 0;
+font-size:10pt;
+}
+
+.wikitable th,.wikitable td,.prettytable th,.prettytable td,.subtable th,.subtable td,.subsubtable th,.subsubtable td {
+border:1px #aaa solid;
+padding:.2em;
+}
+
+.wikitable caption,.prettytable caption,.subtable caption,.subsubtable caption {
+font-weight:700;
+}		</style>
+<link index="11" href="data:text/css," type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<h2>
+			Potential Energy</h2>
+<p>
+			Instead of thinking of interactions as performing work, it is instead possible to think of their effect as transferring kinetic energy to another object or transforming kinetic energy to another form of energy. If we take this view, it is possible to see energy as nature's way of ensuring that "you can't get something for nothing".</p>
+<p>
+			In this module we will consider those interactions capable of transforming&#160;the kinetic energy to another type of energy that can be recovered later on. These type of forces are called <b>conservative forces</b> and the associated energy is called <b>potential energy</b>.</p>
+<h3>
+Learning Goals</h3>
+<p>
+			After completing this module you should be able to:</p>
+<ul style="list-style:disc outside none">
+<li>
+				Define a Conservative Force</li>
+<li>
+				Calculate the potential energy due to gravitational and elastic forces.</li>
+<li>
+				Explain why in a conservative interaction there is transfer between kinetic and potential energy within the interacting objects.</li>
+</ul>
+<h3>
+Conservative Force </h3>
+<table border="1" style="color:teal" cellspacing="0">
+<tbody>
+<tr>
+<td>
+						A force is&#160;<b>conservative </b>if&#160;the work done by the force on a body that moves from an initial position to a final position is <i>independent</i> of the path taken.</td>
+</tr>
+</tbody>
+</table>
+<p>
+<br/>
+			To understand this concept we will consider the following situation:</p>
+<p>
+			A small box of mass <i>m</i> is moving from an initial point <b>A</b> to a final point <b>B</b> along a surface with friction (<i>&#956;<sub>k</sub></i>). In the left figure the box moves down along one incline, and in the right figure, it moves down along an incline that changes slope.</p>
+<p>
+<img src="/static/problems/MIT/RELATE/htmlwiki/Unit8/Module4/files/ConservativeForce3c.png"/></p>
+<table class="wikitable collapsible collapsed">
+<tbody>
+<tr>
+<th>
+<b>Show that the work done by gravity is the same for both surfaces but the work done by friction is not.</b> [<a href="javascript:toggleDisplay('ht1','hide','show')" id="ht1l">show</a>]</th>
+</tr>
+<tr style="display:none" id="ht1">
+<td>
+<table class="subtable collapsible collapsed">
+<tbody>
+<tr>
+<th>
+<b>Calculate the works done by gravity and by friction along one incline. </b> [<a href="javascript:toggleDisplay('ht2','hide','show')" id="ht2l">show</a>]</th>
+</tr>
+<tr style="display:none" id="ht2">
+<td>
+<img src="/static/problems/MIT/RELATE/htmlwiki/Unit8/Module4/files/1inclineForces.png"/>
+<p>
+											The forces on the box are gravity, the normal and friction and are shown in the figure. <i>h<sub>A</sub></i> and <i>h<sub>B</sub>'</i> are the heights of points <b>A</b> and <b>B</b> measured from the horizontal.</p>
+<p>
+<b>Work done by gravity</b></p>
+<p>
+											The box moves along the incline from <b>A</b> to <b>B</b> a distance <i>d</i> = (<i>h</i><sub><i>A</i></sub> &#8722; <i>h</i><sub><i>B</i></sub>) / <i>s</i><i>i</i><i>n</i>&#952;. Gravity is at an angle of <b>90<sup>o</sup> - &#952;</b> with respect to the displacement vector. The force of gravity is constant and the path is a straight line, so the work done by gravity is:</p>
+<p>
+<br/>
+\(W_{i,f}^{g} = mg \cos(90^o-\theta)d = mg\sin\theta d\)</p>
+<table border="1" style="color:teal" cellspacing="0">
+<tbody>
+<tr>
+<td>
+\(W_{i,f}^{g} = mg(h_A - h_B)\)</td>
+</tr>
+</tbody>
+</table>
+<p>
+<br/>
+<b>Note</b>: the work depends on the initial and final positions, <i>h</i><sub><i>A</i></sub> and <i>h</i><sub><i>B</i></sub>, but not on the slope.</p>
+<p>
+											&#160;</p>
+<p>
+<b>Work done by friction</b></p>
+<p>
+<br/>
+											The force of friction has a constant magnitude <i>f</i> = &#956;<sub><i>k</i></sub><i>N</i> = &#956;<sub><i>k</i></sub><i>m</i><i>g</i>cos&#952; where we have used the fact that the normal force is given by <i>N</i> = <i>m</i><i>g</i>cos&#952;. The work done by friction is:</p>
+<p>
+\(W_{A,B}^{f} = fd \cos 180^o \)</p>
+<p>
+<br/>
+\(W_{A,B}^{f} = -\mu_k mg\cos\theta d \)</p>
+<p>
+											&#160;</p>
+<table border="1" style="color:teal" cellspacing="0">
+<tbody>
+<tr>
+<td>
+\(W_{A,B}^{f} = -\mu_k mg(h_A - h_B)/tan\theta\)</td>
+</tr>
+</tbody>
+</table>
+<p>
+<b>Note</b>: the work depends on the initial and final position, <i>h</i><sub><i>A</i></sub> and <i>h</i><sub><i>B</i></sub>, as well as on the slope <b>&#952;</b>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="subtable collapsible collapsed">
+<tbody>
+<tr>
+<th>
+<b>Calculate the work done by gravity and by friction along the changing slope</b> [<a href="javascript:toggleDisplay('ht3','hide','show')" id="ht3l">show</a>]</th>
+</tr>
+<tr style="display:none" id="ht3">
+<td>
+<img src="/static/problems/MIT/RELATE/htmlwiki/Unit8/Module4/files/2inclineForces.png"/>
+<p>
+											The forces on the box are gravity, the normal force and friction as shown in the figure. We label <b>C</b> the point where the surface changes slope and <i>h</i><sub><i>C</i></sub> its height measured from the horizontal. At that point, the displacement vector changes direction, and the force of friction changes magnitude, therefore we will calculate the work done by each force between points <b>A</b> and <b>B</b> in two parts which will then be added:<i><b>W<sub>A,B</sub> = W<sub>A,C</sub> + W<sub>C,D</sub></b></i></p>
+<p>
+<b>Work done by gravity</b></p>
+<p>
+											Following the same procedure as done to calculate the work along one incline we obtain that to go from <b>A</b> to <b>C</b>:</p>
+<p>
+\( W_{A,C}^{g} = mg(h_A - h_C)\)</p>
+<p>
+											and the work to go from <b>C</b> to <b>B</b>:</p>
+<p>
+\( W_{C,B}^{g} = mg(h_C - h_B)\)</p>
+<p>
+											then,</p>
+<p>
+\( W_{A,B}^{g} = mg(h_A - h_C) + mg(h_C - h_B)\)</p>
+<table border="1" style="color:teal" cellspacing="0">
+<tbody>
+<tr>
+<td>
+<p>
+\( W_{A,B}^{g} = mg(h_A - h_B) \)</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+<br/>
+<b>Note</b>: the work depends on the initial and final position, <i>h</i><sub><i>A</i></sub> and <i>h</i><sub><i>B</i></sub>, but not on the slope. Moreover, it is the same expression we have obtained before.</p>
+<p>
+<br/>
+<b>Work done by friction:</b></p>
+<p>
+											The work done from <b>A</b> to <b>C</b> is:</p>
+<p>
+\( W_{A,C}^{f} = -\mu_k mg(h_A - h_C)/\tan\alpha\)</p>
+<p>
+											and from <b>C</b> to <b>B</b>:</p>
+<p>
+\( W_{C,B}^{f} = -\mu_k mg(h_C - h_B)/\tan\beta\)</p>
+<p>
+<br/>
+											then, summing the parts</p>
+<table border="1" style="color:teal" cellspacing="0">
+<tbody>
+<tr>
+<td>
+\( W_{A,B}^{f} = -\mu_k mg[(h_A - h_C)/\tan\alpha+(h_C - h_B)/\tan\beta]\)</td>
+</tr>
+</tbody>
+</table>
+<p>
+<b>Note</b>: changing <i>&#945;</i> and <i>&#946;</i> and the location of point <b>C</b> will change the work done by friction between points <b>A</b> and <b>B</b>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+							&#160;</p>
+<p>
+<b>Summary</b></p>
+<p>
+<b>The work done by gravity is independent of the path</b></p>
+<p>
+							Along both surfaces the work is the same:</p>
+<p>
+<b>W<sup>g</sup><sub>A,B</sub> = mg(h<sub>A</sub> - h<sub>B</sub>)</b></p>
+<p>
+<br/>
+<b>The work done by friction depends on the path</b></p>
+<ul style="list-style:disc outside none">
+<li>
+								Along the first incline</li>
+</ul>
+<p>
+<b>W<sup>f</sup><sub>A,B</sub> = - &#956;<sub>k</sub>mg(h<sub>A</sub> - h<sub>B</sub>)/tan&#952;</b></p>
+<ul style="list-style:disc outside none">
+<li>
+								Along the two-slope inclines</li>
+</ul>
+<p>
+<b>W<sup>f</sup><sub>A,B</sub> = - &#956;<sub>k</sub>mg[(h<sub>A</sub> - h<sub>C</sub>)/tan&#945; + (h<sub>C</sub> - h<sub>B</sub>)/tan&#946;</b></p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>
+Conservatives forces in introductory mechanics </h3>
+<p>
+			In the example above we have shown that work done by the gravitational force near the Earth's surface is independent of the path followed by the object. It depends only on the initial and final position.</p>
+<p>
+			The same result can be shown for the gravitational force far from the Earth's surface and also for the elastic force of a spring.</p>
+<table border="1" style="color:teal" cellspacing="0">
+<tbody>
+<tr>
+<td>
+						The gravitational force and the elastic force are conservative forces.</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<h3>
+Potential Energy </h3>
+<table style="color:teal">
+<tbody>
+<tr>
+<td>
+						When a force is <b>conservative</b> the negative of the work done by the force between two points is defined as the change in <b> potential energy </b> between those two points.</td>
+</tr>
+</tbody>
+</table>
+<p>
+			Potential energy is denoted by the letter <i>U</i>, and the change in potential energy between an initial to a final point is given by:</p>
+<p>
+\( U(\vec{r}_f) = U(\vec{r}_i) - W_{i,f} \)</p>
+<p>
+			or</p>
+<p>
+\( U(\vec{r}_f)= U(\vec{r}_i) - \int_{\vec{r}_i}^{\vec{r}_f} \vec{F} \cdot d\vec{r}\)</p>
+<p>
+<br/>
+			where \(\vec{r}_i\) and \( \vec{r}_f\) are the initial and final positions.</p>
+</body>
+</html>
+

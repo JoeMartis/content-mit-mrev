@@ -1,0 +1,167 @@
+<html>
+<head>
+<title>Rotational Form of Newton's Second Law and the Moment of Inertia</title>
+<script type="text/javascript"> 
+function toggleDisplay( id, hidetext, showtext )
+{
+  link = document.getElementById( id + "l" ).childNodes[0];
+ 
+  with( document.getElementById( id ).style )
+    {
+      if( display == "none" )
+	{
+	  display = "inline";
+	  link.nodeValue = hidetext;
+	}
+      else
+	{
+	  display = "none";
+	  link.nodeValue = showtext;
+	}
+    }
+}
+</script> <style type="text/css">
+.collapseButton {
+float:right;
+font-weight:400;
+text-align:right;
+width:auto;
+}
+
+.wikitable th,.prettytable th {
+background:#f2f2f2;
+text-align:left;
+font-weight:400;
+}
+
+table.subtable {
+background:#fff;
+border:1px #aaa solid;
+border-collapse:collapse;
+margin:1em 1em 1em 0;
+font-size:10pt;
+}
+
+.subtable th {
+color:#555;
+background:#fff;
+text-align:left;
+font-weight:700;
+}
+
+.subsubtable th {
+background:#f2f2f2;
+color:#000;
+text-align:left;
+font-weight:700;
+}
+
+img.tex.inlinemath {
+height:1.1em;
+vertical-align:0;
+}
+
+img.tex.inlinesub {
+height:1.4em;
+vertical-align:-3px;
+}
+
+table.wikitable,table.prettytable,.subsubtable {
+background:#f9f9f9;
+border:1px #aaa solid;
+border-collapse:collapse;
+margin:1em 1em 1em 0;
+font-size:10pt;
+}
+
+.wikitable th,.wikitable td,.prettytable th,.prettytable td,.subtable th,.subtable td,.subsubtable th,.subsubtable td {
+border:1px #aaa solid;
+padding:.2em;
+}
+
+.wikitable caption,.prettytable caption,.subtable caption,.subsubtable caption {
+font-weight:700;
+}		</style>
+<link index="11" href="data:text/css," type="text/css" rel="stylesheet"/>
+<link index="12" href="data:text/css," type="text/css" rel="stylesheet"/>
+<link index="13" href="data:text/css," type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<h2>
+			Rotational Form of Newton's Second Law and the Moment of Inertia</h2>
+<h3>
+Learning goals</h3>
+<p>
+			After working through this module, you should be able to:</p>
+<ul style="list-style:disc outside none">
+<li>
+				Apply rotational form of Newton's Second Law in simple problems.</li>
+<li>
+				Find the moment of inertia of a point mass</li>
+<li>
+				Compare the moment of inertia of two objects</li>
+</ul>
+<h3>
+Newton's Second Law for Pure Rotations</h3>
+<br/>
+<p>
+By analogy to \(\sum\vec{F}^{external}=m\vec{a} \) , we can write a similar relationship for rotations around a fixed axis. 
+If we apply a non zero torque on an object (e.g. push or pull on a door handle), it will result in a change of rotational motion 
+			(the door will start to rotate).</p> It can be shown that for an object rotating about an axis that passes through a point Q, the net torque
+			on the object measured about point Q is given by:
+			
+<p>
+\[\sum\vec{\tau}_Q^{external} = I_Q \vec{\alpha} \]</p>
+<p>
+Where \(\alpha\) is the <strong>angular acceleration</strong>: the rate of change of the angular 
+speed \(\omega\), and 
+\(\displaystyle I_Q\) is the <strong>moment of inertia</strong> about point Q, a quantity that is analogous to 
+the inertial mass in \( \sum\vec{F}^{external}=m\vec{a} \).</p>
+<h3>
+Moment of Inertia</h3>
+<br/>
+<p>
+The Moment of inertia describes the resistance of an object to being rotated and depends on how the mass is distributed with respect to the axis of rotation.
+
+<h4>
+Moment of Inertia of a Point Particle</h4>
+<br/>
+<p>
+Consider a point particle of mass <i>M</i> moving in a circle of radius <i>R</i>, the
+moment of inertia of the point particle measured with respect to the center of the circle is given by \( I_Q=  M R^2 \), 
+where <b><i>Q</i></b> is the point at the center of the circle.
+</p>
+<br/>
+<p>The moment of inertia of a system of more than one point particle can be obtained by adding the moment of inertia of the 
+individual particles. The moment of inertia of N point particles rotating about an axis passing through point Q is given by:</p>
+<br/>
+<p>\(I_Q=\sum_{i=1}^{i=N}m_ir_i^2\)
+</p>
+<br/>
+<p>where <i>m<sub>i</sub></i> is the mass of particle <i>i</i> and <i>r<sub>i</sub></i> is the distance between the particle <i>i</i> and the axis passing through point <i>Q</i>.
+</p>
+<h2>
+Finding the moment of inertia of an extended object requires an integral.</h2>
+<p>
+To find the moment of inertia of a rigid object, we essentially consider the object as a collection of tiny lumps. Then we 
+figure out how far the lumps are from the axis of rotation and perform a sum over the lumps.</p>
+<p>
+\( I= \text{sum of: lumps of mass} \times (\text{the distance from the axis of rotation})^2 \)</p>
+<br/>
+In the infinitesimal limit, the sum process over all the lumps becomes an integration, and the expression for the moment of inertia becomes:</p>
+<p>
+\( I_Q =\int r^{2}\; dm \)</p>
+<p>
+Most of the time you do not need to perform the actual integration. However if you do need to do that, you should notice that:</p>
+<ul style="list-style:disc outside none">
+<li>
+<i>d</i><i>m</i> represents the small lump of mass. In practicality, the mass of the small lump is its volume 
+multiplied by the density, so it is usually expressed in term of &#961;<i>d</i><i>x</i><i>d</i><i>y</i><i>d</i><i>z</i> or &#961;<i>r</i><sup>2</sup><i>d</i><i>r</i><i>d</i>&#952;<i>d</i><i>z</i> or &#961;<i>r</i><sup>2</sup>sin<sup>2</sup>(&#952;)<i>d</i><i>r</i><i>d</i>&#952;<i>d</i>&#966;. The choice of which one to use depends on the symmetry of the object.</li>
+<li>
+				After you do all the above, you need to express r , the distance of that lump to the axis, in terms of the coordinate system that you pick.</li>
+<li>
+				This is a definite integral: you are summing over the object, and the limits are usually the boundaries of the object.</li>
+</ul>
+</body>
+</html>
+

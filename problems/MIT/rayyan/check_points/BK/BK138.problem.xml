@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <title> CheckPoint: Rod Pendulum </title>
+    <script type="loncapa/python">
+from __future__ import division
+from loncapa import *
+
+#Enter the computations here
+L = lc_random(0.8, 1.5, 0.1)
+time = 8*3.14159*math.sqrt( L/9.8)
+
+</script>
+    
+      <p>Two simple pendula of lengths L = $L meters and 0.64*L are suspended from a thin horizontal bar. Both pendula are gently pulled sideways so that the strings are parallel to each other (the side view of this situation is shown). The pendula are then released simultaneously. The acceleration due to gravity is 9.80 m/s<sup>2</sup>.</p>
+    
+    <br/>
+    <img src="/static/problems/MIT/rayyan/check_points/Pictures/BK138.PNG" alt="Two pendula at the same angle" encrypturl="no" height="400"/>
+    <part loncapaid="11">
+      
+        <br/>
+        <p>How long would it be before the pendula both simultaneously come back to the position shown in the diagram?</p>
+        \(t=\)
+      
+      <numericalresponse answer="$time" unit="s" loncapaid="12">
+        <responseparam default="5%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <textline readonly="no" dojs="math"/>
+      </numericalresponse>
+    </part>
+      </problem>
+</html>

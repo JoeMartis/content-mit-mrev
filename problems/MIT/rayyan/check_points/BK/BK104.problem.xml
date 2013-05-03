@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <title> CheckPoint: Spinning Rod </title>
+    <script type="loncapa/python">
+from __future__ import division
+from loncapa import *
+
+#Enter the computations here
+a=lc_random(1,3,1)
+b=lc_random(1,3,1)
+c=lc_random(1,3,1)
+l=lc_choose(a,0.6,0.8,1.2)
+m=lc_choose(b,0.08,0.18,0.24)
+v=lc_choose(c,2.5,3.5,4.0)
+
+L=25* m* v* l
+
+</script>
+    <img src="/static/problems/MIT/rayyan/check_points/Pictures/BK104.PNG" alt="BK104" encrypturl="no"/>
+    <br/>
+    <part loncapaid="11">
+		<p>A light rigid rod of length 3L has small spheres of masses m, 2m, 3m and 4m attached as shown. The rod is spinning in horizontal plane about a vertical axis passing through m. The linear speed of mass 3m is v = $v m/s. </p>
+		<p>If L = $l meters and m = $m kilograms, find the angular momentum of the rod.</p>
+		<p>\(L=\)</p>
+
+      <numericalresponse answer="$L" unit="kg*m^2/s" loncapaid="12">
+        <responseparam default="5%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <textline readonly="no" dojs="math"/>
+      </numericalresponse>
+    </part>
+      </problem>
+</html>

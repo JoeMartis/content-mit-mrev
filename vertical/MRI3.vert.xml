@@ -1,0 +1,7 @@
+<vertical>
+	<problem filename="F12/MRI/MRI3-1.problem" display_name="Around The Peg" attempts="1" weight="0.25"/>
+	<problem filename="F12/MRI/MRI3-2.problem" display_name="Around The Peg, Part 2" attempts="1" weight="0.25"/>
+	<problem filename="F12/MRI/MRI3-3.problem" display_name="Around The Peg, Part 3" attempts="1" weight="0.25"/>
+	<problem filename="F12/MRI/MRI3-4.problem" display_name="Around The Peg, Part 4" attempts="1" weight="0.25"/>
+	<discussion for="Around The Peg" id="MReV_Summer2013_MRI3" discussion_category="Describing Rotational and Translational Motion" />
+</vertical>

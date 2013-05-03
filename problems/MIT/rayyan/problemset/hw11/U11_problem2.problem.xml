@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <script type="loncapa/python">
+from __future__ import division
+from loncapa import *
+
+a = "sqrt(2*k/(3*M))"
+b = "x0*sqrt(2*k/(3*M))"
+
+</script>
+<p>A cylinder of mass \(M\) and radius \(R\) is free to rotate around a frictionless axle through its center. The axle is connected to a spring of spring constant \(k\). The surface of the floor is rough enough that the cylinder always rolls without slipping. The spring is displaced a distance \(x_0\) from the springs unstretched position, and then released. The cylinder starts rolling back and forth.</p>
+
+<p><img encrypturl="no" src="/static/problems/MIT/rayyan/problemset/Pictures/p11b.png" alt="p1a" texwrap="none" align="top"/></p>
+
+<p>a) What is the frequency of oscillations? Use some combination of the variables k, M, R, and x0 in your answer.</p>
+
+    <part loncapaid="11">
+    <p>\(\omega\)=</p>
+    <formularesponse answer="$a" samples="M,k@1,1:10,10#4" loncapaid="12">
+    <textline readonly="no" size="25" dojs="math" />
+	</formularesponse>
+	</part>
+    
+<p>b) What is the maximum speed of the cylinder? Use the variables x0, k, &amp; M in your answer.</p>
+    
+    <part loncapaid="13">
+    <p>\(v\)=</p>
+    <formularesponse answer="$b" samples="x0,k,M@1,1,1:10,10,10#4" loncapaid="14">
+    <textline readonly="no" size="25" dojs="math"/>
+	</formularesponse>
+	</part>
+    
+  </problem>
+</html>

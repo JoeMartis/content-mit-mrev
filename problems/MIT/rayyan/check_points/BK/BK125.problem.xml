@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <title>CheckPoint: Describing Simple Harmonic Motion</title>
+    <parameter default="2" description="Maximum Number of Tries" type="int_pos" name="maxtries" loncapaid="11"/>
+    <p>
+</p><br/> 
+Which of the following equations describes simple harmonic motion? <b>Check all that apply.</b>
+Note that x, v, a and t stand for, respectively, position, velocity, acceleration and time. Symbol c is a positive constant.<br/>
+
+    <part loncapaid="20">
+      <optionresponse texlayout="horizontal" max="10" randomize="no" loncapaid="15">
+        <ul>
+          <li>
+            
+              <p>
+                \(x=-ac\)
+    </p>
+            
+            <optioninput name="Foil1" options="('True','False')" correct="True">
+</optioninput>
+          </li>
+          <li>
+            
+              <p>
+                \(dv/dt = -cx\)
+    </p>
+            
+            <optioninput name="Foil2" options="('True','False')" correct="True">
+</optioninput>
+          </li>
+          <li>
+            
+              <p>
+                \(a=c(-dx/dt)\)
+    </p>
+            
+            <optioninput name="Foil3" options="('True','False')" correct="False">
+</optioninput>
+          </li>
+          <li>
+            
+              <p>
+                \(dx/dt = -dv/dt\)
+    </p>
+            
+            <optioninput name="Foil4" options="('True','False')" correct="False">
+</optioninput>
+          </li>
+          <li>
+            
+              <p>
+                \(c(d^2x/dt^2)=-x\)
+    </p>
+            
+            <optioninput name="Foil5" options="('True','False')" correct="True">
+</optioninput>
+          </li>
+          <li>
+            
+              <p>
+                \(c(dv/dt)=(1/x)\)
+    </p>
+            
+            <optioninput name="Foil6" options="('True','False')" correct="False">
+</optioninput>
+          </li>
+        </ul>
+      </optionresponse>
+    </part>
+  </problem>
+</html>

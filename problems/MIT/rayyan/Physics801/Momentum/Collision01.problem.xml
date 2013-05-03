@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <script type="loncapa/python">
+from __future__ import division
+from loncapa import *
+
+#Enter the computations here
+m1=lc_random(700,1000,50)
+m2=lc_random(700,1000,50)
+theta=lc_random(30,50,5)
+r= m2/ m1/math.tan( theta* deg2rad)
+
+</script>
+    
+      <p>Two cars are approaching a perpendicular intersection without a stop sign. Car 1  has a mass $m1 kg and is heading north and car 2 has mass $m2 kg and is heading west. The two cars collide at the intersection, and stick together as a result of the collision. The police report stated that after the collision, the two cars were moving in a direction \( $theta^o \) west of north. What is the ratio of the initial speed of car 1 to car 2?</p>
+    
+    <numericalresponse answer="$r" loncapaid="11">
+      <responseparam default="5%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+      <textline readonly="no" dojs="math"/>
+    </numericalresponse>
+  </problem>
+</html>

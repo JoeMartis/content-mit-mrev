@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <script type="loncapa/python">
+from __future__ import division
+from loncapa import *
+omega="sqrt(1.5*g*cos(beta)/l)"
+</script>
+    
+        <img src="/static/problems/MIT/analiab/NewProblems/files/Vshaped_intro.fw.png"/>
+        <br/>
+<p>
+Two identical rods, each of mass \(m\) and length \(l \), are joined at an angle \(2\beta \) to form a V-shaped object. This object is balanced on 
+top of a sharp edge. What is the frequency of oscillation? In your answer type beta for \(\beta \).
+
+</p><br/>
+
+    <br/>
+    <part loncapaid="11">\(\omega\)=<formularesponse answer="$omega" samples="g,l,beta@1,1,-1.5:10,10,1.5#4" loncapaid="12">
+    <textline readonly="no" size="25" dojs="math">
+</textline></formularesponse></part>
+
+  </problem>
+</html>

@@ -1,0 +1,26 @@
+<chapter display_name="Homework for Core Models and Planar Dynamics">
+	<sequential display_name="Core Models and Planar Dynamics, Level 1" url_name="Core_Models_and_Planar_Dynamics_Level_1">
+		<vertical display_name="fall fall fall">
+			<problem display_name="fall fall fall" filename="MIT/GWUproblems/HTW_exams/exam1_num01.problem" attempts="2"/>
+			<discussion for="fall fall fall" id="MReV_Summer2013_exam1_num01" discussion_category="Core Models and Planar Dynamics/fall fall fall" />
+		</vertical>
+		<vertical display_name="Grocery Cart" filename="MRI21.vert" />
+	</sequential>
+	<sequential display_name="Core Models and Planar Dynamics, Level 2" url_name="Core_Models_and_Planar_Dynamics_Level_2">
+		<vertical display_name="Brick Slide 2" filename="MRI29.vert" />
+	</sequential>
+	<sequential display_name="Core Models and Planar Dynamics, MIT exam like" url_name="Core_Models_and_Planar_Dynamics_MIT_exam_like">
+		<vertical display_name="Stoplight">
+			<problem display_name="Stoplight" filename="MIT/rayyan/Physics801/Symbolic/Stoplight.problem" attempts="10"/>
+			<discussion for="Stoplight" id="MReV_Summer2013_Stoplight" discussion_category="Core Models and Planar Dynamics/Stoplight" />
+		</vertical>
+		<vertical display_name="cat_1">
+			<problem display_name="cat_1" filename="MIT/rayyan/osu/02_Motion Along a Straight Line/cat/cat_1.problem" attempts="2"/>
+			<discussion for="cat_1" id="MReV_Summer2013_cat_1" discussion_category="Core Models and Planar Dynamics/cat_1" />
+		</vertical>
+		<vertical display_name="cat_2">
+			<problem display_name="cat_2" filename="MIT/rayyan/osu/02_Motion Along a Straight Line/cat/cat_2.problem" attempts="2"/>
+			<discussion for="cat_2" id="MReV_Summer2013_cat_2" discussion_category="Core Models and Planar Dynamics/cat_2" />
+		</vertical>
+	</sequential>
+</chapter>

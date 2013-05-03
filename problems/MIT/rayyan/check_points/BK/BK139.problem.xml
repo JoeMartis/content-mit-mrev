@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <title>CheckPoint: Energy in SHM</title>
+    <p>
+</p><br/> 
+A block, attached to a spring, follows simple harmonic motion as shown in the diagram. 
+
+    <br/>
+    <img encrypturl="no" src="/static/problems/MIT/rayyan/check_points/Pictures/BK139.PNG" alt="BK139" texwrap="none"/>
+    <br/>
+    
+      <p>
+Which of the following statements about the energy of this system are true? In the options below, K stands for kinetic energy and U stands for potential energy. </p>
+    
+    <part loncapaid="11">
+      <optionresponse texlayout="horizontal" max="14" randomize="no" loncapaid="12">
+        <ul>
+          <li>
+            
+              <p>K is directly proportional to the displacement from equilibrium</p>
+            
+            <optioninput name="Foil1" options="('True','False')" correct="False">
+</optioninput>
+          </li>
+          <li>
+            
+              <p>K is inversely proportional to the displacement from equilibrium</p>
+            
+            <optioninput name="Foil2" options="('True','False')" correct="False">
+</optioninput>
+          </li>
+          <li>
+            
+              <p>K is directly proportional to the square of the displacement from equilibrium</p>
+            
+            <optioninput name="Foil3" options="('True','False')" correct="False">
+</optioninput>
+          </li>
+          <li>
+            
+              <p>U is directly proportional to the displacement from equilibrium</p>
+            
+            <optioninput name="Foil4" options="('True','False')" correct="False">
+</optioninput>
+          </li>
+          <li>
+            
+              <p>U is inversely proportional to the displacement from equilibrium</p>
+            
+            <optioninput name="Foil5" options="('True','False')" correct="False">
+</optioninput>
+          </li>
+          <li>
+            
+              <p>U is directly proportional to the square of the displacement from equilibrium</p>
+            
+            <optioninput name="Foil6" options="('True','False')" correct="True">
+</optioninput>
+          </li>
+          <li>
+            
+              <p>K is at a maximum when the acceleration is zero</p>
+            
+            <optioninput name="Foil7" options="('True','False')" correct="True">
+</optioninput>
+          </li>
+          <li>
+            
+              <p>K is at a minimum when U is at a maximum</p>
+            
+            <optioninput name="Foil8" options="('True','False')" correct="True">
+</optioninput>
+          </li>
+          <li>
+            
+              <p>U is at a maximum when the acceleration is at a maximum</p>
+            
+            <optioninput name="Foil9" options="('True','False')" correct="True">
+</optioninput>
+          </li>
+          <li>
+            
+              <p>U is at a minimum when the velocity is zero</p>
+            
+            <optioninput name="Foil10" options="('True','False')" correct="False">
+</optioninput>
+          </li>
+          <li>
+            
+              <p>The sum (K+U) is directly proportional to the displacement from equilibrium</p>
+            
+            <optioninput name="Foil11" options="('True','False')" correct="False">
+</optioninput>
+          </li>
+          <li>
+            
+              <p>The sum (K+U) is inversely proportional to the displacement from equilibrium</p>
+            
+            <optioninput name="Foil12" options="('True','False')" correct="False">
+</optioninput>
+          </li>
+          <li>
+            
+              <p>The sum (K+U) is directly proportional to the acceleration</p>
+            
+            <optioninput name="Foil13" options="('True','False')" correct="False">
+</optioninput>
+          </li>
+          <li>
+            
+              <p>The sum (K+U) is inversely proportional to the acceleration</p>
+            
+            <optioninput name="Foil14" options="('True','False')" correct="False">
+</optioninput>
+          </li>
+        </ul>
+      </optionresponse>
+    </part>
+      </problem>
+</html>

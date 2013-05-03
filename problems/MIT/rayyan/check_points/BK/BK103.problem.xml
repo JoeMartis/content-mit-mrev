@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <title> CheckPoint: Angular Momentum of Point Masses </title>
+    <script type="loncapa/python">
+from __future__ import division
+from loncapa import *
+
+#Enter the computations here
+a=lc_random(1,3,1)
+b=lc_random(1,3,1)
+c=lc_random(1,3,1)
+m=lc_choose(a,0.06,0.15,0.24)
+L=lc_choose(b,0.8,1.2,1.5)
+o=lc_choose(c,0.8,2.5,4.8)
+A=50* m* L* L* o
+B=20* m* L* L* o
+C=10* m* L* L* o
+D=20* m* L* L* o
+E=10* m* L* L* o
+F=12.5* m* L* L* o
+
+</script>
+    <p>A light rigid rod of length 3L where L = $L m has small spheres of masses m = $m kg, 2m, 3m and 4m attached as shown. 
+The rod is spinning in horizontal plane with angular speed \(\omega \) = $o rad/s about a vertical axis. 
+</p><br/>
+Find the magnitude of angular momentum of the rod in each case. Enter your answers in [kg.m<sup>2</sup>.s<sup>-1</sup>].
+<br/>
+    <img src="/static/problems/MIT/rayyan/check_points/Pictures/BK103.PNG" alt="BK103" encrypturl="no"/>
+    <part loncapaid="11">
+      <p>
+</p><br/>
+Part A. 
+The axis of rotation is passing through mass m.
+<br/>
+\(L=\)
+
+      <numericalresponse answer="$A" unit="kg*m^2/s" loncapaid="12">
+        <responseparam default="5%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <textline readonly="no" dojs="math"/>
+      </numericalresponse>
+    </part>
+    <part loncapaid="13">
+      <p>
+</p><br/>
+Part B. 
+The axis of rotation is passing through mass 2m.
+<br/>
+\(L=\)
+
+      <numericalresponse answer="$B" unit="kg*m^2/s" loncapaid="14">
+        <responseparam default="5%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <textline readonly="no" dojs="math"/>
+      </numericalresponse>
+    </part>
+    <part loncapaid="15">
+      <p>
+</p><br/>
+Part C. 
+The axis of rotation is passing through mass 3m.
+<br/>
+\(L=\)
+
+      <numericalresponse answer="$C" unit="kg*m^2/s" loncapaid="16">
+        <responseparam default="5%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <textline readonly="no" dojs="math"/>
+      </numericalresponse>
+    </part>
+    <part loncapaid="17">
+      <p>
+</p><br/>
+Part D. 
+The axis of rotation is passing through mass 4m.
+<br/>
+\(L=\)
+
+      <numericalresponse answer="$D" unit="kg*m^2/s" loncapaid="18">
+        <responseparam default="5%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <textline readonly="no" dojs="math"/>
+      </numericalresponse>
+    </part>
+    <part loncapaid="19">
+      <p>
+</p><br/>
+Part E. 
+The axis of rotation is passing through the center of mass of the configuration.
+<br/>
+\(L=\)
+
+      <numericalresponse answer="$E" unit="kg*m^2/s" loncapaid="20">
+        <responseparam default="5%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <textline readonly="no" dojs="math"/>
+      </numericalresponse>
+    </part>
+    <part loncapaid="21">
+      <p>
+</p><br/>
+Part F. 
+The axis of rotation is passing through the midpoint of the rod.
+<br/>
+\(L=\)
+
+      <numericalresponse answer="$F" unit="kg*m^2/s" loncapaid="22">
+        <responseparam default="5%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <textline readonly="no" dojs="math"/>
+      </numericalresponse>
+    </part>
+      </problem>
+</html>

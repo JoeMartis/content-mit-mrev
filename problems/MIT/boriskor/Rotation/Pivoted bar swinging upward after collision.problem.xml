@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <script type="loncapa/python">
+from __future__ import division
+from loncapa import *
+
+v=" sqrt(8*g*D)"
+
+</script>
+    <img src="/static/problems/MIT/boriskor/BKimages/struck_pivoted_bar_swinging_up_2.png" alt="Vertical pivoted bar struck by horizontal projectile" encrypturl="no"/>
+    <br/>
+    
+      <p>
+
+A uniform bar of mass \(M\) and length \(D\) is suspended on a frictionless hinge. A blob of clay of mass \(M\) strikes the bottom end of the bar
+and gets stuck to it. As a result, the bar swings upward. What is the minimum speed \(v\) of the blob of clay before impact that would enable the rod
+ to swing a full circle? (Enter g for the acceleration of gravity)
+
+<br/>
+\(v=\)
+</p>
+    
+    <formularesponse answer="$v" samples="g,D@1,1:10,10#3" loncapaid="12">
+      <responseparam default="1%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+      <textline readonly="no" size="25" dojs="math"/>
+    </formularesponse>
+      </problem>
+</html>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <img width="350" alt="Gear Acceleration" height="325" encrypturl="no" src="/static/problems/MIT/rayyan/Physics801/Figures/Gears.png"/>
+    <script type="loncapa/python">
+from __future__ import division
+from loncapa import *
+
+</script>
+    <hr/>
+    
+      <p>
+Gear 1 of radius R is attached to a motor that can provide a constant torque regardless of angular velocity. Gear 2 of mass m and radius r is set at rest upon Gear 1 so that a line segment from the center of gear 1 to the center of gear 2 makes a positive angle B with the horizontal. If the gears have small groves that sufficiently prevent any slipping, what must be the magnitude of the angular acceleration \( \alpha \) of gear 1 so that gear 2 can stay in the same position?<br/>
+</p>
+    
+    <formularesponse answer="2*g*cos(B)/R" samples="g,B,R,r,m@9.8,1,1,1,1:9.8,10,10,10,10#4" loncapaid="11">
+      <responseparam default="0.00001" type="tolerance" name="tol" description="Numerical Tolerance"/>
+      <textline readonly="no" size="25" dojs="math"/>
+    </formularesponse>
+      </problem>
+</html>

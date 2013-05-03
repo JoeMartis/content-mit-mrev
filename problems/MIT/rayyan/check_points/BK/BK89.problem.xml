@@ -1,0 +1,187 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <title> CheckPoint: Yo-Yo </title>
+    <script type="loncapa/python">
+from __future__ import division
+from loncapa import *
+
+a=lc_random(1,3,1)
+b=lc_random(1,3,1)
+c=lc_random(1,3,1)
+d=lc_random(1,3,1)
+e=lc_random(1,3,1)
+m=lc_choose(a,2.0,2.5,3.2)
+theta=lc_choose(b,30,40,50)
+M=lc_choose(c,3.0,4.5,6.0)
+
+#T=(2* M*9.8+* m*9.8)/(2*math.sin( deg2rad* theta))
+#alpha=(6* M*9.8+3* m*9.8)/(2* m*1.5)
+
+</script>
+    
+      <p>
+A yo-yo has mass m and rotational inertia \(I\). A light thin string is wrapped around the central part of the yo-yo that has radius \(r\). The string is attached to the ceiling as shown. The yo-yo is released from rest and begins to descend as the string unwraps. The positive "y" direction is downward, as indicated by the arrow on the diagram.
+</p>
+      <br/>
+    
+    <img src="/static/problems/MIT/rayyan/check_points/Pictures/BK89.PNG" alt="BK89" encrypturl="no"/>
+    <part loncapaid="11">
+      <p>
+</p><br/>
+Part 1.
+If the force of tension in the string is T, what is the correct expression that results from applying Newton's 2nd law on the motion of the center of mass of the yo-yo? Remember that downwards is treated as the positive direction in this problem.
+
+      <br/>
+      <multiplechoiceresponse max="10" direction="vertical" randomize="no" loncapaid="12" type="MultipleChoice">
+        <choicegroup type="MultipleChoice">
+          <choice location="random" name="foil1" correct="true">
+                  \( mg-T= ma  \)
+          </choice>
+          <choice location="random" name="foil2" correct="false">
+                  \( T + mg = ma \)
+          </choice>
+          <choice location="random" name="foil3" correct="false">
+
+                Zero
+            
+          </choice>
+          <choice location="random" name="foil4" correct="false">
+                  \( mg - Tr = ma \)
+          </choice>
+          <choice location="random" name="foil5" correct="false">
+                  \( mg + Tr = ma \)
+          </choice>
+          <choice location="random" name="foil6" correct="false">
+                  \( Tr - mg = ma \)
+          </choice>
+        </choicegroup>
+      </multiplechoiceresponse>
+    </part>
+    <part loncapaid="13">
+      <p>
+</p><br/>
+Part 2.
+With respect to the axis passing through the center of the yo-yo, what is the magnitude of the net torque acting on the yo-yo? Take clockwise rotation to be the positive direction.
+
+      <br/>
+      <multiplechoiceresponse max="10" direction="vertical" randomize="no" loncapaid="14" type="MultipleChoice">
+        <choicegroup type="MultipleChoice">
+          <choice location="random" name="foil1" correct="false">
+                  \( (mg - T)r \)
+          </choice>
+          <choice location="random" name="foil2" correct="false">
+                  \( (mg + T)r \)
+          </choice>
+          <choice location="random" name="foil3" correct="false">
+
+                Zero
+            
+          </choice>
+          <choice location="random" name="foil4" correct="true">
+                  \( Tr     \)
+          </choice>
+          <choice location="random" name="foil5" correct="false">
+                  \( mgr \)
+          </choice>
+          <choice location="random" name="foil6" correct="false">
+                  \( 2Tr \)
+          </choice>
+          <choice location="random" name="foil7" correct="false">
+                  \( 2mgr \)
+          </choice>
+        </choicegroup>
+      </multiplechoiceresponse>
+    </part>
+    <part loncapaid="15">
+      <p>
+</p><br/>
+Part 3.
+What is the relationship between the translational acceleration of the yo-yo a and its angular acceleration \(\alpha\)?
+
+      <br/>
+      <multiplechoiceresponse max="10" direction="vertical" randomize="no" loncapaid="16" type="MultipleChoice">
+        <choicegroup type="MultipleChoice">
+          <choice location="random" name="foil1" correct="true">
+                  \( a= \alpha r \)
+          </choice>
+          <choice location="random" name="foil2" correct="false">
+                  \( a= \alpha /r \)
+          </choice>
+          <choice location="random" name="foil4" correct="false">
+                  \( a= 2\alpha r    \)
+          </choice>
+          <choice location="random" name="foil5" correct="false">
+                  \( a= 2\alpha /r \)
+          </choice>
+          <choice location="random" name="foil6" correct="false">
+                  \( a= \alpha r /2 \)
+          </choice>
+          <choice location="random" name="foil7" correct="false">
+                  \( a= \alpha/(2r) \)
+          </choice>
+        </choicegroup>
+      </multiplechoiceresponse>
+    </part>
+    <part loncapaid="17">
+      <p>
+</p><br/>
+Part 4.
+What is the downward acceleration of the yo-yo?
+
+      <br/>
+      <multiplechoiceresponse max="10" direction="vertical" randomize="no" loncapaid="18" type="MultipleChoice">
+        <choicegroup type="MultipleChoice">
+          <choice location="random" name="foil1" correct="true">
+                  \( a = g (mr^2)/(mr^2 + I) \)
+          </choice>
+          <choice location="random" name="foil2" correct="false">
+                  \( a = g (mr^2 + I)/(mr^2)   \)
+          </choice>
+          <choice location="random" name="foil4" correct="false">
+                  \( a = g (mr^2)/( I)   \)
+          </choice>
+          <choice location="random" name="foil5" correct="false">
+                  \( a = g (I)/(mr^2) \)
+          </choice>
+          <choice location="random" name="foil6" correct="false">
+                  \( a = g (I)/(mr^2 + I)    \)
+          </choice>
+          <choice location="random" name="foil7" correct="false">
+                  \( a = g (mr^2 + I)/ I)        \)
+          </choice>
+        </choicegroup>
+      </multiplechoiceresponse>
+    </part>
+    <part loncapaid="19">
+      <p>
+</p><br/>
+Part 5.
+What is the magnitude of the force of tension in the string?
+
+      <br/>
+      <multiplechoiceresponse max="10" direction="vertical" randomize="no" loncapaid="20" type="MultipleChoice">
+        <choicegroup type="MultipleChoice">
+          <choice location="random" name="foil1" correct="false">
+                  \( T = mg (mr^2)/(mr^2 + I) \)
+          </choice>
+          <choice location="random" name="foil2" correct="false">
+                  \( T = mg (mr^2 + I)/(mr^2)   \)
+          </choice>
+          <choice location="random" name="foil4" correct="false">
+                  \( T = mg (mr^2)/( I)   \)
+          </choice>
+          <choice location="random" name="foil5" correct="false">
+                  \( T = mg (I)/(mr^2) \)
+          </choice>
+          <choice location="random" name="foil6" correct="true">
+                  \( T = mg (I)/(mr^2 + I)    \)
+          </choice>
+          <choice location="random" name="foil7" correct="false">
+                  \( T = mg (mr^2 + I)/ I)        \)
+          </choice>
+        </choicegroup>
+      </multiplechoiceresponse>
+    </part>
+      </problem>
+</html>

@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <img width="200" alt="Effective Spring Constant" height="230" encrypturl="no" src="/static/problems/MIT/rayyan/Figures/Effective Spring Constant.png"/>
+    <br/>
+    
+      <p>Two springs with spring constants k1 and k2 are connected in parallel (A) or in series (b) as shown below. Find the effective spring constant keff for each configuration. </p>
+    
+    <part loncapaid="11">
+      <script type="loncapa/python">
+from __future__ import division
+from loncapa import *
+
+</script>
+      <formularesponse answer="k2+k1" samples="k1,k2@1,1:5,5#4" loncapaid="12">
+        <responseparam default="0.00001" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        
+          <p>(A) When in parallel, k<sub>eff</sub> = </p>
+        
+        <textline readonly="no" size="25" dojs="math"/>
+      </formularesponse>
+<!--
+      <block condition="tries &gt; 0">
+        
+          <p>Think about what is similar about both springs: both are stretched the same distance X. The force applied by each spring adds up to force applied by the "effective" spring.</p>
+        
+      </block>
+-->
+    </part>
+    <part loncapaid="13">
+      <script type="loncapa/python">
+from __future__ import division
+from loncapa import *
+
+</script>
+      <formularesponse answer="(1/k1+1/k2)^-1" samples="k1,k2@1,1:5,5#4" loncapaid="14">
+        <responseparam default="0.00001" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        
+          <p>(B) When in series, k<sub>eff</sub> = </p>
+        
+        <textline readonly="no" size="25" dojs="math"/>
+      </formularesponse>
+<!--
+      <block condition="tries &gt; 0">
+        
+          <p>Think about what is similar about both springs: both apply the same force F, which is the same force applied by the "effective" spring.</p>
+        
+      </block>
+-->
+    </part>
+      </problem>
+</html>

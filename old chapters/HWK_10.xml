@@ -1,0 +1,60 @@
+<chapter display_name="Homework for Describing Rotational and Translational Motion">
+	<sequential display_name="Describing Rotational and Translational Motion Level 1" url_name="Describing_Rotational_and_Translational_Motion_Level_1">
+		<vertical display_name="Circular Motion" filename="MRI3.vert" />
+		<vertical display_name="Skidding vs Slipping" filename="wheel.vert"/>
+		<vertical display_name="Rolling down 1">
+			<problem display_name="Rolling down 1" filename="F12/RQ/rollingdown.problem" attempts="1"/>
+			<discussion for="Rolling down 1" id="MReV_Summer2013_rollingdown" discussion_category="Describing Rotational and Translational Motion/Rolling down 1" />
+		</vertical>
+		<vertical display_name="Bowling">
+			<problem display_name="Bowling" filename="F12/RQ/bowlingball.problem" attempts="1"/>
+			<discussion for="Bowling" id="MReV_Summer2013_bowlingball" discussion_category="Describing Rotational and Translational Motion/Bowling" />
+		</vertical>
+		<vertical display_name="Angular Velocity Direction">
+			<problem display_name="Angular Velocity Direction" filename="F12/custom/cross_omega.problem" attempts="10"/>
+			<discussion for="Angular Velocity Direction" id="MReV_Summer2013_cross_omega" discussion_category="Describing Rotational and Translational Motion/Angular Velocity Direction" />
+		</vertical>
+	</sequential>
+	<sequential display_name="Describing Rotational and Translational Motion Level 2" url_name="Describing_Rotational_and_Translational_Motion_Level_2">
+		<vertical display_name="Pivoted bar swinging top to bottom">
+			<problem display_name="Pivoted bar swinging top to bottom" filename="MIT/boriskor/Rotation/Bar swinging top to bottom multipart.problem" attempts="10"/>
+			<discussion for="Pivoted bar swinging top to bottom" id="MReV_Summer2013_Bar_swinging_top_to_bottom_multipart" discussion_category="Describing Rotational and Translational Motion/Pivoted bar swinging top to bottom" />
+		</vertical>
+		<vertical display_name="A Rolling Assembly" filename="BK152.vert" />
+		<vertical display_name="YoYo">
+			<problem display_name="YoYo" filename="F12/RQ/yoyo.problem" attempts="2"/>
+			<discussion for="YoYo" id="MReV_Summer2013_yoyo" discussion_category="Describing Rotational and Translational Motion/YoYo" />
+		</vertical>
+		<vertical display_name="Kinetic Energy">
+			<problem display_name="Kinetic Energy" filename="F12/RQ/rq13.problem" attempts="2"/>
+			<discussion for="Kinetic Energy" id="MReV_Summer2013_rq13" discussion_category="Describing Rotational and Translational Motion/Kinetic Energy" />
+		</vertical>
+		<vertical display_name="Rolling" filename="rolling.vert"/>
+	</sequential>
+	<sequential display_name="Describing Rotational and Translational Motion MIT exam like" url_name="Describing_Rotational_and_Translational_Motion_MIT_exam_like">
+		<vertical display_name="Ladder sliding against the wall: kinetic energy">
+			<problem display_name="Ladder sliding against the wall: kinetic energy" filename="MIT/boriskor/Rotation/Ladder sliding against the wall_energy.problem" attempts="10"/>
+			<discussion for="Ladder sliding against the wall: kinetic energy" id="MReV_Summer2013_Ladder_sliding_against_the_wall_energy" discussion_category="Describing Rotational and Translational Motion/Ladder sliding against the wall: kinetic energy" />
+		</vertical>
+		<vertical display_name="Unifrom disc descends two different inclines">
+			<problem display_name="Unifrom disc descends two different inclines" filename="MIT/boriskor/Multiconcept Problems/Disc rolling down two inclined planes.problem" attempts="2"/>
+			<discussion for="Unifrom disc descends two different inclines" id="MReV_Summer2013_Disc_rolling_down_two_inclined_planes" discussion_category="Describing Rotational and Translational Motion/Unifrom disc descends two different inclines" />
+		</vertical>
+		<vertical display_name="Disc rolls without slipping down an incline while an attached pulley rotates">
+			<problem display_name="Disc rolls without slipping down an incline while an attached pulley rotates" filename="MIT/boriskor/Multiconcept Problems/Rolling disc rotating pulley.problem" attempts="2"/>
+			<discussion for="Disc rolls without slipping down an incline while an attached pulley rotates" id="MReV_Summer2013_Rolling_disc_rotating_pulley" discussion_category="Describing Rotational and Translational Motion/Disc rolls without slipping down an incline while an attached pulley rotates" />
+		</vertical>
+		<vertical display_name="Small sphere rolling off the top of a large sphere">
+			<problem display_name="Small sphere rolling off the top of a large sphere" filename="MIT/boriskor/Multiconcept Problems/Small sphere rolling off a large sphere.problem" attempts="10"/>
+			<discussion for="Small sphere rolling off the top of a large sphere" id="MReV_Summer2013_Small_sphere_rolling_off_a_large_sphere" discussion_category="Describing Rotational and Translational Motion/Small sphere rolling off the top of a large sphere" />
+		</vertical>
+		<vertical display_name="Uniform disc swings down being pivoted at the midpoint of a radius">
+			<problem display_name="Uniform disc swings down being pivoted at the midpoint of a radius" filename="MIT/boriskor/Multiconcept Problems/Uniform disc pivoted off center swings down.problem" attempts="3"/>
+			<discussion for="Uniform disc swings down being pivoted at the midpoint of a radius" id="MReV_Summer2013_Uniform_disc_pivoted_off_center_swings_down" discussion_category="Describing Rotational and Translational Motion/Uniform disc swings down being pivoted at the midpoint of a radius" />
+		</vertical>
+		<vertical display_name="Unwinding Ribbon">
+			<problem display_name="Unwinding Ribbon" filename="MIT/rayyan/Physics801/Rotational Motion and Torque/Unwinding Spools.problem" attempts="10"/>
+			<discussion for="Unwinding Ribbon" id="MReV_Summer2013_Unwinding_Spools" discussion_category="Describing Rotational and Translational Motion/Unwinding Ribbon" />
+		</vertical>
+	</sequential>
+</chapter>

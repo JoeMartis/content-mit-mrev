@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <img width="600" alt="Projectile Angle" height="250" encrypturl="no" src="/static/problems/MIT/rayyan/Figures/Projectile Motion.png"/>
+    <br/>
+    
+      <p>
+</p>
+      <p>
+	A projectile is launched so it will travel the furthest up an incline. If the incline makes an angle b with the horizontal, what is the angle above the horizontal for which the projectile should be launched. Answer using degrees, not radians. Hint: use an online computer algebra system to simplify the trigonometry (such as <a href="http://www.wolframalpha.com/">Wolfram Alpha</a>)</p>
+    
+    <br/>
+    <formularesponse answer="b/2+45" samples="b,g@1,8:89,10#4" loncapaid="11">
+      <responseparam default="0.1" type="tolerance" name="tol" description="Numerical Tolerance"/>
+      <textline readonly="no" size="25" dojs="math"/>
+      <hintgroup showoncorrect="no">
+        <customhint name="radians" loncapaid="12">
+          <answer type="loncapa/perl">b/2*%Pi/4</answer>
+        </customhint>
+        <hintpart on="radians">
+          
+            <p>Remember to put your answer in degrees, not radians.</p>
+          
+        </hintpart>
+      </hintgroup>
+    </formularesponse>
+      </problem>
+</html>

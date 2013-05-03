@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <img src="/static/problems/MIT/rayyan/osu/images/accelerating.png" alt="accelerating" encrypturl="no" height="150"/>
+    
+      <p>
+</p>
+      <p><br/>
+	A cart with mass m<sub>2</sub> is connected to a mass m<sub>1</sub> using a string that passes over a frictionless pulley, as shown. Initially, the cart is held motionless. After the cart is released, the tension in the string:</p>
+    
+    <br/>
+    <multiplechoiceresponse max="10" direction="vertical" randomize="no" loncapaid="11" type="MultipleChoice">
+      <choicegroup type="MultipleChoice">
+        <choice name="foil1" correct="false">
+
+              Increases          
+        </choice>
+        <choice name="foil2" correct="true">
+
+              Decreases          
+        </choice>
+        <choice name="foil3" correct="false">
+
+              Stays the same          
+        </choice>
+        <choice name="foil4" correct="false">
+
+              Can't tell from the information given.          
+        </choice>
+      </choicegroup>
+    </multiplechoiceresponse>
+      </problem>
+</html>

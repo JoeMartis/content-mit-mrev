@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <title> CheckPoint: Displacement, Speed and Acceleration in SHM </title>
+    <script type="loncapa/python">
+from __future__ import division
+from loncapa import *
+
+#Enter the computations here
+a=lc_random(1,3,1)
+b=lc_random(1,3,1);
+c=0.025
+
+amp=lc_choose(a,0.20,0.40,0.60)
+wf=lc_choose(b,10,12,14)
+w =  wf* math.pi
+pshift= w* c
+
+A=2* math.pi/ w
+B= pshift
+C=4* amp
+D= amp* w
+E= amp* w* w
+
+</script>
+    
+      <p>The equation of simple harmonic motion for a particle is \(x(t) = $amp \cos ($wf \pi(t + $c))\). 
+Assume that all numeric values have SI units.</p>
+      <br/>
+    
+    <part loncapaid="11">
+      <p>
+</p><br/>
+Part A. 
+Find the period of motion.
+<br/>
+\(T=\)
+
+      <numericalresponse answer="$A" unit="s" loncapaid="12">
+        <responseparam default="5%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <textline readonly="no" dojs="math"/>
+      </numericalresponse>
+    </part>
+    <part loncapaid="13">
+      <p>
+</p><br/>
+Part B. 
+Find the phase angle.
+<br/>
+\(\phi=\)
+
+      <numericalresponse answer="$B" unit="rad" loncapaid="14">
+        <responseparam default="5%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <textline readonly="no" dojs="math"/>
+      </numericalresponse>
+    </part>
+    <part loncapaid="15">
+      <p>
+</p><br/>
+Part C. 
+Find the distance covered by the particle during one period of motion. 
+<br/>
+\(d=\)
+
+      <numericalresponse answer="$C" unit="m" loncapaid="16">
+        <responseparam default="5%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <textline readonly="no" dojs="math"/>
+      </numericalresponse>
+    </part>
+    <part loncapaid="17">
+      <p>
+</p><br/>
+Part D. 
+Find the maximum velocity of the particle.
+<br/>
+\(v_{max}=\)
+
+      <numericalresponse answer="$D" unit="m/s" loncapaid="18">
+        <responseparam default="5%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <textline readonly="no" dojs="math"/>
+      </numericalresponse>
+    </part>
+    <part loncapaid="19">
+      <p>
+</p><br/>
+Part E. 
+Find the acceleration of the particle at the moment its velocity is zero.
+<br/>
+\(a=\)
+
+      <numericalresponse answer="$E" unit="m/s^2" loncapaid="20">
+        <responseparam default="5%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <textline readonly="no" dojs="math"/>
+      </numericalresponse>
+    </part>
+  </problem>
+</html>

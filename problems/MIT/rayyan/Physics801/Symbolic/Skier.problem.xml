@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <img width="800" height="150" encrypturl="no" src="/static/problems/MIT/rayyan/Figures/Skier.png"/>
+    <br/>
+    <script type="loncapa/python">
+from __future__ import division
+from loncapa import *
+
+answer="2*v^2*tan(b)/g"
+#tries= EXT(user.resource.resource.external::part.tries)
+
+</script>
+    
+      <p>
+An experienced skier knows how to gain speed while skiing over a small dips of snow. The trick is to jump in the air and land smoothly on the slope downward. <br/>
+Here a skier traveling at velocity v wants to jump up and smoothly land on a dip that makes an angle b with the horizontal. For what distance d back from the dip should the skier jump up into the air in order to make smooth landing?
+
+Use g for the gravitational constant. <br/>
+</p>
+    
+    <formularesponse answer="$answer" samples="v,b,g@1,10,9:20,50,10#4" loncapaid="11">
+      <responseparam default="0.00001" type="tolerance" name="tol" description="Numerical Tolerance"/>
+      <textline readonly="no" size="25" dojs="math"/>
+<!--
+      <hintgroup>
+        <hintpart on="default">
+          <block condition="tries &gt; 2">
+            
+              <p>Hint: find what vertical velocity the skier must have upon landing. How is this value related to the vertical velocity the skier has when first jumping up? </p>
+            
+          </block>
+        </hintpart>
+      </hintgroup>
+-->
+    </formularesponse>
+    
+      <p><br/>Tip: be sure to write trigonometric functions in the form sin(b) or tan(b).<br/></p>
+    
+      </problem>
+</html>

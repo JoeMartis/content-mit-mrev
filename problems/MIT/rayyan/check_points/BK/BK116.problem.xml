@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <title> CheckPoint: Period of an Orbit </title>
+    <script type="loncapa/python">
+from __future__ import division
+from loncapa import *
+
+a=lc_random(1,3,1)
+
+d=lc_choose(a,2700,7800,11300)
+G=6.67E-11
+
+T= math.sqrt(24* math.pi/ G/ d)
+
+</script>
+    
+      <p>
+A satellite revolves in a circular orbit around a planet of density $d \(kg/m^3\).  The radius of the orbit is twice the radius of the planet. The universal gravitational constant is 6.67 x 10-11 SI units. Find the period of the satellite. 
+</p>
+      <br/>
+      \(T=\)
+    
+    <numericalresponse answer="$T" unit="s" loncapaid="11">
+      <responseparam default="5%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+      <textline readonly="no" dojs="math"/>
+    </numericalresponse>
+  </problem>
+</html>

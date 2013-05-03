@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <title> CheckPoint: Angular Momentum of Point Masses </title>
+    <script type="loncapa/python">
+from __future__ import division
+from loncapa import *
+
+#Enter the computations here
+m = lc_random(0.8, 3.0, 0.1)
+k = lc_random(180, 320, 1)
+v = lc_random(0.4, 0.8, 0.05)
+d = 0.3
+
+vmax = math.sqrt(( m* v* v +  k* d* d)/ m)
+A = math.sqrt(( m* v* v +  k* d* d)/ k)
+vavg = 2*math.sqrt( m* v* v +  k* d* d)/(3.14159*math.sqrt( m))
+
+</script>
+    
+      <p>A block of mass m = $m kg is vibrating on a spring with a force constant of k = $k N/m. When the instantaneous speed of the block is v = $v m/s, the block is 0.30 m away from equilibrium.</p>
+    
+    <part loncapaid="9">
+      <parameter default="2" description="Maximum Number of Tries" type="int_pos" name="maxtries" loncapaid="52"/>
+      <p>
+</p><br/>
+What is the best concept to use in order to find the maximum speed of the block during the vibrations?
+
+      <br/>
+      <multiplechoiceresponse max="10" direction="vertical" randomize="no" loncapaid="10" type="MultipleChoice">
+        <choicegroup type="MultipleChoice">
+          <choice name="foil1" correct="true">
+
+                Conservation of Energy
+            
+          </choice>
+          <choice name="foil2" correct="false">
+
+                Conservation of Momentum
+            
+          </choice>
+          <choice name="foil3" correct="false">
+
+                Kinematics of Simple Harmonic Motion
+            
+          </choice>
+          <choice name="foil4" correct="false">
+
+                Kinematics of Motion with Constant Acceleration
+            
+          </choice>
+          <choice name="foil5" correct="false">
+
+                Newton's 2nd law
+            
+          </choice>
+        </choicegroup>
+      </multiplechoiceresponse>
+    </part>
+    <part loncapaid="11">
+      <p>
+</p><br/>
+Find the maximum speed of the block during the vibrations.
+
+      <numericalresponse answer="$vmax" unit="m/s" loncapaid="12">
+        <responseparam default="5%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <textline readonly="no" dojs="math"/>
+      </numericalresponse>
+    </part>
+    <part loncapaid="50">
+      <parameter default="2" description="Maximum Number of Tries" type="int_pos" name="maxtries" loncapaid="56"/>
+      <p>
+</p><br/>
+What is the best concept to use in order to find the amplitude of vibrations?
+
+      <br/>
+      <multiplechoiceresponse max="10" direction="vertical" randomize="no" loncapaid="51" type="MultipleChoice">
+        <choicegroup type="MultipleChoice">
+          <choice name="foil1" correct="true">
+
+                Conservation of Energy
+            
+          </choice>
+          <choice name="foil2" correct="false">
+
+                Conservation of Momentum
+            
+          </choice>
+          <choice name="foil3" correct="false">
+
+                Kinematics of Simple Harmonic Motion
+            
+          </choice>
+          <choice name="foil4" correct="false">
+
+                Kinematics of Motion with Constant Acceleration
+            
+          </choice>
+          <choice name="foil5" correct="false">
+
+                Newton's 2nd law
+            
+          </choice>
+        </choicegroup>
+      </multiplechoiceresponse>
+    </part>
+    <part loncapaid="13">
+      <p>
+</p><br/>
+Find the amplitude of vibrations.
+
+      <numericalresponse answer="$A" unit="m" loncapaid="14">
+        <responseparam default="5%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <textline readonly="no" dojs="math"/>
+      </numericalresponse>
+    </part>
+    <part loncapaid="15">
+      <p>
+</p><br/>
+Find the average speed of the block during one period of oscillations.
+
+      <numericalresponse answer="$vavg" unit="m/s" loncapaid="16">
+        <responseparam default="5%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <textline readonly="no" dojs="math"/>
+      </numericalresponse>
+    </part>
+  </problem>
+</html>

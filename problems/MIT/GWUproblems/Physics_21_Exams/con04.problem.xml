@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    
+      <p>Four T-shaped objects are constructed by connecting two identical rods of equal mass and equal length.  Rank in order, from LARGEST to SMALLEST, the moments of inertia for rotation about the axis indicated by the dashed line.</p>
+    
+    <img src="/static/problems/MIT/GWUproblems/figures/fig15.gif" align="right" height="170" width="480" encrypturl="no" alt="Rotating Rods"/>
+    <br/>
+    <multiplechoiceresponse max="5" direction="vertical" randomize="yes" loncapaid="11" type="MultipleChoice">
+      <choicegroup type="MultipleChoice">
+        <choice location="random" name="foil1" correct="true">
+			<p>A &gt; D &gt; B &gt; C</p>
+        </choice>
+        <choice location="random" name="foil2" correct="false">
+			<p>(A = B) &gt; D &gt; C</p>
+        </choice>
+        <choice location="random" name="foil3" correct="false">
+			<p>A &gt; B &gt; D &gt; C</p>
+        </choice>
+        <choice location="random" name="foil4" correct="false">
+			<p>D &gt; A &gt; C &gt; B</p>
+        </choice>
+        <choice location="random" name="foil5" correct="false">
+			<p>B &gt; (A = D) &gt; C</p>
+        </choice>
+        <choice location="random" name="foil6" correct="false">
+			<p>C &gt; B &gt; D &gt; A</p>
+        </choice>
+      </choicegroup>
+
+    </multiplechoiceresponse>
+          </problem>
+</html>

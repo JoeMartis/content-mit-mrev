@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <title> CheckPoint: Mass of the Sun </title>
+    <script type="loncapa/python">
+from __future__ import division
+from loncapa import *
+
+a=lc_random(1,3,1)
+b=lc_random(1,3,1)
+c=lc_random(1,3,1)
+T1=lc_choose(c,352,374,385)
+T= T1*24*60*60
+aa=lc_choose(b,1.3e11,1.63e11,1.75e11)
+G=6.67E-11
+
+m=4* math.pi* math.pi* aa* aa* aa/ G/ T/ T
+
+</script>
+    
+      <p>
+A sloppy astronomer measured the following parameters of the Earth orbital motion around the Sun: the period is $T1 days, and the semi-major axis is $aa  m. What is the mass of the Sun according to the astronomer's results? The universal gravitational constant is $G SI units.
+</p>
+      <br/>
+      \(M_{sun}=\)
+    
+    <numericalresponse answer="$m" unit="kg" loncapaid="11">
+      <responseparam default="5%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+      <textline readonly="no" dojs="math"/>
+    </numericalresponse>
+  </problem>
+</html>

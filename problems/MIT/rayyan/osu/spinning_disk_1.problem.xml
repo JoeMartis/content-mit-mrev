@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <img src="/static/problems/MIT/rayyan/osu/images/spinning_disk_3.png"/>
+    <br/>
+    
+      <p>
+The angular speed of a freely rotating disk around its center is \(\omega\). You drop a heavy block onto the center of the disk 
+along the direction as depicted below, and the block then stays on the disk. The angular speed of the disk-block system now:
+<br/>
+</p>
+    
+    <br/>
+    <multiplechoiceresponse max="10" direction="vertical" randomize="no" loncapaid="11" type="MultipleChoice">
+      <choicegroup type="MultipleChoice">
+        <choice name="foil1" correct="true">
+
+                decreases          
+        </choice>
+        <choice name="foil2" correct="false">
+
+                increases          
+        </choice>
+        <choice name="foil3" correct="false">
+
+                remains the same          
+        </choice>
+        <choice name="foil4" correct="false">
+
+                not enough information to determine          
+        </choice>
+      </choicegroup>
+    </multiplechoiceresponse>
+          </problem>
+</html>

@@ -1,0 +1,81 @@
+<html>
+  <problem>
+    <script type="loncapa/python">
+from __future__ import division
+from loncapa import *
+#Enter the computations here
+speed=lc_random(1.5,5.9,0.1)
+time=lc_random(2.5,4.2,0.1)
+dist= speed* time+0.5*9.8* time* time
+vel= speed+9.8* time
+</script>
+    <part loncapaid="11">
+      
+        <p>A ball is thrown straight down from a tall building at an initial speed of $speed m/s.  After $time seconds, what distance has the ball fallen?</p>
+      
+      <numericalresponse answer="$dist" unit="m" format="1f" loncapaid="12">
+        <responseparam default="5%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <responseparam default="0,15" type="int_range,0-16" name="sig" description="Significant Figures"/>
+        <textline readonly="no" dojs="math"/>
+        <hintgroup showoncorrect="no">
+          
+            <br/>
+          
+        </hintgroup>
+      </numericalresponse>
+    </part>
+    <part loncapaid="13">
+      
+        <p>For the ball in the previous problem, what is the speed of the ball after $time seconds?</p>
+      
+      <numericalresponse answer="$vel" unit="m/s" format="1f" loncapaid="14">
+        <responseparam default="5%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <responseparam default="0,15" type="int_range,0-16" name="sig" description="Significant Figures"/>
+        <textline readonly="no" dojs="math"/>
+        <hintgroup showoncorrect="no">
+          
+            <br/>
+          
+        </hintgroup>
+      </numericalresponse>
+    </part>
+    <part loncapaid="15">
+      
+        <p>For the ball in the previous problem, what is the magnitude of the ball's acceleration after $time seconds?</p>
+      
+      <multiplechoiceresponse max="10" direction="vertical" randomize="yes" loncapaid="16" type="MultipleChoice">
+        <choicegroup type="MultipleChoice">
+          <choice location="random" name="one" correct="false">
+
+zero
+            
+          </choice>
+          <choice location="random" name="two" correct="false">
+
+                less than <i>g</i>, but not zero
+            
+          </choice>
+          <choice location="random" name="three" correct="true">
+
+                  <i>g</i>
+          </choice>
+          <choice location="random" name="four" correct="false">
+
+greater than <i>g</i>, but less than 2<i>g</i>
+            
+          </choice>
+          <choice location="random" name="five" correct="false">
+
+greater than 2<i>g</i>
+            
+          </choice>
+        </choicegroup>
+        <hintgroup showoncorrect="no">
+          
+            <br/>
+          
+        </hintgroup>
+      </multiplechoiceresponse>
+    </part>
+  </problem>
+</html>

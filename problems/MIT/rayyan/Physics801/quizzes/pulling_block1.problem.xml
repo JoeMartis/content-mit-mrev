@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <title> Pulling a Block </title>
+    <script type="loncapa/python">
+from __future__ import division
+from loncapa import *
+
+Fx="F*cos(theta)"
+Fy="F*sin(theta)"
+SF="F*sin(theta)+N-M*g"
+N="-F*sin(theta)+M*g"
+SFx="F*cos(theta)-mu*(M*g-F*sin(theta))"
+a="F/M*cos(theta)-mu*(g-F/M*sin(theta))"
+
+</script>
+    <img src="/static/problems/MIT/rayyan/Physics801/quizzes/figures/pulling_block.png" alt="Pulling a Block" encrypturl="no"/>
+    <p>A block of mass M is pulled with a rope that exerts a force of a magnitude F, causing it to slide over horizontal ground with kinetic coefficient of friction \(\mu\) (use "mu" when you input your answer).  The force is applied at angle \(\theta\)  (use "theta" when you input your answer) above the horizontal shown below.</p>
+
+<p>1) Resolve \(\vec{F}\) into components using the coordinate system shown.</p>
+
+<p>\(F_x ,F_y = \)</p>
+
+    <part loncapaid="11">
+      <formularesponse answer="$Fx" samples="F,theta@-3,-3:3,3#4" loncapaid="12">
+        <responseparam default="0.00001" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <textline readonly="no" size="25" dojs="math"/>
+      </formularesponse>
+      
+        <p>
+          \(,\)
+        </p>
+      
+      <formularesponse answer="$Fy" samples="F,theta@-3,-3:3,3#4" loncapaid="13">
+        <responseparam default="0.00001" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <textline readonly="no" size="25" dojs="math"/>
+      </formularesponse>
+    </part>
+    <p>2) Find the sum of the force components in the y-direction acting on the mass (in terms of N,M,g,F, where N is the magnitude of the normal force exerted by the surface on the box).</p>
+
+<p>\(\sum F_y = \)</p>
+
+    <part loncapaid="14">
+      <formularesponse answer="$SF" samples="N,M,g,F,theta@-3,-3,-3,-3,-3:3,3,3,3,3#4" loncapaid="15">
+        <responseparam default="0.00001" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <textline readonly="no" size="25" dojs="math"/>
+      </formularesponse>
+    </part>
+    <p>3) Find the normal force of the ground acting on the mass.</p>
+
+<p>\(N = \)</p>
+
+    <part loncapaid="16">
+      <formularesponse answer="$N" samples="N,M,g,F,theta@-3,-3,-3,-3,-3:3,3,3,3,3#4" loncapaid="17">
+        <responseparam default="0.00001" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <textline readonly="no" size="25" dojs="math"/>
+      </formularesponse>
+    </part>
+    <p>4) Find the net force in the x-direction acting on the mass (in terms of mu, F, M, g, theta):</p>
+
+<p>\(\sum F_x = \)</p>
+
+    <part loncapaid="18">
+      <formularesponse answer="$SFx" samples="N,M,g,F,theta,mu@-3,-3,-3,-3,-3,-3:3,3,3,3,3,3#4" loncapaid="19">
+        <responseparam default="0.00001" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <textline readonly="no" size="25" dojs="math"/>
+      </formularesponse>
+    </part>
+    <p>5) Find the acceleration of the mass in the x-direction (in terms of mu, F, M, g, theta).</p>
+
+<p>\(a = \)</p>
+
+    <part loncapaid="20">
+      <formularesponse answer="$a" samples="N,M,g,F,theta,mu@-3,-3,-3,-3,-3,-3:3,3,3,3,3,3#4" loncapaid="21">
+        <responseparam default="0.00001" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <textline readonly="no" size="25" dojs="math"/>
+      </formularesponse>
+    </part>
+	<p>6) The block has a normal force \(N\), a friction force \(F_f\), a gravitational force \(W\), and \(F\) acting on it. Which of these relationships about the magnitudes of these forces is true when \(F\) is angled as shown and is just strong enough to keep the block moving at a constant speed along the ground?</p>
+
+    <part loncapaid="22">
+      <br/>
+      <multiplechoiceresponse texlayout="horizontal" max="10" direction="vertical" randomize="yes" loncapaid="23" type="MultipleChoice">
+        <choicegroup type="MultipleChoice">
+          <choice location="random" name="Foil1" correct="false">
+            <p>\( F = F_f \) and \(N = W\)</p>
+          </choice>
+          <choice location="random" name="Foil2" correct="false">
+			<p>\( F = F_f \) and \(N &gt; W\) </p>
+          </choice>
+          <choice location="random" name="Foil3" correct="true">
+			<p>\( F &gt; F_f \) and \(N &lt; W\) </p>
+          </choice>
+          <choice location="random" name="Foil4" correct="false">
+			<p>\( F &gt; F_f \) and \(N = W\) </p>
+          </choice>
+          <choice location="random" name="Foil5" correct="false">
+			<p>\( F &gt; F_f \) and \(N &gt; W\) </p>            
+          </choice>
+          <choice location="random" name="Foil6" correct="false">
+			<p>\( F &lt; F_f \) and \(N = W\) </p>
+          </choice>
+          <choice location="bottom" name="Foil7" correct="false">
+			<p>none of the above </p>            
+          </choice>
+        </choicegroup>
+      </multiplechoiceresponse>
+    </part>
+      </problem>
+</html>

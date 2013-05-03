@@ -1,0 +1,168 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <script type="loncapa/python">
+from __future__ import division
+from loncapa import *
+
+omega="sqrt(6*g/L)"
+v_e="sqrt(6*g*L)"
+a_xe=0
+v_m="sqrt(3*g*L/2)"
+alpha=0
+a_ye="6*g"
+a_xm=0
+a_ym="3*g"
+F_x=0
+F_y="4*m*g"
+    
+</script>
+    <img src="/static/problems/MIT/boriskor/BKimages/pivoted_bar_swinging_top_bottom.png" alt="Pivoted bar swinging downard from the top position" encrypturl="no"/>
+    
+      <p><br/>
+A uniform bar of mass \(m\) and length \(L\) is pivoted at one end and is held vertically as shown. After the bar is released, it swings downward with no friction in the pivot.
+<br/>
+At the instant the bar is <b>at the bottom of the swing</b>, find the magnitudes of the following quantities:
+ </p>
+    
+    <br/>
+    <part loncapaid="11">
+      
+        <p>
+The angular speed of the bar<br/>
+\(\omega=\)
+</p>
+      
+      <formularesponse answer="$omega" samples="m,g,L@4,5,2:10,60,4#2" loncapaid="31">
+        <responseparam default="1%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <textline readonly="no" size="25" dojs="math"/>
+      </formularesponse>
+    </part>
+    <br/>
+    <hr/>
+    <part loncapaid="13">
+      
+        <p>
+The linear speed of the free end of the bar<br/>
+\(v_e=\)
+</p>
+      
+      <formularesponse answer="$v_e" samples="m,g,L@4,5,2:10,60,4#2" loncapaid="32">
+        <responseparam default="1%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <textline readonly="no" size="25" dojs="math"/>
+      </formularesponse>
+    </part>
+    <br/>
+    <hr/>
+    <part loncapaid="15">
+      
+        <p>
+The horizontal component of the acceleration of the free end of the bar?<br/>
+\(a_{xe}=\)
+</p>
+      
+      <numericalresponse answer="$a_xe" loncapaid="16">
+        <responseparam default="1%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <textline readonly="no" size="25" dojs="math"/>
+      </numericalresponse>
+    </part>
+    <br/>
+    <hr/>
+    <part loncapaid="17">
+      
+        <p>
+The linear speed of the midpoint of the bar<br/>
+\(v_m=\)
+</p>
+      
+      <formularesponse answer="$v_m" samples="m,g,L@4,5,2:10,60,4#2" loncapaid="18">
+        <responseparam default="1%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <textline readonly="no" size="25" dojs="math"/>
+      </formularesponse>
+    </part>
+    <br/>
+    <hr/>
+    <part loncapaid="19">
+      
+        <p>
+The angular acceleration of the bar<br/>
+\(\alpha=\)
+</p>
+      
+      <numericalresponse answer="$alpha" loncapaid="20">
+        <responseparam default="1%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <textline readonly="no" size="25" dojs="math"/>
+      </numericalresponse>
+    </part>
+    <br/>
+    <hr/>
+    <part loncapaid="21">
+      
+        <p>
+The vertical component of the acceleration of the free end of the bar<br/>
+\(a_{ye}=\)
+</p>
+      
+      <formularesponse answer="$a_ye" samples="m,g,L@4,5,2:10,60,4#2" loncapaid="22">
+        <responseparam default="1%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <textline readonly="no" size="25" dojs="math"/>
+      </formularesponse>
+    </part>
+    <br/>
+    <hr/>
+    <part loncapaid="23">
+      
+        <p>
+The horizontal component of the acceleration of the midpoint of the bar<br/>
+\(a_{xm}=\)
+</p>
+      
+      <numericalresponse answer="$a_xm" loncapaid="24">
+        <responseparam default="1%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <textline readonly="no" size="25" dojs="math"/>
+      </numericalresponse>
+    </part>
+    <br/>
+    <hr/>
+    <part loncapaid="25">
+      
+        <p>
+The vertical component of the acceleration of the midpoint of the bar<br/>
+\(a_{ym}=\)
+</p>
+      
+      <formularesponse answer="$a_ym" samples="m,g,L@4,5,2:10,60,4#2" loncapaid="26">
+        <responseparam default="1%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <textline readonly="no" size="25" dojs="math"/>
+      </formularesponse>
+    </part>
+    <br/>
+    <hr/>
+    <part loncapaid="27">
+      
+        <p>
+The horizontal component of the force exerted on the bar by the hinge<br/>
+\(F_x=\)
+</p>
+      
+      <numericalresponse answer="$F_x" loncapaid="28">
+        <responseparam default="1%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <textline readonly="no" size="25" dojs="math"/>
+      </numericalresponse>
+    </part>
+    <br/>
+    <hr/>
+    <part loncapaid="29">
+      
+        <p>
+The vertical component of the force exerted on the bar by the hinge<br/>
+\(F_y=\)
+</p>
+      
+      <formularesponse answer="$F_y" samples="m,g,L@4,5,2:10,60,4#2" loncapaid="30">
+        <responseparam default="1%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <textline readonly="no" size="25" dojs="math"/>
+      </formularesponse>
+    </part>
+      </problem>
+</html>

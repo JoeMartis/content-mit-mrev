@@ -1,0 +1,69 @@
+<chapter display_name="Homework for Angular Momentum">
+	<sequential display_name="Angular Momentum, Level 1" url_name="Angular_Momentum_Level_1">
+		<vertical display_name="Spinning Rod v3">
+			<problem display_name="Spinning Rod v3" filename="MIT/rayyan/Physics801/Rotational Motion and Torque/spinning rod v3.problem" attempts="10"/>
+			<discussion for="Spinning Rod v3" id="MReV_Summer2013_spinning_rod_v3" discussion_category="Angular Momentum/Spinning Rod v3" />
+		</vertical>
+		<vertical display_name="Multiple Axes 1" filename="MRI22.vert" />
+		<vertical display_name="Multiple Axes 2" filename="MRI23.vert" />
+		<vertical display_name="Angular Momentum">
+			<problem display_name="Angular Momentum" filename="F12/RQ/bike.problem" attempts="2"/>
+			<discussion for="Angular Momentum" id="MReV_Summer2013_bike" discussion_category="Angular Momentum/Angular Momentum" />
+		</vertical>
+		<vertical display_name="Angular Collision">
+			<problem display_name="Angular Collision" filename="F12/RQ/collisionnopivot.problem" attempts="1"/>
+			<discussion for="Angular Collision" id="MReV_Summer2013_collisionnopivot" discussion_category="Angular Momentum/Angular Collision" />
+		</vertical>
+		<vertical display_name="Angular Collision 2">
+			<problem display_name="Angular Collision 2" filename="F12/RQ/collisionpivot.problem" attempts="1"/>
+			<discussion for="Angular Collision 2" id="MReV_Summer2013_collisionpivot" discussion_category="Angular Momentum/Angular Collision 2" />
+		</vertical>
+		<vertical display_name="Angular Momentum Direction">
+			<problem display_name="Angular Momentum Direction" filename="F12/custom/cross_rpl.problem" attempts="10"/>
+			<discussion for="Angular Momentum Direction" id="MReV_Summer2013_cross_rpl" discussion_category="Angular Momentum/Angular Momentum Direction" />
+		</vertical>
+	</sequential>
+	<sequential display_name="Angular Momentum, Level 2" url_name="Angular_Momentum_Level_2">
+		<vertical display_name="Disc Drop Angular Momentum" filename="MRI17.vert" />
+		<vertical display_name="Colliding Bars" filename="MRI16.vert" />
+		<vertical display_name="Bar swinging up after collision - strategy">
+			<problem display_name="Bar swinging up after collision - strategy" filename="MIT/boriskor/Rotation/Bar swinging up after collision_strategy.problem" attempts="2"/>
+			<discussion for="Bar swinging up after collision - strategy" id="MReV_Summer2013_Bar_swinging_up_after_collision_strategy" discussion_category="Angular Momentum/Bar swinging up after collision - strategy" />
+		</vertical>
+		<vertical display_name="Projectile Angular Momentum" filename="MRI19.vert" />
+		<vertical display_name="Merry-go-round Angular Speed">
+			<problem display_name="Merry-go-round Angular Speed" filename="F12/colin/CF6.problem" attempts="10"/>
+			<discussion for="Merry-go-round Angular Speed" id="MReV_Summer2013_CF6" discussion_category="Angular Momentum/Merry-go-round Angular Speed" />
+		</vertical>
+		<vertical display_name="Merry-go-round Energy">
+			<problem display_name="Merry-go-round Energy" filename="F12/colin/CF7.problem" attempts="10"/>
+			<discussion for="Merry-go-round Energy" id="MReV_Summer2013_CF7" discussion_category="Angular Momentum/Merry-go-round Energy" />
+		</vertical>
+	</sequential>
+	<sequential display_name="Angular Momentum, MIT exam like" url_name="Angular_Momentum_MIT_exam_like">
+		<vertical display_name="Spinning Rod v2">
+			<problem display_name="Spinning Rod v2" filename="MIT/rayyan/Physics801/Rotational Motion and Torque/Spinning rod v2.problem" attempts="10"/>
+			<discussion for="Spinning Rod v2" id="MReV_Summer2013_Spinning_rod_v2" discussion_category="Angular Momentum/Spinning Rod v2" />
+		</vertical>
+		<vertical display_name="String and Post Configurations">
+			<problem display_name="String and Post Configurations" filename="MIT/rayyan/Physics801/Rotational Motion and Torque/String and Post Configurations.problem" attempts="10"/>
+			<discussion for="String and Post Configurations" id="MReV_Summer2013_String_and_Post_Configurations" discussion_category="Angular Momentum/String and Post Configurations" />
+		</vertical>
+		<vertical display_name="Pivoted bar swings up after collision">
+			<problem display_name="Pivoted bar swings up after collision" filename="MIT/boriskor/Rotation/Pivoted bar swinging upward after collision.problem" attempts="10"/>
+			<discussion for="Pivoted bar swings up after collision" id="MReV_Summer2013_Pivoted_bar_swinging_upward_after_collision" discussion_category="Angular Momentum/Pivoted bar swings up after collision" />
+		</vertical>
+		<vertical display_name="T shaped assembly swings down">
+			<problem display_name="T shaped assembly swings down" filename="MIT/boriskor/Multiconcept Problems/T shape swings down.problem" attempts="5"/>
+			<discussion for="T shaped assembly swings down" id="MReV_Summer2013_T_shape_swings_down" discussion_category="Angular Momentum/T shaped assembly swings down" />
+		</vertical>
+		<vertical display_name="Loop spinning in the vertical direction is allowed to roll">
+			<problem display_name="Loop spinning in the vertical direction is allowed to roll" filename="MIT/boriskor/Multiconcept Problems/Thin spinning loop placed on a horizontal surface.problem" attempts="4"/>
+			<discussion for="Loop spinning in the vertical direction is allowed to roll" id="MReV_Summer2013_Thin_spinning_loop_placed_on_a_horizontal_surface" discussion_category="Angular Momentum/Loop spinning in the vertical direction is allowed to roll" />
+		</vertical>
+		<vertical display_name="Two uniform bars swinging down and colliding">
+			<problem display_name="Two uniform bars swinging down and colliding" filename="MIT/boriskor/Multiconcept Problems/Two uniform bars swinging down and colliding.problem" attempts="10"/>
+			<discussion for="Two uniform bars swinging down and colliding" id="MReV_Summer2013_Two_uniform_bars_swinging_down_and_colliding" discussion_category="Angular Momentum/Two uniform bars swinging down and colliding" />
+		</vertical>
+	</sequential>
+</chapter>

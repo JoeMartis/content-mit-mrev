@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<html>
+<!-- Interactions Problems #2 -->
+<problem>
+
+<img src="/static/problems/S13/colin/images/Interactions2.png" width="300" height="190" />
+
+<p>In the diagram above, a ball is flying through the air after being thrown. One of the forces drawn on it is inappropriate, inaccurate, or not a real force. Which one is it?</p>
+
+	<multiplechoiceresponse direction="vertical" randomize="yes">
+		<choicegroup type="MultipleChoice">
+			<choice location="random" correct="false"><p>F<sub>air</sub>, the force of air resistance.</p></choice>
+			<choice location="random" correct="true"><p>F<sub>t</sub>, the force of the throw.</p></choice>
+			<choice location="random" correct="false"><p>F<sub>g</sub>, the force of gravity.</p></choice>
+			<choice location="bottom" correct="false"><p>All of these forces are ok.</p></choice>
+		</choicegroup>
+	</multiplechoiceresponse>
+
+</problem>
+</html>

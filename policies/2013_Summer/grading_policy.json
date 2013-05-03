@@ -1,0 +1,123 @@
+{
+  "GRADER" : [
+    {
+      "type" : "Homework_1and2",
+      "min_count" : 1,
+      "drop_count" : 0,
+      "short_label" : "HW1_2",
+      "weight" : 24
+    },
+    {
+      "type" : "Homework_3",
+      "min_count" : 1,
+      "drop_count" : 0,
+      "short_label" : "HW3",
+      "weight" : 31
+    },
+    {
+      "type" : "Homework_4and5",
+      "min_count" : 1,
+      "drop_count" : 0,
+      "short_label" : "HW4_5",
+      "weight" : 24
+    },
+    {
+      "type" : "Homework_6",
+      "min_count" : 1,
+      "drop_count" : 0,
+      "short_label" : "HW6",
+      "weight" : 37
+    },
+    {
+      "type" : "Homework_7",
+      "min_count" : 1,
+      "drop_count" : 0,
+      "short_label" : "HW7",
+      "weight" : 30
+    },
+    {
+      "type" : "Homework_8",
+      "min_count" : 1,
+      "drop_count" : 0,
+      "short_label" : "HW8",
+      "weight" : 51
+    },
+    {
+      "type" : "Homework_9",
+      "min_count" : 1,
+      "drop_count" : 0,
+      "short_label" : "HW9",
+      "weight" : 29
+    },
+    {
+      "type" : "Homework_10",
+      "min_count" : 1,
+      "drop_count" : 0,
+      "short_label" : "HW10",
+      "weight" : 30
+    },
+    {
+      "type" : "Homework_11",
+      "min_count" : 1,
+      "drop_count" : 0,
+      "short_label" : "HW11",
+      "weight" : 37
+    },
+    {
+      "type" : "Homework_12",
+      "min_count" : 1,
+      "drop_count" : 0,
+      "short_label" : "HW12",
+      "weight" : 37
+    },
+    {
+      "type" : "Homework_13",
+      "min_count" : 1,
+      "drop_count" : 0,
+      "short_label" : "HW13",
+      "weight" : 26
+    },
+    {
+      "type" : "Homework_14",
+      "min_count" : 1,
+      "drop_count" : 0,
+      "short_label" : "HW14",
+      "weight" : 59
+    },
+	{
+      "type" : "Checkpoint",
+      "min_count" : 59,
+      "drop_count" : 6,
+      "short_label" : "Chk",
+      "weight" : 67,
+      "score_by_attempt": true
+    },
+	{
+      "type" : "Quiz",
+      "min_count" : 8,
+      "drop_count" : 1,
+      "short_label" : "Quiz",
+      "weight" : 135
+    },
+	{
+      "type" : "Optional",
+      "min_count" : 23,
+      "drop_count" : 0,
+      "short_label" : "Opt",
+      "weight" : 0
+    }
+  ],
+  "GRADE_CUTOFFS" : {
+    "A" : 0.9,
+    "B+" : 0.85,
+    "B" : 0.8,
+    "B-" : 0.75,
+    "C+" : 0.7,
+    "C" : 0.65,
+    "C-" : 0.6,
+    "D+" : 0.55,
+    "D" : 0.5,
+    "D-" : 0.45,
+    "F" : 0.4
+  }
+}

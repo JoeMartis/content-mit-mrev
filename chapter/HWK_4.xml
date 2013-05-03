@@ -1,0 +1,34 @@
+<chapter display_name="Homework for Describing Motion">
+	<sequential display_name="Describing Motion Homework" url_name="Describing_Motion_Homework">
+
+<!-- Level 1 -->
+
+		<vertical display_name="Average Velocity 1">
+			<problem display_name="Average Velocity 1" filename="F12/boris/BK157.problem" attempts="2" weight="1"/>
+			<discussion for="Average Velocity 1" id="MReV_Summer2013_BK157" discussion_category="Describing Motion" />
+		</vertical>
+		<vertical display_name="Average Velocity 2">
+			<problem display_name="Average Velocity 2" filename="F12/boris/BK158.problem" attempts="2" weight="1"/>
+			<discussion for="Average Velocity 2" id="MReV_Summer2013_BK158" discussion_category="Describing Motion" />
+		</vertical>
+		<vertical display_name="Average Velocity 3">
+			<problem display_name="Average Velocity 3" filename="F12/boris/BK159.problem" attempts="2" weight="1"/>
+			<discussion for="Average Velocity 3" id="MReV_Summer2013_BK159" discussion_category="Describing Motion" />
+		</vertical>
+
+<!-- Level 2 -->
+
+		<vertical display_name="Average Velocity 4">
+			<problem display_name="Average Velocity 4" filename="F12/boris/BK160.problem" attempts="2" weight="2"/>
+			<discussion for="Average Velocity 4" id="MReV_Summer2013_BK160" discussion_category="Describing Motion" />
+		</vertical>
+		<vertical display_name="Average Velocity 5">
+			<problem display_name="Average Velocity 5" filename="F12/boris/BK161.problem" attempts="2" weight="2"/>
+			<discussion for="Average Velocity 5" id="MReV_Summer2013_BK161" discussion_category="Describing Motion" />
+		</vertical>
+		<vertical display_name="Average Velocity 6" filename="BK162.vert" />
+
+<!-- Level 3 -->
+
+	</sequential>
+</chapter>

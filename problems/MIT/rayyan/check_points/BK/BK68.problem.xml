@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <title> CheckPoint: Compressing a Spring </title>
+    <script type="loncapa/python">
+from __future__ import division
+from loncapa import *
+
+a=lc_random(1,3,1)
+b=lc_random(1,3,1)
+c=lc_random(1,3,1)
+m=lc_choose(a,0.2,0.4,0.8)
+k=lc_choose(b,200,300,600)
+v=lc_choose(c,0.6,1.5,2.5)
+
+x= v* math.sqrt( m/ k)
+
+</script>
+    <img src="/static/problems/MIT/rayyan/check_points/Pictures/BK68.PNG" alt="BK68.PNG" encrypturl="no"/>
+    <p>A block of mass  $m kg slides on a horizontal frictionless table toward a spring with a force constant $k N/m as shown. The block hits the spring at speed $v m/s. How far does the block slide by the time it stops momentarily?</p>
+
+    <part loncapaid="11">
+      
+        <p>\(x=\)</p>
+      
+      <numericalresponse answer="$x" unit="m" loncapaid="12">
+        <responseparam default="5%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <textline readonly="no" dojs="math"/>
+      </numericalresponse>
+    </part>
+      </problem>
+</html>

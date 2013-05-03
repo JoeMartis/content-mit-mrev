@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<html>
+  <problem><img src="/static/problems/MIT/boriskor/BKimages/30-small sphere rolling off top of big sphere.png" alt="Small sphere (disc) rolling off the top of a large sphere" encrypturl="no"/><br/>
+A heavy sphere of radius r=1.00 meter is at rest on the ground. A small uniform solid sphere is placed at the top of the larger sphere. After a slight disturbance, the smaller sphere begins to roll downward without slipping. How high h is the small sphere above the ground at the instant it loses contact with the large sphere?
+<br/>
+\(h=\)
+<numericalresponse answer="1.59" loncapaid="11"><responseparam default="2%" type="tolerance" name="tol" description="Numerical Tolerance"/><textline readonly="no" dojs="math"/></numericalresponse> meters
+</problem>
+</html>
+

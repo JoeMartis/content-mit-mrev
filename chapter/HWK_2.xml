@@ -1,0 +1,45 @@
+<chapter display_name="Homework for Interactions and Forces">
+	<sequential display_name="Interactions and Forces Homework" url_name="Interactions_and_Forces_Homework">
+
+<!-- Level 1 -->
+
+		<vertical display_name=" Blocks and Pulleys">
+			<problem display_name=" Blocks and Pulleys" filename="MIT/rayyan/check_points/BK/BK28.problem" attempts="4" weight="1"/>
+			<discussion for=" Blocks and Pulleys" id="MReV_Summer2013_BK28" discussion_category="Interactions and Forces" />
+		</vertical>
+
+<!-- Level 2 -->
+
+		<vertical display_name="Down the incline">
+			<problem display_name="Down the incline" filename="MIT/GWUproblems/Physics_1_Checkups/Checkup02_concept04.problem" attempts="10" weight="2"/>
+			<discussion for="Down the incline" id="MReV_Summer2013_Checkup02_concept04" discussion_category="Interactions and Forces" />
+		</vertical>
+		<vertical display_name="Elevator Up.. Elevator Down">
+			<problem display_name="Elevator Up.. Elevator Down" filename="MIT/GWUproblems/Physics_1_Checkups/Checkup02_concept01.problem" attempts="10" weight="2"/>
+			<discussion for="Elevator Up.. Elevator Down" id="MReV_Summer2013_Checkup02_concept01" discussion_category="Interactions and Forces" />
+		</vertical>
+		<vertical display_name="Push">
+			<problem display_name="Push" filename="MIT/GWUproblems/HTW_exams/exam1_con04.problem" attempts="10" weight="2"/>
+			<discussion for="Push" id="MReV_Summer2013_exam1_con04" discussion_category="Interactions and Forces" />
+		</vertical>
+		<vertical display_name="Hanging Men">
+			<problem display_name="Hanging Men" filename="MIT/rayyan/osu/05_Force and Motion I/hanging/hanging_3.problem" attempts="3" weight="2"/>
+			<discussion for="Hanging Men" id="MReV_Summer2013_hanging_3" discussion_category="Interactions and Forces" />
+		</vertical>
+		<vertical display_name="3 Blocks and a Pulley">
+			<problem display_name="3 Blocks and a Pulley" filename="MIT/analiab/Problems/3_blocks_and_1_pulley.problem" attempts="10" weight="2"/>
+			<discussion for="3 Blocks and a Pulley" id="MReV_Summer2013_3_blocks_and_1_pulley" discussion_category="Interactions and Forces" />
+		</vertical>
+
+<!-- Level 3 -->
+
+		<vertical display_name="Pulley Platform">
+			<problem display_name="Pulley Platform" filename="MIT/rayyan/Physics801/Forces/Pulley Platform.problem" attempts="10" weight="3"/>
+			<discussion for="Pulley Platform" id="MReV_Summer2013_Pulley_Platform" discussion_category="Interactions and Forces" />
+		</vertical>
+		<vertical display_name="Spring Constants">
+			<problem display_name="Spring Constants" filename="MIT/rayyan/Physics801/Forces/Spring Constant.problem" attempts="10" weight="3"/>
+			<discussion for="Spring Constants" id="MReV_Summer2013_Spring_Constant" discussion_category="Interactions and Forces" />
+		</vertical>
+	</sequential>
+</chapter>

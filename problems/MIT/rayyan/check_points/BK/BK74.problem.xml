@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <title> CheckPoint: Maximum Height </title>
+    <script type="loncapa/python">
+from __future__ import division
+from loncapa import *
+
+a=lc_random(1,3,1)
+b=lc_random(1,3,1)
+c=lc_random(1,3,1)
+d=lc_random(1,3,1)
+e=lc_random(1,3,1)
+m=lc_choose(a,0.8,1.2,2.0)
+k=lc_choose(b,400,600,800)
+theta=lc_choose(c,20,30,40)
+x=lc_choose(d,0.12,0.15,0.22)
+mu=lc_choose(e,0.1,0.2,0.3)
+
+h=0.5* k* x* x/( m*9.8*(1+ mu/math.tan( deg2rad* theta)))
+
+</script>
+    <img src="/static/problems/MIT/rayyan/check_points/Pictures/BK74.PNG" alt="BK74.PNG" encrypturl="no"/>
+    <p>A small block of mass $m kg is launched by a compressed spring with force constant k=$k N/m. The initial compression of the spring is $x m. The block slides along a horizontal frictionless surface and then up an inclined plane that make angle \(\theta =\) $theta deg with the horizontal. The coefficient of kinetic friction between the block and the inclined plane is \(\mu_k = \) $mu. Use \( g = 9.8 m/s^2 \).</p>
+	<p>Find the maximum vertical height h reached by the block.</p>
+
+    <part loncapaid="11">
+      
+
+        <p>\(h=\)</p>
+      
+      <numericalresponse answer="$h" unit="m" loncapaid="12">
+        <responseparam default="5%" type="tolerance" name="tol" description="Numerical Tolerance"/>
+        <textline readonly="no" dojs="math"/>
+      </numericalresponse>
+    </part>
+      </problem>
+</html>

@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<html>
+  <problem>
+    <script type="loncapa/python">
+from __future__ import division
+from loncapa import *
+
+# speed="sqrt(g*L*(sin(th))^2/cos(th))"
+tension="m*g/cos(th)"
+
+</script>
+    <img src="/static/problems/MIT/rayyan/Physics801/Symbolic/figures/canonicalcombo.jpg" align="bottom" texwrap="none" height="320" width="350" texheight="55" encrypturl="no" texwidth="60" alt="Canonical Pendulum Figure"/>
+    
+      <p>A pendulum is made by attaching a mass \(m\) to a massless string of length \(L\). You set up the motion of the mass so that it will go in a circle as shown in the figure. What should the speed of the mass be if the angle the string makes with the vertical is \(\theta\)? Use \(g\) for the acceleration of gravity.</p>
+    
+    <part loncapaid="11">
+	<p>\(v=\)</p>
+      <multiplechoiceresponse max="10" direction="vertical" randomize="yes" loncapaid="12" type="MultipleChoice">
+        <choicegroup type="MultipleChoice">
+          <choice location="random" name="foil1" correct="true">
+                  \(\sqrt{ g L \tan\theta \sin\theta }\)
+          </choice>
+          <choice location="random" name="foil2" correct="false">
+                  \(\sqrt{\frac{g L \tan\theta}{\cos\theta}}\)
+          </choice>
+          <choice location="random" name="foil3" correct="false">
+                  \(\sqrt{ g L \cot\theta \sin\theta }\)
+          </choice>
+          <choice location="random" name="foil4" correct="false">
+                  \(\sqrt{\frac{g L \cot\theta}{\sin\theta}}\)
+          </choice>
+          <choice location="random" name="foil5" correct="false">
+                  \(\sqrt{ g L \tan\theta }\)
+          </choice>
+          <choice location="random" name="foil6" correct="false">
+                  \(\sqrt{ g L \cot\theta }\)
+          </choice>
+        </choicegroup>
+      </multiplechoiceresponse>
+    </part>
+    
+      <p>What is the tension in the string for the scenario described above?</p>
+    <part loncapaid="13">
+      
+        <p>\(T=\)</p>
+
+      <multiplechoiceresponse max="10" direction="vertical" randomize="yes" loncapaid="14" type="MultipleChoice">
+        <choicegroup type="MultipleChoice">
+          <choice location="random" name="foil1" correct="true">
+                  \(mg/\cos\theta\)
+          </choice>
+          <choice location="random" name="foil2" correct="false">
+                  \(mg\)
+          </choice>
+          <choice location="random" name="foil3" correct="false">
+                  \(mg/\sin\theta\)
+          </choice>
+          <choice location="random" name="foil4" correct="false">
+                  \(mg\sin\theta\)
+          </choice>
+          <choice location="random" name="foil5" correct="false">
+                  \(mg\cos\theta\)
+          </choice>
+          <choice location="random" name="foil6" correct="false">
+                  \(mg\tan\theta\)
+          </choice>
+        </choicegroup>
+      </multiplechoiceresponse>
+    </part>
+
+  </problem>
+</html>
