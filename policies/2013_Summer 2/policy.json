@@ -1,0 +1,553 @@
+{
+    "course/2013_Summer": {
+        "graceperiod": "10 minutes",
+    	"start": "2013-06-01T00:01",
+    	"due": "2100-01-30T23:59",
+    	"days_early_for_beta": "60",
+    	
+        "showanswer": "closed",
+        "graded": "true",
+        "rerandomize": "per_student",
+
+        "display_name": "Mechanics ReView Joe",
+        "show_calculator": "Yes",
+
+        "giturl" : "https://github.com/mitx",
+        
+        "tabs": [ {"type": "courseware"},
+                  {"name": "News", "type": "course_info"},
+                  {"name": "Course Info", "type": "static_tab", "url_slug": "info"},
+                  {"name": "Discussion", "type": "discussion"},
+                  {"name": "Calendar", "type": "static_tab", "url_slug": "calendar"},
+                  {"name": "Progress", "type": "progress"}
+                ],
+        "discussion_topics": {
+            "General Discussion": {
+                "sort_key": "A",
+                "id": "mrev_Summer2013_General"
+            },
+            "Introductions and Socializing": {
+                "sort_key": "AA",
+                "id": "mrev_Summer2013_Intro"
+            },
+            "Suggestions": {
+                "sort_key": "AB",
+                "id": "mrev_Summer2013_Suggestions"
+            },
+            "Troubleshooting": {
+                "sort_key": "AC",
+                "id": "mrev_Summer2013_Troubleshooting"
+            },
+            "How To Teach It": {
+                "sort_key": "AD",
+                "id": "mrev_Summer2013_HowToTeachIt"
+            }
+        }
+    },
+
+
+
+    "chapter/HWK_1": {
+    	"due": "2013-06-09T23:59"
+    },
+    "chapter/HWK_2": {
+    	"due": "2013-06-09T23:59"
+    },
+    "chapter/HWK_3": {
+    	"due": "2013-06-16T23:59"
+    },
+    "chapter/HWK_4": {
+    	"due": "2013-06-23T23:59"
+    },
+    "chapter/HWK_5": {
+    	"due": "2013-06-23T23:59"
+    },
+    "chapter/HWK_6": {
+    	"due": "2013-06-30T23:59"
+    },
+    "chapter/HWK_7": {
+    	"due": "2013-07-07T23:59"
+    },
+    "chapter/HWK_8": {
+    	"due": "2013-07-14T23:59"
+    },
+    "chapter/HWK_9": {
+    	"due": "2013-07-21T23:59"
+    },
+    "chapter/HWK_10": {
+    	"due": "2013-07-28T23:59"
+    },
+    "chapter/HWK_11": {
+    	"due": "2013-08-04T23:59"
+    },
+    "chapter/HWK_12": {
+        "graded": "false",
+    	"due": "2013-08-18T23:59"
+    },
+    "chapter/HWK_13": {
+        "graded": "false",
+    	"due": "2013-08-18T23:59"
+    },
+    "chapter/HWK_14": {
+        "graded": "false",
+    	"due": "2013-08-18T23:59"
+    },
+
+
+	"sequential/Newtons_Laws_Homework": {
+		"format": "Homework_1and2"
+	},
+	"sequential/Interactions_and_Forces_Homework": {
+		"format": "Homework_1and2"
+	},
+	"sequential/Applying_Newtons_Laws_Homework": {
+		"format": "Homework_3"
+	},
+	"sequential/Describing_Motion_Homework": {
+		"format": "Homework_4and5"
+	},
+	"sequential/Core_Models_and_Planar_Dynamics_Homework": {
+		"format": "Homework_4and5"
+	},
+	"sequential/Applying_SIM_to_Problems_in_Planar_Dynamics_Homework": {
+		"format": "Homework_6"
+	},
+	"sequential/Momentum_and_Impulse_Homework": {
+		"format": "Homework_7"
+	},
+	"sequential/Mechanical_Energy_and_Work_Homework": {
+		"format": "Homework_8"
+	},
+	"sequential/Torque_and_Rotation_about_a_Fixed_Axis_Homework": {
+		"format": "Homework_9"
+	},
+	"sequential/Describing_Rotational_and_Translational_Motion_Homework": {
+		"format": "Homework_10"
+	},
+	"sequential/Angular_Momentum_Homework": {
+		"format": "Homework_11"
+	},
+	"sequential/Harmonic_Oscillation_Homework": {
+        "format": "Optional"
+	},
+	"sequential/Orbits_Homework": {
+        "format": "Optional"
+	},
+	"sequential/Review_Homework": {
+        "format": "Optional"
+	},
+
+
+
+
+    "chapter/Unit_1": {
+    	"due": "2013-06-09T23:59"
+    },
+    "chapter/Unit_2": {
+    	"due": "2013-06-09T23:59"
+    },
+    "chapter/Unit_3": {
+    	"due": "2013-06-16T23:59"
+    },
+    "chapter/Unit_4": {
+    	"due": "2013-06-23T23:59"
+    },
+    "chapter/Unit_5": {
+    	"due": "2013-06-23T23:59"
+    },
+    "chapter/Unit_6": {
+    	"due": "2013-06-30T23:59"
+    },
+    "chapter/Unit_7": {
+    	"due": "2013-07-07T23:59"
+    },
+    "chapter/Unit_8": {
+    	"due": "2013-07-14T23:59"
+    },
+    "chapter/Unit_9": {
+    	"due": "2013-07-21T23:59"
+    },
+    "chapter/Unit_10": {
+    	"due": "2013-07-28T23:59"
+    },
+    "chapter/Unit_11": {
+    	"due": "2013-08-04T23:59"
+    },
+    "chapter/Unit_12": {
+        "graded": "false",
+    	"due": "2013-08-18T23:59"
+    },
+    "chapter/Unit_13": {
+        "graded": "false",
+    	"due": "2013-08-18T23:59"
+    },
+    "chapter/Unit_14": {
+        "graded": "false",
+    	"due": "2013-08-18T23:59"
+    },
+
+
+	"sequential/Newtons_Laws": {
+		"format": "Checkpoint"
+	},
+	"sequential/Newtons_First_Law": {
+		"format": "Checkpoint"
+	},
+	"sequential/Newtons_Second_Law": {
+		"format": "Checkpoint"
+	},
+	"sequential/The_Two_Body_Rule_and_Newtons_Third_Law": {
+		"format": "Checkpoint"
+	},
+	"sequential/Net_Force_and_Vector_Addition": {
+		"format": "Checkpoint"
+	},
+	"sequential/Equilibrium": {
+		"format": "Checkpoint"
+	},
+	"sequential/Interactions_and_Forces": {
+		"format": "Checkpoint"
+	},
+	"sequential/Gravitational_Force": {
+		"format": "Checkpoint"
+	},
+	"sequential/Hookes_Law_for_Elastic_Restoring_Force": {
+		"format": "Checkpoint"
+	},
+	"sequential/Tension_Force": {
+		"format": "Checkpoint"
+	},
+	"sequential/Normal_Force": {
+		"format": "Checkpoint"
+	},
+	"sequential/Kinetic_Friction": {
+		"format": "Checkpoint"
+	},
+	"sequential/Static_Friction": {
+		"format": "Checkpoint"
+	},
+	"sequential/Contact_Force_and_Applied_Force": {
+		"format": "Checkpoint"
+	},
+	"sequential/Applying_Newtons_Laws": {
+		"format": "Checkpoint"
+	},
+	"sequential/Point_Particle_System_and_Environment_Internal_and_External_Forces": {
+		"format": "Checkpoint"
+	},
+	"sequential/Multi-Body_System_treated_as_a_Point_Particle": {
+		"format": "Checkpoint"
+	},
+	"sequential/Constrained_Motion_and_Constraint_Forces": {
+		"format": "Checkpoint"
+	},
+	"sequential/Objects_Constrained_to_Move_with_Equal_Acceleration": {
+		"format": "Checkpoint"
+	},
+	"sequential/Objects_Constrained_to_Move_with_Different_Accelerations": {
+		"format": "Checkpoint"
+	},
+	"sequential/Describing_Motion": {
+		"format": "Checkpoint"
+	},
+	"sequential/Position_Displacement_Distance_and_Coordinate_systems": {
+		"format": "Checkpoint"
+	},
+	"sequential/Velocity_Speed_and_Models_in_Mechanics": {
+		"format": "Checkpoint"
+	},
+	"sequential/Velocity_and_Acceleration": {
+		"format": "Checkpoint"
+	},
+	"sequential/Graphing_Motion_Acceleration_vs._Deceleration": {
+		"format": "Checkpoint"
+	},
+	"sequential/Core_Models_and_Planar_Dynamics": {
+		"format": "Checkpoint"
+	},
+	"sequential/Map_Of_Core_Models": {
+		"format": "Checkpoint"
+	},
+	"sequential/Hierarchy_of_Models": {
+		"format": "Checkpoint"
+	},
+	"sequential/Constant_Velocity_Model": {
+		"format": "Checkpoint"
+	},
+	"sequential/Constant_Acceleration_Model": {
+		"format": "Checkpoint"
+	},
+	"sequential/Applying_SIM_to_Problems_in_Planar_Dynamics": {
+		"format": "Checkpoint"
+	},
+	"sequential/1-D_Motion_with_Time-Varying_Net_Force": {
+		"format": "Checkpoint"
+	},
+	"sequential/Multiple_Models_Constraints_and_Two-Dimentional_Projectile_Motion": {
+		"format": "Checkpoint"
+	},
+	"sequential/Changing_Interactions_and_Constraints": {
+		"format": "Checkpoint"
+	},
+	"sequential/Multiple_Systems_and_Constraints": {
+		"format": "Checkpoint"
+	},
+	"sequential/Uniform_Circular_Motion": {
+		"format": "Checkpoint"
+	},
+	"sequential/Calculus_of_Two_Dimentional_Motion": {
+		"format": "Checkpoint"
+	},
+	"sequential/Momentum_and_Impulse": {
+		"format": "Checkpoint"
+	},
+	"sequential/Introduction_to_Momentum_and_Impulse": {
+		"format": "Checkpoint"
+	},
+	"sequential/Conservation_of_Linear_Momentum": {
+		"format": "Checkpoint"
+	},
+	"sequential/Approximate_Conservation_of_Momentum_in_Collisions": {
+		"format": "Checkpoint"
+	},
+	"sequential/Impulse_and_Average_Force": {
+		"format": "Checkpoint"
+	},
+	"sequential/Center_of_Mass:_Definition": {
+		"format": "Checkpoint"
+	},
+	"sequential/Center_of_Mass_and_the_Motion_of_a_System": {
+		"format": "Checkpoint"
+	},
+	"sequential/Mechanical_Energy_and_Work": {
+		"format": "Checkpoint"
+	},
+	"sequential/Work_and_Kinetic_Energy": {
+		"format": "Checkpoint"
+	},
+	"sequential/Work_Done_By_a_Constant_Force_Along_a_Straight_Line_Path": {
+		"format": "Checkpoint"
+	},
+	"sequential/Work_Done_By_a_Varying_Force_and_Work_Along_a_Changing_Path": {
+		"format": "Checkpoint"
+	},
+	"sequential/Potential_Energy": {
+		"format": "Checkpoint"
+	},
+	"sequential/Mechanical_Energy": {
+		"format": "Checkpoint"
+	},
+	"sequential/Energy_Bar_Diagrams": {
+		"format": "Checkpoint"
+	},
+	"sequential/Force_and_Potential_Energy": {
+		"format": "Checkpoint"
+	},
+	"sequential/Elastic_collision": {
+		"format": "Checkpoint"
+	},
+	"sequential/Torque_and_Rotation_about_a_Fixed_Axis": {
+		"format": "Checkpoint"
+	},
+	"sequential/Choosing_an_Axis_of_Rotation_and_Describing_the_Direction_of_Rotation": {
+		"format": "Checkpoint"
+	},
+	"sequential/Defining_Torque": {
+		"format": "Checkpoint"
+	},
+	"sequential/Rotational_Form_of_Newtons_Second_Law_and_the_Moment_of_Inertia": {
+		"format": "Checkpoint"
+	},
+	"sequential/Calculating_Moments_of_Inertia": {
+		"format": "Checkpoint"
+	},
+	"sequential/Applying_Rotational_Form_of_Newtons_Second_Law": {
+		"format": "Checkpoint"
+	},
+	"sequential/Statics_and_Free_Choice_of_Axis": {
+		"format": "Checkpoint"
+	},
+	"sequential/Describing_Rotational_and_Translational_Motion": {
+		"format": "Checkpoint"
+	},
+	"sequential/Applying_Newtons_Second_Law_in_General_Rotations": {
+		"format": "Checkpoint"
+	},
+	"sequential/Rolling_Constraints": {
+		"format": "Checkpoint"
+	},
+	"sequential/Rotational_Energy": {
+		"format": "Checkpoint"
+	},
+	"sequential/Angular_Momentum": {
+		"format": "Checkpoint"
+	},
+	"sequential/Angular_Momentum_of_a_Point_Particle": {
+		"format": "Checkpoint"
+	},
+	"sequential/Angular_Momentum_of_a_Rigid_Body_Rotating_About_a_Fixed_Axis": {
+		"format": "Checkpoint"
+	},
+	"sequential/Angular_Momentum_of_a_Rigid_Body_both_Rotating_and_Translating": {
+		"format": "Checkpoint"
+	},
+	"sequential/Angular_Momentum_and_Torque": {
+		"format": "Checkpoint"
+	},
+	"sequential/Angular_Momentum_and_Angular_Impulse_Model": {
+		"format": "Checkpoint"
+	},
+	"sequential/Applications_of_the_Angular_Momentum_and_External_Torque_Model": {
+		"format": "Checkpoint"
+	},
+	"sequential/Harmonic_Oscillation": {
+		"format": "Optional"
+	},
+	"sequential/Kinematics_of_Simple_Harmonic_Motion": {
+		"format": "Optional"
+	},
+	"sequential/Mechanical_Energy_in_SHM": {
+		"format": "Optional"
+	},
+	"sequential/Pendulums_and_the_Ubiquity_of_SHM": {
+		"format": "Optional"
+	},
+	"sequential/Damped_and_Driven_Harmonic_Oscillations": {
+		"format": "Optional"
+	},
+	"sequential/Keplerian_Orbit_Model": {
+		"format": "Optional"
+	},
+	"sequential/Angular_Momentum_of_Orbits": {
+		"format": "Optional"
+	},
+	"sequential/Mechanical_Energy_of_Orbits": {
+		"format": "Optional"
+	},
+	"sequential/To_the_Moon": {
+		"format": "Optional"
+	},
+	"sequential/One_Step_Problems_and_Simultaneous_Models": {
+		"format": "Optional"
+	},
+	"sequential/Multiple_Step_Problems_and_Consecutive_Models": {
+		"format": "Optional"
+	},
+
+
+
+
+
+    "chapter/Quiz_1_2": {
+    	"due": "2013-06-16T23:59"
+    },
+    "chapter/Quiz_3": {
+    	"due": "2013-06-23T23:59"
+    },
+    "chapter/Quiz_4_5": {
+    	"due": "2013-06-30T23:59"
+    },
+    "chapter/Quiz_6": {
+    	"due": "2013-07-07T23:59"
+    },
+    "chapter/Quiz_7": {
+    	"due": "2013-07-14T23:59"
+    },
+    "chapter/Quiz_8": {
+    	"due": "2013-07-21T23:59"
+    },
+    "chapter/Quiz_9_10": {
+    	"due": "2013-07-28T23:59"
+    },
+    "chapter/Quiz_11": {
+    	"due": "2013-08-11T23:59"
+    },
+    "chapter/Quiz_12": {
+        "graded": "false",
+    	"due": "2013-08-25T23:59"
+    },
+    "chapter/Quiz_13": {
+        "graded": "false",
+    	"due": "2013-08-25T23:59"
+    },
+    "chapter/Quiz_14": {
+        "graded": "false",
+    	"due": "2013-08-25T23:59"
+    },
+
+
+    "sequential/Quiz_1_2": {
+		"format": "Quiz"
+    },
+    "sequential/Quiz_3": {
+		"format": "Quiz"
+    },
+    "sequential/Quiz_4_5": {
+		"format": "Quiz"
+    },
+    "sequential/Quiz_6": {
+		"format": "Quiz"
+    },
+    "sequential/Quiz_7": {
+		"format": "Quiz"
+    },
+    "sequential/Quiz_8": {
+		"format": "Quiz"
+    },
+    "sequential/Quiz_9_10": {
+		"format": "Quiz"
+    },
+    "sequential/Quiz_11": {
+		"format": "Quiz"
+    },
+    "sequential/Quiz_12": {
+		"format": "Optional"
+    },
+    "sequential/Quiz_13": {
+		"format": "Optional"
+    },
+    "sequential/Quiz_14": {
+		"format": "Optional"
+    },
+
+
+
+
+
+
+    "chapter/Testing": {
+    	"start": "2100-01-30T23:59",
+    	"due": "2100-01-30T23:59",
+        "graded": "false"
+    },
+    "chapter/Solutions": {
+    	"start": "2100-01-30T23:59",
+    	"due": "2100-01-30T23:59",
+        "graded": "false"
+    },
+    "chapter/MRI": {
+    	"start": "2100-01-30T23:59",
+    	"due": "2100-01-30T23:59",
+    	"format": "Homework",
+        "graded": "false"
+    },
+    "chapter/Rev_Problems": {
+    	"start": "2100-01-30T23:59",
+    	"due": "2100-01-30T23:59",
+    	"format": "Homework",
+        "graded": "false"
+    },
+    "chapter/Rev_Examples": {
+    	"start": "2100-01-30T23:59",
+    	"due": "2100-01-30T23:59",
+    	"format": "Homework",
+        "graded": "false"
+    },
+
+    "chapter/ESG_Psets": {
+    	"start": "2100-01-30T23:59",
+    	"format": "Homework",
+        "graded": "false"
+    }
+
+}
