@@ -5,6 +5,7 @@
       "min_count" : 1,
       "drop_count" : 0,
       "short_label" : "HW1_2",
+	  "graded": "true",
       "weight" : .07
     },
     {
@@ -12,6 +13,7 @@
       "min_count" : 1,
       "drop_count" : 0,
       "short_label" : "HW3",
+	  "graded": "true",
       "weight" : .07
     },
     {
@@ -19,6 +21,7 @@
       "min_count" : 1,
       "drop_count" : 0,
       "short_label" : "HW4_5",
+	  "graded": "true",
       "weight" : .07
     },
     {
@@ -26,6 +29,7 @@
       "min_count" : 1,
       "drop_count" : 0,
       "short_label" : "HW6",
+	  "graded": "true",
       "weight" : .07
     },
     {
@@ -33,6 +37,7 @@
       "min_count" : 1,
       "drop_count" : 0,
       "short_label" : "HW7",
+	  "graded": "true",
       "weight" : .07
     },
     {
@@ -40,6 +45,7 @@
       "min_count" : 1,
       "drop_count" : 0,
       "short_label" : "HW8",
+	  "graded": "true",
       "weight" : .07
     },
     {
@@ -47,6 +53,7 @@
       "min_count" : 1,
       "drop_count" : 0,
       "short_label" : "HW9",
+	  "graded": "true",
       "weight" : .07
     },
     {
@@ -54,6 +61,7 @@
       "min_count" : 1,
       "drop_count" : 0,
       "short_label" : "HW10",
+	  "graded": "true",
       "weight" : .07
     },
     {
@@ -61,6 +69,7 @@
       "min_count" : 1,
       "drop_count" : 0,
       "short_label" : "HW11",
+	  "graded": "true",
       "weight" : .07
     },
     {
@@ -68,6 +77,7 @@
       "min_count" : 1,
       "drop_count" : 0,
       "short_label" : "HW12",
+	  "graded": "true",
       "weight" : .07
     },
     {
@@ -75,6 +85,7 @@
       "min_count" : 1,
       "drop_count" : 0,
       "short_label" : "HW13",
+	  "graded": "true",
       "weight" : .07
     },
     {
@@ -82,6 +93,7 @@
       "min_count" : 1,
       "drop_count" : 0,
       "short_label" : "HW14",
+	  "graded": "true",
       "weight" : .07
     },
 	{
@@ -90,13 +102,15 @@
       "drop_count" : 6,
       "short_label" : "Chk",
       "weight" : .07,
-      "score_by_attempt": true
+	  "graded": "true",
+	  "score_by_attempt":"true"
     },
 	{
       "type" : "Quiz",
       "min_count" : 8,
       "drop_count" : 1,
       "short_label" : "Quiz",
+	  "graded": "true",
       "weight" : .07
     },
 	{
@@ -104,6 +118,7 @@
       "min_count" : 23,
       "drop_count" : 0,
       "short_label" : "Opt",
+	  "graded": "true",
       "weight" : .02
     }
   ],
