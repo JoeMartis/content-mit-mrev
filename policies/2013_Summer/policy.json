@@ -188,217 +188,424 @@
 
 
 	"sequential/Newtons_Laws": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Newtons_First_Law": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Newtons_Second_Law": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/The_Two_Body_Rule_and_Newtons_Third_Law": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Net_Force_and_Vector_Addition": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Equilibrium": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Interactions_and_Forces": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Gravitational_Force": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Hookes_Law_for_Elastic_Restoring_Force": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Tension_Force": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Normal_Force": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Kinetic_Friction": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Static_Friction": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Contact_Force_and_Applied_Force": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Applying_Newtons_Laws": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Point_Particle_System_and_Environment_Internal_and_External_Forces": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Multi-Body_System_treated_as_a_Point_Particle": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Constrained_Motion_and_Constraint_Forces": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Objects_Constrained_to_Move_with_Equal_Acceleration": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Objects_Constrained_to_Move_with_Different_Accelerations": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Describing_Motion": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Position_Displacement_Distance_and_Coordinate_systems": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Velocity_Speed_and_Models_in_Mechanics": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Velocity_and_Acceleration": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Graphing_Motion_Acceleration_vs._Deceleration": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Core_Models_and_Planar_Dynamics": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Map_Of_Core_Models": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Hierarchy_of_Models": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Constant_Velocity_Model": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Constant_Acceleration_Model": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Applying_SIM_to_Problems_in_Planar_Dynamics": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/1-D_Motion_with_Time-Varying_Net_Force": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Multiple_Models_Constraints_and_Two-Dimentional_Projectile_Motion": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Changing_Interactions_and_Constraints": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Multiple_Systems_and_Constraints": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Uniform_Circular_Motion": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Calculus_of_Two_Dimentional_Motion": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Momentum_and_Impulse": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Introduction_to_Momentum_and_Impulse": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Conservation_of_Linear_Momentum": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Approximate_Conservation_of_Momentum_in_Collisions": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Impulse_and_Average_Force": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Center_of_Mass:_Definition": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Center_of_Mass_and_the_Motion_of_a_System": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Mechanical_Energy_and_Work": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Work_and_Kinetic_Energy": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Work_Done_By_a_Constant_Force_Along_a_Straight_Line_Path": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Work_Done_By_a_Varying_Force_and_Work_Along_a_Changing_Path": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Potential_Energy": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Mechanical_Energy": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Energy_Bar_Diagrams": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Force_and_Potential_Energy": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Elastic_collision": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Torque_and_Rotation_about_a_Fixed_Axis": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Choosing_an_Axis_of_Rotation_and_Describing_the_Direction_of_Rotation": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Defining_Torque": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Rotational_Form_of_Newtons_Second_Law_and_the_Moment_of_Inertia": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Calculating_Moments_of_Inertia": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Applying_Rotational_Form_of_Newtons_Second_Law": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Statics_and_Free_Choice_of_Axis": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Describing_Rotational_and_Translational_Motion": {
 		"format": "Checkpoint"
 	},
 	"sequential/Applying_Newtons_Second_Law_in_General_Rotations": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Rolling_Constraints": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Rotational_Energy": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Angular_Momentum": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Angular_Momentum_of_a_Point_Particle": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Angular_Momentum_of_a_Rigid_Body_Rotating_About_a_Fixed_Axis": {
 		"format": "Checkpoint"
 	},
 	"sequential/Angular_Momentum_of_a_Rigid_Body_both_Rotating_and_Translating": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Angular_Momentum_and_Torque": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Angular_Momentum_and_Angular_Impulse_Model": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Applications_of_the_Angular_Momentum_and_External_Torque_Model": {
-		"format": "Checkpoint"
+		"format": "Checkpoint",
+		"attempts":"1",			
+        "graded": "true",
+	    "score_by_attempt" : "true"
 	},
 	"sequential/Harmonic_Oscillation": {
 		"format": "Optional"
